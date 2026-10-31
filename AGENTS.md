@@ -1442,3 +1442,27 @@ menu label/artwork. Scene/catalogue validation passed; world IDs/poses and snow
 seed hash unchanged. Native icon-only driving preview rendered and inspected at
 Logs/SnowDistrictUI/Driving-preview.png. No live touch, continuous gameplay or phone
 performance claim. Existing menu/drive actions and snow mechanics unchanged.
+
+
+## Depot recovery snap-back fix - 1 November 2026
+
+RecoverToDepot previously moved only the Transform while toggling Rigidbody
+kinematic state. With interpolation and autoSyncTransforms disabled, the physics
+pose could retain the pre-recovery location and overwrite the visible teleport.
+Recovery now temporarily disables interpolation, clears body momentum, assigns
+Rigidbody.position/rotation and synchronizes the Transform before restoring the
+active/parked state and interpolation. Wheel drive torque, steering and transient
+motion readings reset; attachment sweep resets while bucket load remains intact.
+Ordinary vehicle motion is unchanged and still comes from Rigidbody/WheelColliders.
+
+Unity 6000.3.8f1 compiled and passed 496 assertions on the actual tractor/loader
+clones in an isolated Editor preview physics scene: active/inactive recovery,
+interpolation, autoSyncTransforms=false, load retention, 120 subsequent physics
+steps per case and reactivation without stale momentum. Scene validation and all
+19 snow-ledger checks passed. No scene assets or player saves were written by the
+fixture. The fixture verifies its physics scene is separate from the default
+world and restores global auto-sync state. Initial harness use of a Play-only
+scene API was replaced with the correct Editor preview API before the passing run.
+Menu: Snowglow > Run recovery physics checks. Report:
+Logs/RecoveryPhysics/Validation.txt. Continuous live recovery-button driving and
+Android/device validation remain untested.

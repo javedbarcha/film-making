@@ -65,8 +65,23 @@ namespace Snowglow
         void LateUpdate() { if (wheels == null) return; for (int i = 0; i < wheels.Length; i++) { wheels[i].GetWorldPose(out Vector3 p, out Quaternion q); wheelVisuals[i].SetPositionAndRotation(p, q); } }
         public void RecoverToDepot()
         {
-            Body.isKinematic = true; transform.SetPositionAndRotation(parkingPosition + Vector3.up * .3f, parkingRotation); Body.isKinematic = !ActiveMachine;
-            if (ActiveMachine) { Body.linearVelocity = Vector3.zero; Body.angularVelocity = Vector3.zero; }
+            if (Body == null) Body = GetComponent<Rigidbody>();
+            // Recovery is an explicit teleport: update the physics pose itself.
+            // A Transform-only move can be overwritten by the old interpolated
+            // Rigidbody pose on the next physics tick (autoSyncTransforms is off).
+            var interpolation = Body.interpolation;
+            Body.interpolation = RigidbodyInterpolation.None;
+            Body.isKinematic = false;
+            Body.linearVelocity = Vector3.zero; Body.angularVelocity = Vector3.zero;
+            var destination = parkingPosition + Vector3.up * .3f;
+            Body.position = destination; Body.rotation = parkingRotation;
+            transform.SetPositionAndRotation(destination, parkingRotation);
+            Physics.SyncTransforms();
+            Body.isKinematic = !ActiveMachine;
+            Body.interpolation = interpolation;
+            steering = Speed = Slip = LastSnowForce = 0;
+            if (wheels != null) foreach (var wheel in wheels) { wheel.motorTorque = 0; wheel.brakeTorque = definition.brakeTorque; wheel.steerAngle = 0; }
+            if (ActiveMachine) Body.WakeUp();
             Tool.ResetSweep();
         }
         void OnCollisionEnter(Collision c)
