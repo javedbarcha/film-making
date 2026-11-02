@@ -8,7 +8,7 @@ Existing serialized Scenic values migrate to Isometric.
 | Mode | View |
 | --- | --- |
 | Isometric | Closer orthographic view at rest; smoothly widens with vehicle speed |
-| Follow | Rear chase view forward; smoothly arcs to the front for reversing |
+| Follow | Fixed rear offset; gentle pitch only: stopped 35 degrees, reverse 45, forward 15 |
 | Orbit | Manual full 360-degree inspection around the active machine |
 
 Isometric uses a 12 m orthographic half-height at rest and 19.2 m at 8 m/s,
@@ -16,12 +16,17 @@ with a 1.1 s exponential response. Reverse speed widens it too. Narrower aspect
 ratios widen the vertical framing to retain vehicle/work-area coverage.
 These are initial tuning values, editable on the saved CameraRig.
 
-Follow uses actual Rigidbody velocity along the vehicle's forward axis. It changes
-direction beyond +/-0.35 m/s and retains its last direction while stopped, avoiding
-jitter near zero or an early swing while braking. The camera moves around an arc
-rather than passing through the cab; direction changes use a 0.9 s smoothing
-parameter, followed by the existing position/rotation smoothing. Follow defaults
-to 13 m horizontal distance and 6 m height. Camera direction never remaps steering.
+Follow keeps a fixed rear offset as travel direction changes. Only pitch changes:
+35 degrees downward when stopped, 45 degrees in reverse (+10), and 15 degrees
+moving forward (-20), with a gentle 2.5 s smoothing parameter. There is no
+speed-dependent rise, approach or yaw arc. Tilt scales continuously with actual speed up to those limits (default full tilt
+at 4 m/s, adjustable via followFullTiltSpeed), with a
++/-0.12 m/s drift band treated as stopped; gear selection at rest leaves it still.
+
+The default offset is 13 m behind and approximately 10.7 m above the vehicle, framing it centrally
+at the resting 35-degree tilt. Follow still tracks vehicle position/heading;
+terrain/near-plane safety and obstacles can adjust the offset when required.
+Pausing holds tilt. No steering remap or save schema change.
 
 In Orbit:
 

@@ -1466,3 +1466,135 @@ scene API was replaced with the correct Editor preview API before the passing ru
 Menu: Snowglow > Run recovery physics checks. Report:
 Logs/RecoveryPhysics/Validation.txt. Continuous live recovery-button driving and
 Android/device validation remain untested.
+
+
+## Gear-driven Follow camera - 2 November 2026
+
+Follow now reads PrototypeInput.Reverse, the same selected gear used by the drive
+controls. It starts changing sides on gear selection, without waiting for actual
+backward/forward velocity. Reverse arc time advances at 0.25x the forward rate;
+gear changes discard old angular momentum. Position tracking, look smoothing,
+terrain/near-plane clearance and obstruction response retain normal responsiveness.
+Isometric speed zoom still uses actual vehicle speed. No scene rebake or save
+schema change was needed.
+
+Unity 6000.3.8f1 compiled and passed 14,637 camera assertions covering 2,920
+terrain/near-plane poses, keyboard and F/R gear selection at rest, opposite vehicle
+motion, quarter-rate arc timing, pause, Orbit gestures/UI exclusion and obstruction
+pull-in. Scene validation and all 19 snow-ledger checks passed. Report:
+Logs/CameraModes/Validation.txt. Existing Pinefall was reopened after disposable
+fixtures; no scene assets or player saves were written. Continuous live driving,
+physical touch ergonomics, Android packaging and Galaxy A07 performance remain
+untested.
+
+
+### Gentler symmetric Follow arcs - 2 November 2026
+
+User reported discomfort from rapid direction changes. Both gear-switch arcs now
+run at half the previous reverse speed (0.125x the original forward rate), with
+the same speed in both directions. Selected gear still starts the transition
+immediately; old angular momentum is cleared when the gear changes. Vehicle
+tracking and ground protection remain responsive. This supersedes the asymmetric
+quarter-speed reverse tuning above.
+
+Unity 6000.3.8f1 compiled and passed 18,238 camera assertions, including 3,620
+terrain/near-plane poses, equal-duration arc symmetry, reduced arc progress and
+100 rapid gear toggles. Scene validation and 19 snow-ledger checks passed.
+Report: Logs/CameraModes/Validation.txt. No scene or player-save changes.
+Live comfort/continuous driving and Galaxy A07 performance remain untested.
+
+
+### Rear Follow with reverse overhead view - 2 November 2026
+
+Supersedes both gear-switch arc revisions: user requested a static initial rear
+Follow view, rising gently over the vehicle and looking down during backward
+travel, returning to its original pose at a complete stop, and lowering while
+moving forward. No front/rear yaw arc remains. Actual signed travel speed now
+selects the posture; gear changes at rest leave it still. A +/-0.12 m/s drift
+band counts as stopped. Defaults: resting 13 m rear / 6 m high, reversing 2 m
+rear / 16 m high, forward 13 m rear / 4.5 m high; 2.5 s pose smoothing.
+Ground/near-plane and obstruction protections remain active. No scene rebake or
+player-save changes.
+
+Unity 6000.3.8f1 compiled and passed 29,838 camera assertions including 5,920
+terrain/near-plane poses: stationary gear selection, gentle reverse rise,
+downward view, rear-side retention, forward lowering, stop restoration from
+both directions, drift tolerance, pause and rapid travel reversals. Scene
+validation and all 19 snow-ledger checks passed. Report:
+Logs/CameraModes/Validation.txt. Live driving comfort, physical touch and
+Galaxy A07 performance remain untested.
+
+
+### Fixed Follow offset and tilt-only direction response - 2 November 2026
+
+Supersedes the previous reverse overhead movement. Follow retains a fixed rear
+offset and gently changes pitch only: stopped 45 degrees, reverse 60 (+15),
+forward 30 (-15). Actual travel and the existing drift dead band select tilt;
+2.5 s smoothing remains. Default rear distance is 13 m and height is 14.6 m,
+centering the vehicle at rest. Vehicle position/heading tracking continues;
+terrain/obstacle safety can still adjust placement. No direction-dependent
+translation or yaw arc. No scene rebake or player-save changes.
+
+Unity 6000.3.8f1 compilation and 29,941 camera assertions passed, including
+5,920 terrain/near-plane poses, exact settled pitch checks, unchanged camera
+position across travel states, gentle rapid reversals, pause and stop reset.
+Scene validation and 19 snow-ledger checks passed. Report:
+Logs/CameraModes/Validation.txt. Live comfort and phone performance untested.
+
+
+Follow resting-angle adjustment: stopped tilt is now 35 degrees, retaining the
++/-15 degree response (reverse 50, forward 20). Fixed rear offset height now
+matches 35-degree resting framing (~10.7 m above at 13 m rear distance).
+Unity compilation and all 29,941 camera assertions passed with the updated
+angles, including 5,920 ground/near-plane poses; scene/19 snow checks passed.
+No scene or player-save writes. Live comfort and phone performance untested.
+
+
+Follow angle tuning: stopped 40 degrees; reverse offset -10 gives 30 degrees;
+forward offset +20 gives 60 degrees. Fixed offset height matches resting framing
+(~12.5 m above at 13 m rear distance). Gentle tilt-only response retained.
+Unity compilation and 29,941 camera assertions passed for 40/30/60 degrees,
+including 5,920 terrain/near-plane poses; scene and 19 snow-ledger checks passed.
+No scene/player-save writes. Live comfort and phone performance untested.
+
+
+Latest Follow tuning: stopped 35 degrees; reverse +10 gives 45 degrees;
+forward -20 gives 15 degrees. Fixed rear offset and gentle tilt-only response
+remain, with resting height ~10.7 m at 13 m rear distance. Unity compilation
+and 29,941 camera assertions passed for 35/45/15 degrees, including 5,920
+terrain/near-plane poses; scene and 19 snow checks passed. No scene/save writes.
+Live comfort and phone performance remain untested.
+
+
+Latest Follow angles: stopped 30 degrees; reverse +20 gives 50 degrees;
+forward -15 gives 15 degrees. Fixed rear offset height matches resting framing
+(~9.1 m above at 13 m rear distance); gentle tilt-only transitions retained.
+Unity compilation and 29,941 camera assertions passed for 30/50/15 degrees,
+including 5,920 terrain/near-plane poses; scene and 19 snow checks passed.
+No scene/player-save writes. Live comfort and phone performance untested.
+
+
+Latest Follow angles: stopped 35 degrees; reverse +10 gives 45 degrees;
+forward -25 gives 10 degrees. Fixed rear offset height matches resting framing
+(~10.7 m above at 13 m rear distance); gentle tilt-only transitions retained.
+Unity compilation and 29,941 camera assertions passed for 35/45/10 degrees,
+including 5,920 terrain/near-plane poses; scene and 19 snow checks passed.
+No scene/player-save writes. Live comfort and phone performance untested.
+
+
+Current Follow tuning: stopped 35 degrees; reverse +10 gives 45 degrees;
+forward -20 gives 15 degrees. Fixed rear offset and gentle transitions retained.
+Unity compilation and 29,941 camera assertions passed for 35/45/15 degrees;
+scene and 19 snow checks passed. No scene/player-save writes. Live comfort
+and phone performance remain untested.
+
+
+Speed-proportional Follow tilt: actual signed travel speed now scales tilt
+continuously from stopped 35 degrees toward reverse 45 / forward 15. Full tilt
+is reached at 4 m/s (CameraRig.followFullTiltSpeed), with limits clamped above
+that speed; the 0.12 m/s drift dead band returns to 35 degrees. Existing 2.5 s
+smoothing keeps acceleration, braking and stops gentle. Fixed offset retained.
+Unity 6000.3.8f1 compilation and 43,947 assertions passed, including intermediate
+speed angles, maximum clamps, smooth stop return, pause and 8,720 ground poses.
+Scene validation and 19 snow checks passed. No scene/player-save writes.
+Live comfort and Galaxy A07 performance remain untested.

@@ -15,6 +15,15 @@ using TouchPhase=UnityEngine.InputSystem.TouchPhase;
 namespace Snowglow.Editor {
  public static class CameraModesChecks {
   static int checks,poses;
+  [InitializeOnLoadMethod]static void QueueFollowChecks(){EditorApplication.update+=PendingFollowChecks;}
+  static void PendingFollowChecks(){
+   const string request="Logs/FollowGear.request";
+   if(!File.Exists(request)){EditorApplication.update-=PendingFollowChecks;return;}
+   if(EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.isPlayingOrWillChangePlaymode)return;
+   EditorApplication.update-=PendingFollowChecks;File.Delete(request);
+   if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty){File.WriteAllText("Logs/CameraModes/Validation.txt","NOT RUN: Save manual scene changes before camera checks.");return;}
+   try{Run();}catch(Exception e){File.WriteAllText("Logs/CameraModes/Validation.txt","FAIL: "+e);Debug.LogException(e);}
+  }
   static void Check(bool ok,string name){if(!ok)throw new InvalidOperationException("Camera checks: "+name);checks++;}
   static void Grounded(CameraRig rig){
    var camera=rig.view;var t=rig.terrain;float Ground(Vector3 p)=>t.SampleHeight(p)+t.transform.position.y;
@@ -77,16 +86,41 @@ namespace Snowglow.Editor {
     for(int n=0;n<300;n++)rig.UpdateForTarget(targetObject.transform,.02f,true,0);
     Check(Mathf.Abs(view.orthographicSize-nearSize)<.1f,"Isometric closes as speed falls");
     rig.SetMode(CameraMode.Follow);
-    for(int n=0;n<300;n++)rig.UpdateForTarget(targetObject.transform,.02f,true,4);
-    Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)<-5,"Follow behind forward vehicle");
+    void Travel(float speed,int frames=700){for(int n=0;n<frames;n++){rig.UpdateForTarget(targetObject.transform,.02f,true,speed);Grounded(rig);}}
+    Travel(0);var resting=rig.transform.position;var restRotation=rig.transform.rotation;
+    float Tilt()=>Mathf.Asin(-rig.transform.forward.y)*Mathf.Rad2Deg;
+    Check(Mathf.Abs(Tilt()-35)<.1f,"resting pitch is 35 degrees");
+    var gearButton=fixture.AddComponent<UICommand>();gearButton.command="reverse";gearButton.Click();Travel(0,100);
+    Check(Vector3.Distance(resting,rig.transform.position)<.02f,"gear selection at rest keeps static rear pose");
     var beforeReverse=rig.transform.position;rig.UpdateForTarget(targetObject.transform,.02f,true,-4);
-    Check(Vector3.Distance(beforeReverse,rig.transform.position)<1,"reverse transition begins smoothly");
-    for(int n=0;n<300;n++){rig.UpdateForTarget(targetObject.transform,.02f,true,-4);Grounded(rig);}
-    Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)>5,"Follow in front while reversing");
-    for(int n=0;n<30;n++)rig.UpdateForTarget(targetObject.transform,.02f,true,0);
-    Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)>5,"stopping holds reverse view");
-    for(int n=0;n<300;n++){rig.UpdateForTarget(targetObject.transform,.02f,true,4);Grounded(rig);}
-    Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)<-5,"Follow smoothly returns behind");
+    Check(Vector3.Distance(beforeReverse,rig.transform.position)<.1f,"reverse tilt keeps position fixed");
+    Travel(-4);var overhead=rig.transform.position;
+    Check(Vector3.Distance(overhead,resting)<.03f,"reverse keeps fixed camera offset");
+    Check(Vector3.Dot(overhead-targetObject.transform.position,Vector3.forward)<0,"reverse never swings in front");
+    Check(Mathf.Abs(Tilt()-45)<.1f,"reverse pitch is 45 degrees");
+    Travel(-2);Check(Mathf.Abs(Tilt()-39.85f)<.15f,"half reverse speed gives intermediate tilt");
+    Travel(-12);Check(Mathf.Abs(Tilt()-45)<.1f,"reverse tilt clamps above full speed");
+    var poseField=typeof(CameraRig).GetField("followPose",BindingFlags.Instance|BindingFlags.NonPublic);
+    float held=(float)poseField.GetValue(rig);rig.UpdateForTarget(targetObject.transform,.1f,false,4);
+    Check((float)poseField.GetValue(rig)==held,"pause holds tilt transition");
+    Travel(0);Check(Vector3.Distance(resting,rig.transform.position)<.05f,"complete stop restores initial Follow pose");
+    Check(Mathf.Abs(Tilt()-35)<.1f,"reverse stop returns tilt to 35 degrees");
+    Travel(.03f);Check(Vector3.Distance(resting,rig.transform.position)<.05f,"tiny physics drift keeps resting pose");
+    Travel(4);Check(Vector3.Distance(resting,rig.transform.position)<.03f,"forward keeps fixed camera offset");
+    Check(Mathf.Abs(Tilt()-15)<.1f,"forward pitch is 15 degrees");
+    Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)<-10,"forward stays behind vehicle");
+    Travel(2);Check(Mathf.Abs(Tilt()-25.31f)<.15f,"half forward speed gives intermediate tilt");
+    Travel(12);Check(Mathf.Abs(Tilt()-15)<.1f,"forward tilt clamps above full speed");
+    float movingTilt=Tilt();rig.UpdateForTarget(targetObject.transform,.02f,true,0);
+    Check(Mathf.Abs(Tilt()-movingTilt)<.15f,"stopping returns tilt gently rather than snapping");
+    Travel(0);Check(Vector3.Distance(resting,rig.transform.position)<.05f,"forward stop restores initial pose");
+    Check(Mathf.Abs(Tilt()-35)<.1f,"stop restores 35 degree tilt");
+    for(int n=0;n<100;n++){
+     float previousTilt=Tilt();var before=rig.transform.position;rig.UpdateForTarget(targetObject.transform,.02f,true,n%2==0?-4:4);
+     Check(Vector3.Distance(before,rig.transform.position)<.03f,"rapid reversals keep position fixed");
+     Check(Mathf.Abs(Tilt()-previousTilt)<.15f,"rapid reversals tilt gently");
+     Check(Vector3.Dot(rig.transform.position-targetObject.transform.position,Vector3.forward)<0,"rapid reversals never cross to front");
+    }
     rig.SetMode(CameraMode.Orbit);Tick(false);rig.Rotate(new Vector2(60,0));
     Keys(Key.Home);Tick();Keys();Tick();Check(Mathf.Abs(Mathf.DeltaAngle(rig.Yaw,targetObject.transform.eulerAngles.y))<1,"Home recentres Orbit");
     foreach(var mode in new[]{CameraMode.Isometric,CameraMode.Follow,CameraMode.Orbit})foreach(float aspect in new[]{4f/3,20f/9})foreach(var xz in new[]{new Vector2(0,30),new Vector2(175,130),new Vector2(-190,-160)}){
@@ -99,7 +133,7 @@ namespace Snowglow.Editor {
     targetObject.transform.SetPositionAndRotation(new Vector3(0,7,30),Quaternion.identity);rig.SetMode(CameraMode.Orbit);rig.orbitPitch=10;Tick(false);rig.Rotate(new Vector2(180,0));Settle();float openDistance=Vector3.Distance(rig.transform.position,targetObject.transform.position+Vector3.up*1.6f);
     wall=GameObject.CreatePrimitive(PrimitiveType.Cube);wall.hideFlags=HideFlags.HideAndDontSave;wall.transform.position=new Vector3(0,11,36);wall.transform.localScale=new Vector3(6,10,1);Physics.SyncTransforms();Settle();Check(Vector3.Distance(rig.transform.position,targetObject.transform.position+Vector3.up*1.6f)<openDistance-1,"obstruction pulls camera inward");UnityEngine.Object.DestroyImmediate(wall);wall=null;
     targetObject.transform.SetPositionAndRotation(source.Fleet[0].transform.position,source.Fleet[0].transform.rotation);view.aspect=16f/9;rig.orbitPitch=25;rig.SetMode(CameraMode.Orbit);Settle();Render(view,"Orbit-rear");rig.Rotate(new Vector2(180,0));Settle();Check(Vector3.Dot((rig.transform.position-targetObject.transform.position).normalized,targetObject.transform.forward)>.4f,"front of vehicle reachable");Render(view,"Orbit-front");rig.SetMode(CameraMode.Isometric);Settle();Render(view,"Isometric-close");
-    MechanicsChecks.Run();File.WriteAllText("Logs/CameraModes/Validation.txt","PASS: Unity "+Application.unityVersion+" / "+EditorUserBuildSettings.activeBuildTarget+". Camera/HUD saved and reopened; "+checks+" assertions including "+poses+" terrain/near-plane poses, three-mode C cycle, W/S/A semantics, yaw/pitch/zoom limits, mouse drag/wheel, touch drag/pinch, UI exclusions, speed zoom, reverse Follow transition, pause, Orbit reset, collision pull-in and front/rear views. Scene structure and 19 snow ledger checks passed. Three native scene renders saved. No runtime scene construction or player-save writes. Full live driving/gesture ergonomics, all obstacle cases, Android packaging and Galaxy A07 frame timings remain untested.\n");Debug.Log(File.ReadAllText("Logs/CameraModes/Validation.txt"));
+    MechanicsChecks.Run();File.WriteAllText("Logs/CameraModes/Validation.txt","PASS: Unity "+Application.unityVersion+" / "+EditorUserBuildSettings.activeBuildTarget+". Saved scene validated; "+checks+" assertions including "+poses+" terrain/near-plane poses, three-mode C cycle, W/S/A semantics, yaw/pitch/zoom limits, mouse drag/wheel, touch drag/pinch, UI exclusions, speed zoom, fixed rear Follow position, speed-proportional 35/45/15 degree tilt with partial-speed and limit checks, stop restoration, drift tolerance and rapid reversals, pause, Orbit reset, collision pull-in and front/rear views. Scene structure and 19 snow ledger checks passed. Three native scene renders saved. No runtime scene construction or player-save writes. Full live driving/gesture ergonomics, all obstacle cases, Android packaging and Galaxy A07 frame timings remain untested.\n");Debug.Log(File.ReadAllText("Logs/CameraModes/Validation.txt"));
    }finally{
     playerUpdates.SetValue(manager,oldPlayerUpdates);field.SetValue(null,previousSession);if(keyboard!=null)InputSystem.RemoveDevice(keyboard);if(mouse!=null)InputSystem.RemoveDevice(mouse);if(touchscreen!=null)InputSystem.RemoveDevice(touchscreen);if(previousKeyboard!=null)previousKeyboard.MakeCurrent();if(previousMouse!=null)previousMouse.MakeCurrent();if(previousTouch!=null)previousTouch.MakeCurrent();if(fixture)fixture.GetComponent<EventSystem>().SendMessage("OnDisable");EventSystem.current=previousEvents;
     if(canvasObject)canvasObject.GetComponent<GraphicRaycaster>().SendMessage("OnDisable");foreach(var go in new[]{wall,canvasObject,uiCameraObject,cameraObject,targetObject,fixture})if(go)UnityEngine.Object.DestroyImmediate(go);for(int i=0;i<raycasters.Length;i++)if(raycasters[i])raycasters[i].enabled=raycasterStates[i];
