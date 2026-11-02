@@ -69,3 +69,13 @@ saved/reopened persistent mesh references, passed source geometry-count and terr
 seating checks plus scene/19 snow-ledger checks. Reports: `TerrainFit.txt` and
 `TerrainFitValidation.txt` under `Logs/AlpineMountains`. Scene backup before fitting:
 `Pinefall-before-terrain-fit.unity`. Terrain itself and snow volume data are unchanged.
+
+
+Collision correction (2 November): the original terrain-fit proxy update mixed
+placement-local and world bounds, placing all twelve boxes at X0/Z0. Repaired
+scene overrides now match fitted mountain mesh corners in each box's local space.
+Future fitting uses the corrected helper and checks proxy coverage/location.
+No source/catalog meshes or placements changed. Native saved/reopened overlap
+and intersection sweeps passed; 2,108 stale snow-blocking cells were cleared in
+a new scene-specific seed without changing snow volume/credit. See
+Logs/IntersectionObstacle/Validation.txt and VALIDATION.md.

@@ -72,3 +72,11 @@ manual input or gameplay menus. CameraModesAuthoring adds persistent zoom/reset/
 UI to existing Pinefall; no runtime camera/UI construction or player-save change.
 CameraModesChecks uses disposable Editor fixtures, synthetic player-style Input
 System updates and a rendered UI fixture; its temporary package hook is restored.
+
+
+AlpineTerrainFitting converts fitted mesh-bound corners directly into each
+collision proxy's local space; CatalogValidation.BoundsOf returns root-local
+bounds and must not be interpreted as world coordinates. Scene proxy repair
+updates only affected snow obstacle flags in a new seed copy while preserving
+depth/credit/accounting and saved scenery. Runtime save restoration already
+uses the authored seed mask.

@@ -1598,3 +1598,32 @@ Unity 6000.3.8f1 compilation and 43,947 assertions passed, including intermediat
 speed angles, maximum clamps, smooth stop return, pause and 8,720 ground poses.
 Scene validation and 19 snow checks passed. No scene/player-save writes.
 Live comfort and Galaxy A07 performance remain untested.
+
+
+## Central intersection invisible obstacle - 2 November 2026
+
+User marked the X0/Z0 town intersection as blocked. Native collider audit found
+all twelve alpine mountain box proxies at the origin instead of their visible
+mountains. AlpineTerrainFitting had treated CatalogValidation.BoundsOf's
+placement-local bounds as world bounds, then converted/scaled them again.
+The fitting helper now converts fitted mesh-bound corners directly into each
+box's local space and records prefab overrides; validation requires proxies to
+cover their mountains outside the interactive worksite.
+
+Editor-only IntersectionObstacleAuthoring repaired the twelve saved scene
+proxies without refitting meshes or rebaking Pinefall. A new scene-specific
+CentralIntersectionSnowSeed.asset clears 2,108 stale local obstacle flags;
+all depth, credit, initial-volume/disposal/revision values and original seed
+assets are preserved. SnowField already uses authored seed obstacle flags on
+restore, so existing player saves need no rewrite. The scene was saved/reopened.
+All catalog placement IDs/transforms, Terrain and mesh dependency hashes matched.
+Unity also serialized the current CameraRig fields in place of its removed legacy
+fields; current camera behavior was retained.
+
+Unity 6000.3.8f1 compiled. Central overlap and four vehicle-sized directional
+box sweeps passed after reopen; every mountain proxy covers its own mesh bounds.
+Scene validation and all 19 snow-ledger checks passed. No player-save writes.
+Live continuous driving, mountain perimeter traversal and Android/device testing
+remain untested. Report and backup: Logs/IntersectionObstacle/Validation.txt and
+Pinefall-before.unity. Menu: Snowglow > Environment > Repair central intersection
+mountain proxies. Audit command is available alongside the repair.

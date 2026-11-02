@@ -67,16 +67,40 @@ namespace Snowglow.Editor {
      if(saved){EditorUtility.CopySerialized(mesh,saved);UnityEngine.Object.DestroyImmediate(mesh);EditorUtility.SetDirty(saved);}else{saved=mesh;AssetDatabase.CreateAsset(saved,path);}
      target.sharedMesh=saved;
     }
-    // Conservative background collision remains a box, adjusted to fitted bounds.
-    var bounds=CatalogValidation.BoundsOf(placement.gameObject);
-    foreach(var box in placement.GetComponentsInChildren<BoxCollider>(true)){
-     box.center=box.transform.InverseTransformPoint(bounds.center);var scale=box.transform.lossyScale;box.size=new Vector3(bounds.size.x/Mathf.Abs(scale.x),bounds.size.y/Mathf.Abs(scale.y),bounds.size.z/Mathf.Abs(scale.z));
-    }
+    RefitCollisionProxies(placement);
     report.AppendLine(placement.placementId+": buried base "+embed.ToString("F2")+"m; source height "+(entry.localBounds.size.y*placement.transform.lossyScale.y).ToString("F2")+"m.");
    }
    AssetDatabase.SaveAssets();Directory.CreateDirectory("Logs/AlpineMountains");File.WriteAllText("Logs/AlpineMountains/TerrainFit.txt",report.ToString());Validate(scene,entries);
   }
+  // BoundsOf returns placement-local bounds, not world bounds. Convert each
+  // fitted mesh corner directly into the collider's local space instead.
+  public static void RefitCollisionProxies(CatalogPlacement placement){
+   foreach(var box in placement.GetComponentsInChildren<BoxCollider>(true)){
+    bool found=false;var bounds=new Bounds();
+    foreach(var mesh in placement.GetComponentsInChildren<MeshFilter>(true)){
+     if(!mesh.sharedMesh)continue;var b=mesh.sharedMesh.bounds;
+     for(int n=0;n<8;n++){
+      var corner=b.center+Vector3.Scale(b.extents,new Vector3((n&1)==0?-1:1,(n&2)==0?-1:1,(n&4)==0?-1:1));
+      var local=box.transform.InverseTransformPoint(mesh.transform.TransformPoint(corner));
+      if(!found){bounds=new Bounds(local,Vector3.zero);found=true;}else bounds.Encapsulate(local);
+     }
+    }
+    Require(found,"no mountain mesh for collision proxy");box.center=bounds.center;box.size=bounds.size;
+    PrefabUtility.RecordPrefabInstancePropertyModifications(box);EditorUtility.SetDirty(box);
+   }
+  }
+  public static void ValidateCollisionProxies(Scene scene){
+   Physics.SyncTransforms();
+   foreach(var placement in Mountains(scene))foreach(var box in placement.GetComponentsInChildren<BoxCollider>(true)){
+    var padded=box.bounds;padded.Expand(.05f);
+    foreach(var renderer in placement.GetComponentsInChildren<MeshRenderer>(true)){
+     Require(padded.Contains(renderer.bounds.min)&&padded.Contains(renderer.bounds.max),"proxy does not cover its mountain: "+placement.placementId);
+    }
+    Require(Mathf.Max(Mathf.Abs(box.bounds.center.x),Mathf.Abs(box.bounds.center.z))>128,"mountain proxy inside worksite: "+placement.placementId);
+   }
+  }
   public static void Validate(Scene scene,CatalogAsset[] entries){
+   ValidateCollisionProxies(scene);
    var terrain=scene.GetRootGameObjects().SelectMany(r=>r.GetComponentsInChildren<Terrain>()).Single();var report=new StringBuilder("PASS: fitted mesh validation.\n");
    foreach(var placement in Mountains(scene)){
     var entry=entries.Single(a=>a.id==placement.assetId);float minCap=float.PositiveInfinity,maxCap=float.NegativeInfinity,maxBase=float.NegativeInfinity;
