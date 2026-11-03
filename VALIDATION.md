@@ -829,3 +829,16 @@ found no removed old records, 30 added records, and only SnowField seed referenc
 and SceneRoots changed among preexisting records. No district rebake or player-save
 writes. Continuous driving, night illumination and A07 performance untested.
 Report/backup/preview: Logs/RoadsideLights. Source details: SourceAssets/AlpineStreetLights/README.md.
+
+## Reverse warning alarm - 4 November 2026
+
+Unity 6000.3.8f1 compiled SynthAudio, PrototypeSession and ReverseAlarmAuthoring.
+Imported original mono 22,050Hz PCM reverse-alarm.wav, 0.85s cycle. Native authoring
+saved/reopened Pinefall and verified persistent looping 2D source, playOnAwake off,
+mono duration, mute/unmute and scene validation. Static wiring uses shared reverse
+gear state for either active machine only in running gameplay; menus stop the
+source immediately. Generator/WAV checks confirmed a 0.36s tone followed by 0.49s
+silence, zero-valued loop boundaries and no PCM clipping. Existing catalog poses
+and snow seed dependency hash matched; no rebake or player-save writes. Audible
+Play-mode, forward/reverse driving transitions and phone-speaker acceptance remain
+untested. Report/backup: Logs/ReverseAlarm; source notes: SourceAssets/ReverseAlarm.

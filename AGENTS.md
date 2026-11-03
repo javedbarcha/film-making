@@ -1693,3 +1693,18 @@ Original seed/assets and existing catalog poses preserved; no scene records remo
 Unity compiled, saved/reopened, passed clearance/scene checks and all 19 snow-ledger
 checks. Overview rendered; live driving, night and A07 testing remain untested.
 Details: SourceAssets/AlpineStreetLights/README.md. Report/backup: Logs/RoadsideLights.
+
+## Heavy-machinery reverse warning - 4 November 2026
+
+User requested a repeating reverse indication. SynthAudio now owns an Editor-
+authored reverseAlarm source using original synthesized reverse-alarm.wav: mono
+22,050Hz PCM, 0.36s industrial beep / 0.49s gap, 0.85s loop, gain 0.35. Both active
+machines use it while reverse gear is selected during running gameplay, including
+stationary reverse. Forward stops it; menus/pause stop immediately; component
+disable stops playback and existing sound mute covers the alarm. No runtime
+source/clip creation or machinery physics change. PrototypeAuthoring binds the
+same source for future bakes; existing Pinefall was patched without a rebake.
+Unity compiled, imported the clip, saved/reopened, verified clip/source bindings,
+mute/unmute and scene validation. WAV integrity passed. Existing scenery poses
+and snow seed hash retained; no player-save writes. Audible Play-mode/phone speaker
+verification remains untested. Details: SourceAssets/ReverseAlarm/README.md.
