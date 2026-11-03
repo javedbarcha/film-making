@@ -1,0 +1,1014 @@
+{
+  "trees": [
+    {
+      "index": "01",
+      "name": "Tower Spruce",
+      "model": "01_LOD3",
+      "lod": 3,
+      "triangles": 270,
+      "groups": {
+        "TreeWood": {
+          "vertices": 207,
+          "triangles": 270,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.6751270294189453,
+        9.718780156224966,
+        3.6150732040405273
+      ],
+      "minimum": [
+        20.68773651123047,
+        0.009414080530405045,
+        9.088155746459961
+      ],
+      "sourceCollection": "01 Tower Spruce | LOD3",
+      "included": [
+        "01 Tower Spruce | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -22.399999618530273,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "02",
+      "name": "Broad Fir",
+      "model": "02_LOD3",
+      "lod": 3,
+      "triangles": 208,
+      "groups": {
+        "TreeWood": {
+          "vertices": 158,
+          "triangles": 208,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        4.61861515045166,
+        8.118464108556509,
+        4.294034957885742
+      ],
+      "minimum": [
+        13.83747386932373,
+        0.009414080530405045,
+        8.831798553466797
+      ],
+      "sourceCollection": "02 Broad Fir | LOD3",
+      "included": [
+        "02 Broad Fir | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -16.0,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "03",
+      "name": "Slender Spruce",
+      "model": "03_LOD3",
+      "lod": 3,
+      "triangles": 282,
+      "groups": {
+        "TreeWood": {
+          "vertices": 215,
+          "triangles": 282,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.612093925476074,
+        10.920438405126333,
+        2.490412712097168
+      ],
+      "minimum": [
+        8.390283584594727,
+        0.009414080530405045,
+        9.765584945678711
+      ],
+      "sourceCollection": "03 Slender Spruce | LOD3",
+      "included": [
+        "03 Slender Spruce | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -9.600000381469727,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "04",
+      "name": "Irregular Drooping Fir",
+      "model": "04_LOD3",
+      "lod": 3,
+      "triangles": 234,
+      "groups": {
+        "TreeWood": {
+          "vertices": 179,
+          "triangles": 234,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.871902585029602,
+        8.718539830297232,
+        3.431093215942383
+      ],
+      "minimum": [
+        1.3412569761276245,
+        0.009414080530405045,
+        9.327441215515137
+      ],
+      "sourceCollection": "04 Irregular Drooping Fir | LOD3",
+      "included": [
+        "04 Irregular Drooping Fir | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -3.200000047683716,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "05",
+      "name": "Wind Bent Pine",
+      "model": "05_LOD3",
+      "lod": 3,
+      "triangles": 192,
+      "groups": {
+        "TreeWood": {
+          "vertices": 150,
+          "triangles": 192,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.7027084827423096,
+        7.918975468724966,
+        3.304692268371582
+      ],
+      "minimum": [
+        -4.6925272941589355,
+        0.009414080530405045,
+        9.456886291503906
+      ],
+      "sourceCollection": "05 Wind Bent Pine | LOD3",
+      "included": [
+        "05 Wind Bent Pine | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        3.200000047683716,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "06",
+      "name": "Open Alpine Larch",
+      "model": "06_LOD3",
+      "lod": 3,
+      "triangles": 588,
+      "groups": {
+        "TreeWood": {
+          "vertices": 444,
+          "triangles": 588,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        4.148311614990234,
+        8.917810078710318,
+        4.075702667236328
+      ],
+      "minimum": [
+        -11.697964668273926,
+        0.009414080530405045,
+        8.986629486083984
+      ],
+      "sourceCollection": "06 Open Alpine Larch | LOD3",
+      "included": [
+        "06 Open Alpine Larch | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        9.600000381469727,
+        11.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "07",
+      "name": "Young Fir",
+      "model": "07_LOD3",
+      "lod": 3,
+      "triangles": 126,
+      "groups": {
+        "TreeWood": {
+          "vertices": 89,
+          "triangles": 126,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.294788360595703,
+        4.610123072576243,
+        2.2284955978393555
+      ],
+      "minimum": [
+        -17.059885025024414,
+        0.0008455172064714134,
+        9.870762825012207
+      ],
+      "sourceCollection": "07 Young Fir | LOD3",
+      "included": [
+        "07 Young Fir | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "index": "08",
+      "name": "Spruce Sapling",
+      "model": "08_LOD3",
+      "lod": 3,
+      "triangles": 116,
+      "groups": {
+        "TreeWood": {
+          "vertices": 82,
+          "triangles": 116,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.478750228881836,
+        2.8091858696425334,
+        1.497406005859375
+      ],
+      "minimum": [
+        -23.101423263549805,
+        0.0013221431290730834,
+        10.243242263793945
+      ],
+      "sourceCollection": "08 Spruce Sapling | LOD3",
+      "included": [
+        "08 Spruce Sapling | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "index": "09",
+      "name": "Snowy Tower Spruce",
+      "model": "09_LOD3",
+      "lod": 3,
+      "triangles": 644,
+      "groups": {
+        "TreeWood": {
+          "vertices": 298,
+          "triangles": 452,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 149,
+          "triangles": 192,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.7477874755859375,
+        9.767632020637393,
+        3.601891279220581
+      ],
+      "minimum": [
+        20.64727020263672,
+        0.0031580794602632523,
+        -1.865815281867981
+      ],
+      "sourceCollection": "09 Snowy Tower Spruce | LOD3",
+      "included": [
+        "09 Snowy Tower Spruce | Tree or Wood | LOD3",
+        "09 Snowy Tower Spruce | Snow | LOD3"
+      ],
+      "origin": [
+        -22.399999618530273,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "10",
+      "name": "Snowy Broad Fir",
+      "model": "10_LOD3",
+      "lod": 3,
+      "triangles": 489,
+      "groups": {
+        "TreeWood": {
+          "vertices": 227,
+          "triangles": 346,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 111,
+          "triangles": 143,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        4.744640350341797,
+        8.16790152899921,
+        4.408605098724365
+      ],
+      "minimum": [
+        13.775003433227539,
+        0.0031580794602632523,
+        -2.230893850326538
+      ],
+      "sourceCollection": "10 Snowy Broad Fir | LOD3",
+      "included": [
+        "10 Snowy Broad Fir | Tree or Wood | LOD3",
+        "10 Snowy Broad Fir | Snow | LOD3"
+      ],
+      "origin": [
+        -16.0,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "11",
+      "name": "Snowy Slender Spruce",
+      "model": "11_LOD3",
+      "lod": 3,
+      "triangles": 679,
+      "groups": {
+        "TreeWood": {
+          "vertices": 309,
+          "triangles": 470,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 162,
+          "triangles": 209,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.654118537902832,
+        10.971619142219424,
+        2.5934603214263916
+      ],
+      "minimum": [
+        8.377551078796387,
+        0.0031580794602632523,
+        -1.3064342737197876
+      ],
+      "sourceCollection": "11 Snowy Slender Spruce | LOD3",
+      "included": [
+        "11 Snowy Slender Spruce | Tree or Wood | LOD3",
+        "11 Snowy Slender Spruce | Snow | LOD3"
+      ],
+      "origin": [
+        -9.600000381469727,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "12",
+      "name": "Snowy Irregular Drooping Fir",
+      "model": "12_LOD3",
+      "lod": 3,
+      "triangles": 550,
+      "groups": {
+        "TreeWood": {
+          "vertices": 257,
+          "triangles": 390,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 124,
+          "triangles": 160,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        4.288600921630859,
+        8.768012536689639,
+        4.285285472869873
+      ],
+      "minimum": [
+        0.9278135299682617,
+        0.0031580794602632523,
+        -2.206022262573242
+      ],
+      "sourceCollection": "12 Snowy Irregular Drooping Fir | LOD3",
+      "included": [
+        "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD3",
+        "12 Snowy Irregular Drooping Fir | Snow | LOD3"
+      ],
+      "origin": [
+        -3.200000047683716,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "13",
+      "name": "Snowy Wind Bent Pine",
+      "model": "13_LOD3",
+      "lod": 3,
+      "triangles": 445,
+      "groups": {
+        "TreeWood": {
+          "vertices": 215,
+          "triangles": 322,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 97,
+          "triangles": 123,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.7780141830444336,
+        7.967355264350772,
+        3.3711811304092407
+      ],
+      "minimum": [
+        -4.730309963226318,
+        0.0031580794602632523,
+        -1.577926754951477
+      ],
+      "sourceCollection": "13 Snowy Wind Bent Pine | LOD3",
+      "included": [
+        "13 Snowy Wind Bent Pine | Tree or Wood | LOD3",
+        "13 Snowy Wind Bent Pine | Snow | LOD3"
+      ],
+      "origin": [
+        3.200000047683716,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "14",
+      "name": "Snowy Open Alpine Larch",
+      "model": "14_LOD3",
+      "lod": 3,
+      "triangles": 1315,
+      "groups": {
+        "TreeWood": {
+          "vertices": 641,
+          "triangles": 982,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 268,
+          "triangles": 333,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        4.151183128356934,
+        8.967698097229004,
+        4.085073232650757
+      ],
+      "minimum": [
+        -11.700836181640625,
+        0.0,
+        -2.019397020339966
+      ],
+      "sourceCollection": "14 Snowy Open Alpine Larch | LOD3",
+      "included": [
+        "14 Snowy Open Alpine Larch | Tree or Wood | LOD3",
+        "14 Snowy Open Alpine Larch | Snow | LOD3"
+      ],
+      "origin": [
+        9.600000381469727,
+        0.0,
+        -0.0169138815253973
+      ]
+    },
+    {
+      "index": "15",
+      "name": "Snowy Young Fir",
+      "model": "15_LOD3",
+      "lod": 3,
+      "triangles": 321,
+      "groups": {
+        "TreeWood": {
+          "vertices": 132,
+          "triangles": 212,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 85,
+          "triangles": 109,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.3873023986816406,
+        4.651749134063721,
+        2.2953476905822754
+      ],
+      "minimum": [
+        -17.114543914794922,
+        0.0,
+        -1.1579327583312988
+      ],
+      "sourceCollection": "15 Snowy Young Fir | LOD3",
+      "included": [
+        "15 Snowy Young Fir | Tree or Wood | LOD3",
+        "15 Snowy Young Fir | Snow | LOD3"
+      ],
+      "origin": [
+        16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": "16",
+      "name": "Snowy Spruce Sapling",
+      "model": "16_LOD3",
+      "lod": 3,
+      "triangles": 288,
+      "groups": {
+        "TreeWood": {
+          "vertices": 121,
+          "triangles": 194,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 73,
+          "triangles": 94,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.5078506469726562,
+        2.8517415523529053,
+        1.497405469417572
+      ],
+      "minimum": [
+        -23.101423263549805,
+        0.0,
+        -0.7567576169967651
+      ],
+      "sourceCollection": "16 Snowy Spruce Sapling | LOD3",
+      "included": [
+        "16 Snowy Spruce Sapling | Tree or Wood | LOD3",
+        "16 Snowy Spruce Sapling | Snow | LOD3"
+      ],
+      "origin": [
+        22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": "17",
+      "name": "Tall Dead Snag",
+      "model": "17_LOD3",
+      "lod": 3,
+      "triangles": 316,
+      "groups": {
+        "TreeWood": {
+          "vertices": 254,
+          "triangles": 316,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.892366409301758,
+        10.008780481293797,
+        2.6586856842041016
+      ],
+      "minimum": [
+        22.04416847229004,
+        0.006221769377589226,
+        -12.329413414001465
+      ],
+      "sourceCollection": "17 Tall Dead Snag | LOD3",
+      "included": [
+        "17 Tall Dead Snag | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -23.399999618530273,
+        -11.0,
+        -0.01445799134671688
+      ]
+    },
+    {
+      "index": "18",
+      "name": "Thin Bare Snag",
+      "model": "18_LOD3",
+      "lod": 3,
+      "triangles": 262,
+      "groups": {
+        "TreeWood": {
+          "vertices": 197,
+          "triangles": 262,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.8270816802978516,
+        8.700420999346534,
+        1.6759090423583984
+      ],
+      "minimum": [
+        17.342483520507812,
+        0.0003264905826654285,
+        -11.838059425354004
+      ],
+      "sourceCollection": "18 Thin Bare Snag | LOD3",
+      "included": [
+        "18 Thin Bare Snag | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -18.200000762939453,
+        -11.0,
+        -0.0003636855399236083
+      ]
+    },
+    {
+      "index": "19",
+      "name": "Broken Alpine Trunk",
+      "model": "19_LOD3",
+      "lod": 3,
+      "triangles": 224,
+      "groups": {
+        "TreeWood": {
+          "vertices": 182,
+          "triangles": 224,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.5534791946411133,
+        4.8541957046836615,
+        2.445277214050293
+      ],
+      "minimum": [
+        11.863943099975586,
+        0.0029558036476373672,
+        -12.222683906555176
+      ],
+      "sourceCollection": "19 Broken Alpine Trunk | LOD3",
+      "included": [
+        "19 Broken Alpine Trunk | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -13.0,
+        -11.0,
+        -0.01445799134671688
+      ]
+    },
+    {
+      "index": "20",
+      "name": "Bare Young Sapling",
+      "model": "20_LOD3",
+      "lod": 3,
+      "triangles": 168,
+      "groups": {
+        "TreeWood": {
+          "vertices": 126,
+          "triangles": 168,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.5446052551269531,
+        3.3009474989958107,
+        1.4706764221191406
+      ],
+      "minimum": [
+        7.114599227905273,
+        0.0010217907838523388,
+        -11.735451698303223
+      ],
+      "sourceCollection": "20 Bare Young Sapling | LOD3",
+      "included": [
+        "20 Bare Young Sapling | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -7.800000190734863,
+        -11.0,
+        -0.0009587916429154575
+      ]
+    },
+    {
+      "index": "21",
+      "name": "Low Cut Stump",
+      "model": "21_LOD3",
+      "lod": 3,
+      "triangles": 66,
+      "groups": {
+        "TreeWood": {
+          "vertices": 59,
+          "triangles": 66,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.8883311748504639,
+        0.623049583286047,
+        1.8015213012695312
+      ],
+      "minimum": [
+        1.660998821258545,
+        0.003220830112695694,
+        -11.98948860168457
+      ],
+      "sourceCollection": "21 Low Cut Stump | LOD3",
+      "included": [
+        "21 Low Cut Stump | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        -2.5999999046325684,
+        -11.0,
+        -0.05394180864095688
+      ]
+    },
+    {
+      "index": "22",
+      "name": "Tall Cut Stump",
+      "model": "22_LOD3",
+      "lod": 3,
+      "triangles": 66,
+      "groups": {
+        "TreeWood": {
+          "vertices": 58,
+          "triangles": 66,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        1.7825562953948975,
+        1.1084289625287056,
+        1.6836252212524414
+      ],
+      "minimum": [
+        -3.4883341789245605,
+        0.003781549632549286,
+        -11.921463012695312
+      ],
+      "sourceCollection": "22 Tall Cut Stump | LOD3",
+      "included": [
+        "22 Tall Cut Stump | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        2.5999999046325684,
+        -11.0,
+        -0.03988254815340042
+      ]
+    },
+    {
+      "index": "23",
+      "name": "Split Cut Stump",
+      "model": "23_LOD3",
+      "lod": 3,
+      "triangles": 74,
+      "groups": {
+        "TreeWood": {
+          "vertices": 67,
+          "triangles": 74,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.166666030883789,
+        1.0136651135981083,
+        2.0960655212402344
+      ],
+      "minimum": [
+        -8.8941650390625,
+        0.0037027262151241302,
+        -12.14229965209961
+      ],
+      "sourceCollection": "23 Split Cut Stump | LOD3",
+      "included": [
+        "23 Split Cut Stump | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        7.800000190734863,
+        -11.0,
+        -0.06513198465108871
+      ]
+    },
+    {
+      "index": "24",
+      "name": "Snow Capped Stump",
+      "model": "24_LOD3",
+      "lod": 3,
+      "triangles": 113,
+      "groups": {
+        "TreeWood": {
+          "vertices": 82,
+          "triangles": 110,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 5,
+          "triangles": 3,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        2.145777702331543,
+        0.7415961176156998,
+        2.0636558532714844
+      ],
+      "minimum": [
+        -14.06867790222168,
+        0.0025621503591537476,
+        -12.113344192504883
+      ],
+      "sourceCollection": "24 Snow Capped Stump | LOD3",
+      "included": [
+        "24 Snow Capped Stump | Tree or Wood | LOD3",
+        "24 Snow Capped Stump | Snow | LOD3"
+      ],
+      "origin": [
+        13.0,
+        -11.0,
+        -0.06415824592113495
+      ]
+    },
+    {
+      "index": "25",
+      "name": "Fallen Cut Log",
+      "model": "25_LOD3",
+      "lod": 3,
+      "triangles": 68,
+      "groups": {
+        "TreeWood": {
+          "vertices": 53,
+          "triangles": 68,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.8262786865234375,
+        0.6956782937049866,
+        1.1269025802612305
+      ],
+      "minimum": [
+        -20.117279052734375,
+        0.0,
+        -11.570672035217285
+      ],
+      "sourceCollection": "25 Fallen Cut Log | LOD3",
+      "included": [
+        "25 Fallen Cut Log | Tree or Wood | LOD3"
+      ],
+      "origin": [
+        18.200000762939453,
+        -11.0,
+        -0.03444232419133186
+      ]
+    },
+    {
+      "index": "26",
+      "name": "Snowy Broken Log",
+      "model": "26_LOD3",
+      "lod": 3,
+      "triangles": 162,
+      "groups": {
+        "TreeWood": {
+          "vertices": 107,
+          "triangles": 156,
+          "degenerateTriangles": 0
+        },
+        "SnowCap": {
+          "vertices": 6,
+          "triangles": 6,
+          "degenerateTriangles": 0
+        }
+      },
+      "size": [
+        3.7129650115966797,
+        0.7375549077987671,
+        1.142594337463379
+      ],
+      "minimum": [
+        -25.023239135742188,
+        0.0,
+        -11.573524475097656
+      ],
+      "sourceCollection": "26 Snowy Broken Log | LOD3",
+      "included": [
+        "26 Snowy Broken Log | Tree or Wood | LOD3",
+        "26 Snowy Broken Log | Snow | LOD3"
+      ],
+      "origin": [
+        23.399999618530273,
+        -11.0,
+        -0.039034634828567505
+      ]
+    }
+  ],
+  "lod": 3,
+  "paletteReference": "Assets/Snowglow/Catalog/Sources/AlpineTrees/Palette.png",
+  "excludedLODLevels": [
+    0,
+    1,
+    2
+  ],
+  "excludedPresentation": [
+    "Studio snowy ground",
+    "Model presentation tile",
+    "Label 01 Tower Spruce",
+    "Model presentation tile.001",
+    "Label 02 Broad Fir",
+    "Model presentation tile.002",
+    "Label 03 Slender Spruce",
+    "Model presentation tile.003",
+    "Label 04 Irregular Drooping Fir",
+    "Model presentation tile.004",
+    "Label 05 Wind Bent Pine",
+    "Model presentation tile.005",
+    "Label 06 Open Alpine Larch",
+    "Model presentation tile.006",
+    "Label 07 Young Fir",
+    "Model presentation tile.007",
+    "Label 08 Spruce Sapling",
+    "Model presentation tile.008",
+    "Label 09 Snowy Tower Spruce",
+    "Model presentation tile.009",
+    "Label 10 Snowy Broad Fir",
+    "Model presentation tile.010",
+    "Label 11 Snowy Slender Spruce",
+    "Model presentation tile.011",
+    "Label 12 Snowy Irregular Drooping Fir",
+    "Model presentation tile.012",
+    "Label 13 Snowy Wind Bent Pine",
+    "Model presentation tile.013",
+    "Label 14 Snowy Open Alpine Larch",
+    "Model presentation tile.014",
+    "Label 15 Snowy Young Fir",
+    "Model presentation tile.015",
+    "Label 16 Snowy Spruce Sapling",
+    "Model presentation tile.016",
+    "Label 17 Tall Dead Snag",
+    "Model presentation tile.017",
+    "Label 18 Thin Bare Snag",
+    "Model presentation tile.018",
+    "Label 19 Broken Alpine Trunk",
+    "Model presentation tile.019",
+    "Label 20 Bare Young Sapling",
+    "Model presentation tile.020",
+    "Label 21 Low Cut Stump",
+    "Model presentation tile.021",
+    "Label 22 Tall Cut Stump",
+    "Model presentation tile.022",
+    "Label 23 Split Cut Stump",
+    "Model presentation tile.023",
+    "Label 24 Snow Capped Stump",
+    "Model presentation tile.024",
+    "Label 25 Fallen Cut Log",
+    "Model presentation tile.025",
+    "Label 26 Snowy Broken Log",
+    "Large soft sky",
+    "Cool fill",
+    "Winter sun",
+    "Alpine forest overview",
+    "01 Tower Spruce | Detail camera",
+    "02 Broad Fir | Detail camera",
+    "03 Slender Spruce | Detail camera",
+    "04 Irregular Drooping Fir | Detail camera",
+    "05 Wind Bent Pine | Detail camera",
+    "06 Open Alpine Larch | Detail camera",
+    "07 Young Fir | Detail camera",
+    "08 Spruce Sapling | Detail camera",
+    "09 Snowy Tower Spruce | Detail camera",
+    "10 Snowy Broad Fir | Detail camera",
+    "11 Snowy Slender Spruce | Detail camera",
+    "12 Snowy Irregular Drooping Fir | Detail camera",
+    "13 Snowy Wind Bent Pine | Detail camera",
+    "14 Snowy Open Alpine Larch | Detail camera",
+    "15 Snowy Young Fir | Detail camera",
+    "16 Snowy Spruce Sapling | Detail camera",
+    "17 Tall Dead Snag | Detail camera",
+    "18 Thin Bare Snag | Detail camera",
+    "19 Broken Alpine Trunk | Detail camera",
+    "20 Bare Young Sapling | Detail camera",
+    "21 Low Cut Stump | Detail camera",
+    "22 Tall Cut Stump | Detail camera",
+    "23 Split Cut Stump | Detail camera",
+    "24 Snow Capped Stump | Detail camera",
+    "25 Fallen Cut Log | Detail camera",
+    "26 Snowy Broken Log | Detail camera"
+  ]
+}

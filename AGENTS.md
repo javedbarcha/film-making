@@ -1708,3 +1708,28 @@ Unity compiled, imported the clip, saved/reopened, verified clip/source bindings
 mute/unmute and scene validation. WAV integrity passed. Existing scenery poses
 and snow seed hash retained; no player-save writes. Audible Play-mode/phone speaker
 verification remains untested. Details: SourceAssets/ReverseAlarm/README.md.
+
+## Lowest tree/wood LOD only - 4 November 2026
+
+User supplied Alpine_Trees_26_Variants_4_LODs.blend and explicitly requested only
+the lowest detail throughout the scene. Source is preserved under
+SourceAssets/AlpineTreesLowestLOD; autoexecution disabled. LOD3 was verified as the
+lowest triangle count for each variant. Only 26 LOD3 FBXs were exported/imported;
+no LOD0/1/2 from that file, LODGroup or runtime detail switching is used.
+
+All 97 tree/wood scene instances and 26 existing catalog prefabs now reference
+LOD3 meshes. Forest geometry: 96,243 -> 40,939 triangles (57.46% fewer), retaining
+145 renderers, stable alpine-tree-01..26 IDs, prefab GUIDs, complete scene poses,
+collision shapes, detachable snow, shared palette/snow materials and distance
+culling. Old sources/meshes remain preserved for reversibility. Regular tree
+intake forwards to LowestTreeLODIntake while lod3-only entries are active, so it
+does not silently restore higher detail. Menu: Snowglow > Asset intake > Use
+lowest LOD3 for all alpine trees and wood.
+
+Unity 6000.3.8f1 compiled, imported, saved/reopened Pinefall and verified all 97
+bindings to LOD3, unchanged placement/collision/culling states and original
+Terrain/snow hashes. Scene validation passed. Six native prefab previews and a
+forest view rendered; tree/log/forest inspected. No rebake, snow-mask mutation or
+player-save writes. No FPS claim; live traversal and A07 profiling untested.
+Details: SourceAssets/AlpineTreesLowestLOD/README.md. Report/backup/previews:
+Logs/AlpineTreesLowestLOD. Catalog entries remain Needs Review.

@@ -89,3 +89,10 @@ bounds and must not be interpreted as world coordinates. Scene proxy repair
 updates only affected snow obstacle flags in a new seed copy while preserving
 depth/credit/accounting and saved scenery. Runtime save restoration already
 uses the authored seed mask.
+
+LowestTreeLODIntake replaces only mesh references inside the 26 existing alpine
+forest prefabs, retaining their IDs/GUIDs, hierarchy, collision proxies and culling.
+Source LOD3 exports use the same mounting basis and palette. All 97 saved forest
+instances therefore use one fixed lowest-detail mesh set, without LODGroup or
+runtime switching. Legacy tree-intake installation forwards to this intake while
+the lowest-detail entries are active. No scene regeneration or snow changes.

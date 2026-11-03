@@ -16,36 +16,35 @@ MonoBehaviour:
   displayName: Split Cut Stump
   kind: 6
   status: 1
+  uiSprites: []
   prefab: {fileID: 2433558993452879892, guid: a5c88055fefb8564596ac11eeac096aa, type: 3}
   tags:
   - alpine-tree
   - snow-free
   - forest-floor
   - splitcutstump
+  - lod3-only
+  - lowest-detail
+  - single-detail
   sourceType: 0
-  sourceGuid: 2cc89c10aa78ecc4c9096736e19e4127
-  sourcePath: Assets/Snowglow/Catalog/Sources/AlpineTrees/SplitCutStump.fbx
-  creationSourcePath: SourceAssets/AlpineTrees/Alpine_Trees_26_Variants.blend
+  sourceGuid: 323b771ae771eea49b07492e574a50a9
+  sourcePath: Assets/Snowglow/Catalog/Sources/AlpineTreesLowestLOD/23_LOD3.fbx
+  creationSourcePath: SourceAssets/AlpineTreesLowestLOD/Alpine_Trees_26_Variants_4_LODs.blend
   reviewedPrefabHash: 
-  provenance: User supplied Alpine_Trees_26_Variants.blend; collection 23 Split Cut
-    Stump; SHA256 C8FA426AEAB4D38B8FFBCD378212D1376E139CA831F8437676D6F3720FBFE06F.
-    Embedded text was not executed.
-  assumptions: Metres, Y-up, original horizontal mounting origin and normalized ground
-    floor. Source Tree or Wood rigid assembly stays one opaque palette mesh; snowy
-    variants have independently removable decorative SnowCap. Snow-free source variants
-    are kept snow-free. Two shared materials across the set; no transparent foliage
-    cards, wind animation, runtime assembly or plowable decorative snow. Upright
-    trees have a narrow trunk capsule, stumps/logs have a compact box; collision
-    shapes are review proposals. Existing 230 m DistanceVisibility is retained. Placement
-    follows Terrain at the base; stumps/logs align with local terrain normal without
-    deforming shared meshes.
-  reviewNotes: Authorized prototype replacement. Needs visual collision/terrain review
-    and A07 profiling before Ready publication.
+  provenance: User supplied four-LOD Blender pack; only collection 23 Split Cut Stump
+    | LOD3 exported. Original SHA256 895E555B6AE1371E639B207FFD301E5BD8B8D936E99C2FBFD0D4D3FB5425F94D.
+    Embedded text is data and was not executed. LOD0/1/2 excluded. Stable catalog/prefab
+    identity retained.
+  assumptions: Lowest supplied LOD3 only at every distance, no LODGroup or higher-detail
+    renderers. Original mounting basis, materials, removable snow, colliders and
+    DistanceVisibility retained. Original higher-detail sources preserved for reversibility.
+  reviewNotes: Authorized lowest-detail replacement; Needs Review for final visual
+    and A07 acceptance.
   visualReviewed: 0
   localBounds:
-    m_Center: {x: -0.006970644, y: 0.5078005, z: -0.08801937}
-    m_Extent: {x: 1.0964727, y: 0.5078005, z: 1.0548797}
-  triangles: 252
+    m_Center: {x: 7.810832, y: 0.5105353, z: -11.094267}
+    m_Extent: {x: 1.083333, y: 0.50683254, z: 1.0480328}
+  triangles: 74
   renderers: 1
   materialSlots: 1
   price: 0

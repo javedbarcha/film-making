@@ -1,0 +1,6690 @@
+{
+  "collections": [
+    {
+      "name": "00 Presentation | Hide for Export",
+      "children": [],
+      "objects": [
+        "Studio snowy ground",
+        "Model presentation tile",
+        "Label 01 Tower Spruce",
+        "Model presentation tile.001",
+        "Label 02 Broad Fir",
+        "Model presentation tile.002",
+        "Label 03 Slender Spruce",
+        "Model presentation tile.003",
+        "Label 04 Irregular Drooping Fir",
+        "Model presentation tile.004",
+        "Label 05 Wind Bent Pine",
+        "Model presentation tile.005",
+        "Label 06 Open Alpine Larch",
+        "Model presentation tile.006",
+        "Label 07 Young Fir",
+        "Model presentation tile.007",
+        "Label 08 Spruce Sapling",
+        "Model presentation tile.008",
+        "Label 09 Snowy Tower Spruce",
+        "Model presentation tile.009",
+        "Label 10 Snowy Broad Fir",
+        "Model presentation tile.010",
+        "Label 11 Snowy Slender Spruce",
+        "Model presentation tile.011",
+        "Label 12 Snowy Irregular Drooping Fir",
+        "Model presentation tile.012",
+        "Label 13 Snowy Wind Bent Pine",
+        "Model presentation tile.013",
+        "Label 14 Snowy Open Alpine Larch",
+        "Model presentation tile.014",
+        "Label 15 Snowy Young Fir",
+        "Model presentation tile.015",
+        "Label 16 Snowy Spruce Sapling",
+        "Model presentation tile.016",
+        "Label 17 Tall Dead Snag",
+        "Model presentation tile.017",
+        "Label 18 Thin Bare Snag",
+        "Model presentation tile.018",
+        "Label 19 Broken Alpine Trunk",
+        "Model presentation tile.019",
+        "Label 20 Bare Young Sapling",
+        "Model presentation tile.020",
+        "Label 21 Low Cut Stump",
+        "Model presentation tile.021",
+        "Label 22 Tall Cut Stump",
+        "Model presentation tile.022",
+        "Label 23 Split Cut Stump",
+        "Model presentation tile.023",
+        "Label 24 Snow Capped Stump",
+        "Model presentation tile.024",
+        "Label 25 Fallen Cut Log",
+        "Model presentation tile.025",
+        "Label 26 Snowy Broken Log",
+        "Large soft sky",
+        "Cool fill",
+        "Winter sun",
+        "Alpine forest overview",
+        "01 Tower Spruce | Detail camera",
+        "02 Broad Fir | Detail camera",
+        "03 Slender Spruce | Detail camera",
+        "04 Irregular Drooping Fir | Detail camera",
+        "05 Wind Bent Pine | Detail camera",
+        "06 Open Alpine Larch | Detail camera",
+        "07 Young Fir | Detail camera",
+        "08 Spruce Sapling | Detail camera",
+        "09 Snowy Tower Spruce | Detail camera",
+        "10 Snowy Broad Fir | Detail camera",
+        "11 Snowy Slender Spruce | Detail camera",
+        "12 Snowy Irregular Drooping Fir | Detail camera",
+        "13 Snowy Wind Bent Pine | Detail camera",
+        "14 Snowy Open Alpine Larch | Detail camera",
+        "15 Snowy Young Fir | Detail camera",
+        "16 Snowy Spruce Sapling | Detail camera",
+        "17 Tall Dead Snag | Detail camera",
+        "18 Thin Bare Snag | Detail camera",
+        "19 Broken Alpine Trunk | Detail camera",
+        "20 Bare Young Sapling | Detail camera",
+        "21 Low Cut Stump | Detail camera",
+        "22 Tall Cut Stump | Detail camera",
+        "23 Split Cut Stump | Detail camera",
+        "24 Snow Capped Stump | Detail camera",
+        "25 Fallen Cut Log | Detail camera",
+        "26 Snowy Broken Log | Detail camera"
+      ]
+    },
+    {
+      "name": "01 Tower Spruce",
+      "children": [],
+      "objects": [
+        "01 Tower Spruce | MOVE ASSET",
+        "01 Tower Spruce | Tree or Wood"
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD1",
+      "children": [],
+      "objects": [
+        "01 Tower Spruce | LOD1 | MOVE ASSET",
+        "01 Tower Spruce | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD2",
+      "children": [],
+      "objects": [
+        "01 Tower Spruce | LOD2 | MOVE ASSET",
+        "01 Tower Spruce | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD3",
+      "children": [],
+      "objects": [
+        "01 Tower Spruce | LOD3 | MOVE ASSET",
+        "01 Tower Spruce | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "02 Broad Fir",
+      "children": [],
+      "objects": [
+        "02 Broad Fir | MOVE ASSET",
+        "02 Broad Fir | Tree or Wood"
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD1",
+      "children": [],
+      "objects": [
+        "02 Broad Fir | LOD1 | MOVE ASSET",
+        "02 Broad Fir | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD2",
+      "children": [],
+      "objects": [
+        "02 Broad Fir | LOD2 | MOVE ASSET",
+        "02 Broad Fir | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD3",
+      "children": [],
+      "objects": [
+        "02 Broad Fir | LOD3 | MOVE ASSET",
+        "02 Broad Fir | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "03 Slender Spruce",
+      "children": [],
+      "objects": [
+        "03 Slender Spruce | MOVE ASSET",
+        "03 Slender Spruce | Tree or Wood"
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD1",
+      "children": [],
+      "objects": [
+        "03 Slender Spruce | LOD1 | MOVE ASSET",
+        "03 Slender Spruce | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD2",
+      "children": [],
+      "objects": [
+        "03 Slender Spruce | LOD2 | MOVE ASSET",
+        "03 Slender Spruce | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD3",
+      "children": [],
+      "objects": [
+        "03 Slender Spruce | LOD3 | MOVE ASSET",
+        "03 Slender Spruce | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir",
+      "children": [],
+      "objects": [
+        "04 Irregular Drooping Fir | MOVE ASSET",
+        "04 Irregular Drooping Fir | Tree or Wood"
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD1",
+      "children": [],
+      "objects": [
+        "04 Irregular Drooping Fir | LOD1 | MOVE ASSET",
+        "04 Irregular Drooping Fir | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD2",
+      "children": [],
+      "objects": [
+        "04 Irregular Drooping Fir | LOD2 | MOVE ASSET",
+        "04 Irregular Drooping Fir | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD3",
+      "children": [],
+      "objects": [
+        "04 Irregular Drooping Fir | LOD3 | MOVE ASSET",
+        "04 Irregular Drooping Fir | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine",
+      "children": [],
+      "objects": [
+        "05 Wind Bent Pine | MOVE ASSET",
+        "05 Wind Bent Pine | Tree or Wood"
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD1",
+      "children": [],
+      "objects": [
+        "05 Wind Bent Pine | LOD1 | MOVE ASSET",
+        "05 Wind Bent Pine | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD2",
+      "children": [],
+      "objects": [
+        "05 Wind Bent Pine | LOD2 | MOVE ASSET",
+        "05 Wind Bent Pine | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD3",
+      "children": [],
+      "objects": [
+        "05 Wind Bent Pine | LOD3 | MOVE ASSET",
+        "05 Wind Bent Pine | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch",
+      "children": [],
+      "objects": [
+        "06 Open Alpine Larch | MOVE ASSET",
+        "06 Open Alpine Larch | Tree or Wood"
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD1",
+      "children": [],
+      "objects": [
+        "06 Open Alpine Larch | LOD1 | MOVE ASSET",
+        "06 Open Alpine Larch | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD2",
+      "children": [],
+      "objects": [
+        "06 Open Alpine Larch | LOD2 | MOVE ASSET",
+        "06 Open Alpine Larch | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD3",
+      "children": [],
+      "objects": [
+        "06 Open Alpine Larch | LOD3 | MOVE ASSET",
+        "06 Open Alpine Larch | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "07 Young Fir",
+      "children": [],
+      "objects": [
+        "07 Young Fir | MOVE ASSET",
+        "07 Young Fir | Tree or Wood"
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD1",
+      "children": [],
+      "objects": [
+        "07 Young Fir | LOD1 | MOVE ASSET",
+        "07 Young Fir | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD2",
+      "children": [],
+      "objects": [
+        "07 Young Fir | LOD2 | MOVE ASSET",
+        "07 Young Fir | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD3",
+      "children": [],
+      "objects": [
+        "07 Young Fir | LOD3 | MOVE ASSET",
+        "07 Young Fir | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling",
+      "children": [],
+      "objects": [
+        "08 Spruce Sapling | MOVE ASSET",
+        "08 Spruce Sapling | Tree or Wood"
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD1",
+      "children": [],
+      "objects": [
+        "08 Spruce Sapling | LOD1 | MOVE ASSET",
+        "08 Spruce Sapling | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD2",
+      "children": [],
+      "objects": [
+        "08 Spruce Sapling | LOD2 | MOVE ASSET",
+        "08 Spruce Sapling | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD3",
+      "children": [],
+      "objects": [
+        "08 Spruce Sapling | LOD3 | MOVE ASSET",
+        "08 Spruce Sapling | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce",
+      "children": [],
+      "objects": [
+        "09 Snowy Tower Spruce | MOVE ASSET",
+        "09 Snowy Tower Spruce | Tree or Wood",
+        "09 Snowy Tower Spruce | Snow"
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD1",
+      "children": [],
+      "objects": [
+        "09 Snowy Tower Spruce | LOD1 | MOVE ASSET",
+        "09 Snowy Tower Spruce | Tree or Wood | LOD1",
+        "09 Snowy Tower Spruce | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD2",
+      "children": [],
+      "objects": [
+        "09 Snowy Tower Spruce | LOD2 | MOVE ASSET",
+        "09 Snowy Tower Spruce | Tree or Wood | LOD2",
+        "09 Snowy Tower Spruce | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD3",
+      "children": [],
+      "objects": [
+        "09 Snowy Tower Spruce | LOD3 | MOVE ASSET",
+        "09 Snowy Tower Spruce | Tree or Wood | LOD3",
+        "09 Snowy Tower Spruce | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir",
+      "children": [],
+      "objects": [
+        "10 Snowy Broad Fir | MOVE ASSET",
+        "10 Snowy Broad Fir | Tree or Wood",
+        "10 Snowy Broad Fir | Snow"
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD1",
+      "children": [],
+      "objects": [
+        "10 Snowy Broad Fir | LOD1 | MOVE ASSET",
+        "10 Snowy Broad Fir | Tree or Wood | LOD1",
+        "10 Snowy Broad Fir | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD2",
+      "children": [],
+      "objects": [
+        "10 Snowy Broad Fir | LOD2 | MOVE ASSET",
+        "10 Snowy Broad Fir | Tree or Wood | LOD2",
+        "10 Snowy Broad Fir | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD3",
+      "children": [],
+      "objects": [
+        "10 Snowy Broad Fir | LOD3 | MOVE ASSET",
+        "10 Snowy Broad Fir | Tree or Wood | LOD3",
+        "10 Snowy Broad Fir | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce",
+      "children": [],
+      "objects": [
+        "11 Snowy Slender Spruce | MOVE ASSET",
+        "11 Snowy Slender Spruce | Tree or Wood",
+        "11 Snowy Slender Spruce | Snow"
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD1",
+      "children": [],
+      "objects": [
+        "11 Snowy Slender Spruce | LOD1 | MOVE ASSET",
+        "11 Snowy Slender Spruce | Tree or Wood | LOD1",
+        "11 Snowy Slender Spruce | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD2",
+      "children": [],
+      "objects": [
+        "11 Snowy Slender Spruce | LOD2 | MOVE ASSET",
+        "11 Snowy Slender Spruce | Tree or Wood | LOD2",
+        "11 Snowy Slender Spruce | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD3",
+      "children": [],
+      "objects": [
+        "11 Snowy Slender Spruce | LOD3 | MOVE ASSET",
+        "11 Snowy Slender Spruce | Tree or Wood | LOD3",
+        "11 Snowy Slender Spruce | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir",
+      "children": [],
+      "objects": [
+        "12 Snowy Irregular Drooping Fir | MOVE ASSET",
+        "12 Snowy Irregular Drooping Fir | Tree or Wood",
+        "12 Snowy Irregular Drooping Fir | Snow"
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD1",
+      "children": [],
+      "objects": [
+        "12 Snowy Irregular Drooping Fir | LOD1 | MOVE ASSET",
+        "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD1",
+        "12 Snowy Irregular Drooping Fir | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD2",
+      "children": [],
+      "objects": [
+        "12 Snowy Irregular Drooping Fir | LOD2 | MOVE ASSET",
+        "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD2",
+        "12 Snowy Irregular Drooping Fir | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD3",
+      "children": [],
+      "objects": [
+        "12 Snowy Irregular Drooping Fir | LOD3 | MOVE ASSET",
+        "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD3",
+        "12 Snowy Irregular Drooping Fir | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine",
+      "children": [],
+      "objects": [
+        "13 Snowy Wind Bent Pine | MOVE ASSET",
+        "13 Snowy Wind Bent Pine | Tree or Wood",
+        "13 Snowy Wind Bent Pine | Snow"
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD1",
+      "children": [],
+      "objects": [
+        "13 Snowy Wind Bent Pine | LOD1 | MOVE ASSET",
+        "13 Snowy Wind Bent Pine | Tree or Wood | LOD1",
+        "13 Snowy Wind Bent Pine | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD2",
+      "children": [],
+      "objects": [
+        "13 Snowy Wind Bent Pine | LOD2 | MOVE ASSET",
+        "13 Snowy Wind Bent Pine | Tree or Wood | LOD2",
+        "13 Snowy Wind Bent Pine | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD3",
+      "children": [],
+      "objects": [
+        "13 Snowy Wind Bent Pine | LOD3 | MOVE ASSET",
+        "13 Snowy Wind Bent Pine | Tree or Wood | LOD3",
+        "13 Snowy Wind Bent Pine | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch",
+      "children": [],
+      "objects": [
+        "14 Snowy Open Alpine Larch | MOVE ASSET",
+        "14 Snowy Open Alpine Larch | Tree or Wood",
+        "14 Snowy Open Alpine Larch | Snow"
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD1",
+      "children": [],
+      "objects": [
+        "14 Snowy Open Alpine Larch | LOD1 | MOVE ASSET",
+        "14 Snowy Open Alpine Larch | Tree or Wood | LOD1",
+        "14 Snowy Open Alpine Larch | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD2",
+      "children": [],
+      "objects": [
+        "14 Snowy Open Alpine Larch | LOD2 | MOVE ASSET",
+        "14 Snowy Open Alpine Larch | Tree or Wood | LOD2",
+        "14 Snowy Open Alpine Larch | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD3",
+      "children": [],
+      "objects": [
+        "14 Snowy Open Alpine Larch | LOD3 | MOVE ASSET",
+        "14 Snowy Open Alpine Larch | Tree or Wood | LOD3",
+        "14 Snowy Open Alpine Larch | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir",
+      "children": [],
+      "objects": [
+        "15 Snowy Young Fir | MOVE ASSET",
+        "15 Snowy Young Fir | Tree or Wood",
+        "15 Snowy Young Fir | Snow"
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD1",
+      "children": [],
+      "objects": [
+        "15 Snowy Young Fir | LOD1 | MOVE ASSET",
+        "15 Snowy Young Fir | Tree or Wood | LOD1",
+        "15 Snowy Young Fir | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD2",
+      "children": [],
+      "objects": [
+        "15 Snowy Young Fir | LOD2 | MOVE ASSET",
+        "15 Snowy Young Fir | Tree or Wood | LOD2",
+        "15 Snowy Young Fir | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD3",
+      "children": [],
+      "objects": [
+        "15 Snowy Young Fir | LOD3 | MOVE ASSET",
+        "15 Snowy Young Fir | Tree or Wood | LOD3",
+        "15 Snowy Young Fir | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling",
+      "children": [],
+      "objects": [
+        "16 Snowy Spruce Sapling | MOVE ASSET",
+        "16 Snowy Spruce Sapling | Tree or Wood",
+        "16 Snowy Spruce Sapling | Snow"
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD1",
+      "children": [],
+      "objects": [
+        "16 Snowy Spruce Sapling | LOD1 | MOVE ASSET",
+        "16 Snowy Spruce Sapling | Tree or Wood | LOD1",
+        "16 Snowy Spruce Sapling | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD2",
+      "children": [],
+      "objects": [
+        "16 Snowy Spruce Sapling | LOD2 | MOVE ASSET",
+        "16 Snowy Spruce Sapling | Tree or Wood | LOD2",
+        "16 Snowy Spruce Sapling | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD3",
+      "children": [],
+      "objects": [
+        "16 Snowy Spruce Sapling | LOD3 | MOVE ASSET",
+        "16 Snowy Spruce Sapling | Tree or Wood | LOD3",
+        "16 Snowy Spruce Sapling | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag",
+      "children": [],
+      "objects": [
+        "17 Tall Dead Snag | MOVE ASSET",
+        "17 Tall Dead Snag | Tree or Wood"
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD1",
+      "children": [],
+      "objects": [
+        "17 Tall Dead Snag | LOD1 | MOVE ASSET",
+        "17 Tall Dead Snag | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD2",
+      "children": [],
+      "objects": [
+        "17 Tall Dead Snag | LOD2 | MOVE ASSET",
+        "17 Tall Dead Snag | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD3",
+      "children": [],
+      "objects": [
+        "17 Tall Dead Snag | LOD3 | MOVE ASSET",
+        "17 Tall Dead Snag | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag",
+      "children": [],
+      "objects": [
+        "18 Thin Bare Snag | MOVE ASSET",
+        "18 Thin Bare Snag | Tree or Wood"
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD1",
+      "children": [],
+      "objects": [
+        "18 Thin Bare Snag | LOD1 | MOVE ASSET",
+        "18 Thin Bare Snag | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD2",
+      "children": [],
+      "objects": [
+        "18 Thin Bare Snag | LOD2 | MOVE ASSET",
+        "18 Thin Bare Snag | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD3",
+      "children": [],
+      "objects": [
+        "18 Thin Bare Snag | LOD3 | MOVE ASSET",
+        "18 Thin Bare Snag | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk",
+      "children": [],
+      "objects": [
+        "19 Broken Alpine Trunk | MOVE ASSET",
+        "19 Broken Alpine Trunk | Tree or Wood"
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD1",
+      "children": [],
+      "objects": [
+        "19 Broken Alpine Trunk | LOD1 | MOVE ASSET",
+        "19 Broken Alpine Trunk | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD2",
+      "children": [],
+      "objects": [
+        "19 Broken Alpine Trunk | LOD2 | MOVE ASSET",
+        "19 Broken Alpine Trunk | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD3",
+      "children": [],
+      "objects": [
+        "19 Broken Alpine Trunk | LOD3 | MOVE ASSET",
+        "19 Broken Alpine Trunk | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling",
+      "children": [],
+      "objects": [
+        "20 Bare Young Sapling | MOVE ASSET",
+        "20 Bare Young Sapling | Tree or Wood"
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD1",
+      "children": [],
+      "objects": [
+        "20 Bare Young Sapling | LOD1 | MOVE ASSET",
+        "20 Bare Young Sapling | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD2",
+      "children": [],
+      "objects": [
+        "20 Bare Young Sapling | LOD2 | MOVE ASSET",
+        "20 Bare Young Sapling | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD3",
+      "children": [],
+      "objects": [
+        "20 Bare Young Sapling | LOD3 | MOVE ASSET",
+        "20 Bare Young Sapling | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump",
+      "children": [],
+      "objects": [
+        "21 Low Cut Stump | MOVE ASSET",
+        "21 Low Cut Stump | Tree or Wood"
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD1",
+      "children": [],
+      "objects": [
+        "21 Low Cut Stump | LOD1 | MOVE ASSET",
+        "21 Low Cut Stump | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD2",
+      "children": [],
+      "objects": [
+        "21 Low Cut Stump | LOD2 | MOVE ASSET",
+        "21 Low Cut Stump | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD3",
+      "children": [],
+      "objects": [
+        "21 Low Cut Stump | LOD3 | MOVE ASSET",
+        "21 Low Cut Stump | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump",
+      "children": [],
+      "objects": [
+        "22 Tall Cut Stump | MOVE ASSET",
+        "22 Tall Cut Stump | Tree or Wood"
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD1",
+      "children": [],
+      "objects": [
+        "22 Tall Cut Stump | LOD1 | MOVE ASSET",
+        "22 Tall Cut Stump | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD2",
+      "children": [],
+      "objects": [
+        "22 Tall Cut Stump | LOD2 | MOVE ASSET",
+        "22 Tall Cut Stump | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD3",
+      "children": [],
+      "objects": [
+        "22 Tall Cut Stump | LOD3 | MOVE ASSET",
+        "22 Tall Cut Stump | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump",
+      "children": [],
+      "objects": [
+        "23 Split Cut Stump | MOVE ASSET",
+        "23 Split Cut Stump | Tree or Wood"
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD1",
+      "children": [],
+      "objects": [
+        "23 Split Cut Stump | LOD1 | MOVE ASSET",
+        "23 Split Cut Stump | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD2",
+      "children": [],
+      "objects": [
+        "23 Split Cut Stump | LOD2 | MOVE ASSET",
+        "23 Split Cut Stump | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD3",
+      "children": [],
+      "objects": [
+        "23 Split Cut Stump | LOD3 | MOVE ASSET",
+        "23 Split Cut Stump | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump",
+      "children": [],
+      "objects": [
+        "24 Snow Capped Stump | MOVE ASSET",
+        "24 Snow Capped Stump | Tree or Wood",
+        "24 Snow Capped Stump | Snow"
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD1",
+      "children": [],
+      "objects": [
+        "24 Snow Capped Stump | LOD1 | MOVE ASSET",
+        "24 Snow Capped Stump | Tree or Wood | LOD1",
+        "24 Snow Capped Stump | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD2",
+      "children": [],
+      "objects": [
+        "24 Snow Capped Stump | LOD2 | MOVE ASSET",
+        "24 Snow Capped Stump | Tree or Wood | LOD2",
+        "24 Snow Capped Stump | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD3",
+      "children": [],
+      "objects": [
+        "24 Snow Capped Stump | LOD3 | MOVE ASSET",
+        "24 Snow Capped Stump | Tree or Wood | LOD3",
+        "24 Snow Capped Stump | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log",
+      "children": [],
+      "objects": [
+        "25 Fallen Cut Log | MOVE ASSET",
+        "25 Fallen Cut Log | Tree or Wood"
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD1",
+      "children": [],
+      "objects": [
+        "25 Fallen Cut Log | LOD1 | MOVE ASSET",
+        "25 Fallen Cut Log | Tree or Wood | LOD1"
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD2",
+      "children": [],
+      "objects": [
+        "25 Fallen Cut Log | LOD2 | MOVE ASSET",
+        "25 Fallen Cut Log | Tree or Wood | LOD2"
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD3",
+      "children": [],
+      "objects": [
+        "25 Fallen Cut Log | LOD3 | MOVE ASSET",
+        "25 Fallen Cut Log | Tree or Wood | LOD3"
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log",
+      "children": [],
+      "objects": [
+        "26 Snowy Broken Log | MOVE ASSET",
+        "26 Snowy Broken Log | Tree or Wood",
+        "26 Snowy Broken Log | Snow"
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD1",
+      "children": [],
+      "objects": [
+        "26 Snowy Broken Log | LOD1 | MOVE ASSET",
+        "26 Snowy Broken Log | Tree or Wood | LOD1",
+        "26 Snowy Broken Log | Snow | LOD1"
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD2",
+      "children": [],
+      "objects": [
+        "26 Snowy Broken Log | LOD2 | MOVE ASSET",
+        "26 Snowy Broken Log | Tree or Wood | LOD2",
+        "26 Snowy Broken Log | Snow | LOD2"
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD3",
+      "children": [],
+      "objects": [
+        "26 Snowy Broken Log | LOD3 | MOVE ASSET",
+        "26 Snowy Broken Log | Tree or Wood | LOD3",
+        "26 Snowy Broken Log | Snow | LOD3"
+      ]
+    },
+    {
+      "name": "Collection",
+      "children": [],
+      "objects": []
+    },
+    {
+      "name": "LOD0 | Original highest detail",
+      "children": [
+        "01 Tower Spruce",
+        "02 Broad Fir",
+        "03 Slender Spruce",
+        "04 Irregular Drooping Fir",
+        "05 Wind Bent Pine",
+        "06 Open Alpine Larch",
+        "07 Young Fir",
+        "08 Spruce Sapling",
+        "09 Snowy Tower Spruce",
+        "10 Snowy Broad Fir",
+        "11 Snowy Slender Spruce",
+        "12 Snowy Irregular Drooping Fir",
+        "13 Snowy Wind Bent Pine",
+        "14 Snowy Open Alpine Larch",
+        "15 Snowy Young Fir",
+        "16 Snowy Spruce Sapling",
+        "17 Tall Dead Snag",
+        "18 Thin Bare Snag",
+        "19 Broken Alpine Trunk",
+        "20 Bare Young Sapling",
+        "21 Low Cut Stump",
+        "22 Tall Cut Stump",
+        "23 Split Cut Stump",
+        "24 Snow Capped Stump",
+        "25 Fallen Cut Log",
+        "26 Snowy Broken Log"
+      ],
+      "objects": []
+    },
+    {
+      "name": "LOD1 | Medium detail",
+      "children": [
+        "01 Tower Spruce | LOD1",
+        "02 Broad Fir | LOD1",
+        "03 Slender Spruce | LOD1",
+        "04 Irregular Drooping Fir | LOD1",
+        "05 Wind Bent Pine | LOD1",
+        "06 Open Alpine Larch | LOD1",
+        "07 Young Fir | LOD1",
+        "08 Spruce Sapling | LOD1",
+        "09 Snowy Tower Spruce | LOD1",
+        "10 Snowy Broad Fir | LOD1",
+        "11 Snowy Slender Spruce | LOD1",
+        "12 Snowy Irregular Drooping Fir | LOD1",
+        "13 Snowy Wind Bent Pine | LOD1",
+        "14 Snowy Open Alpine Larch | LOD1",
+        "15 Snowy Young Fir | LOD1",
+        "16 Snowy Spruce Sapling | LOD1",
+        "17 Tall Dead Snag | LOD1",
+        "18 Thin Bare Snag | LOD1",
+        "19 Broken Alpine Trunk | LOD1",
+        "20 Bare Young Sapling | LOD1",
+        "21 Low Cut Stump | LOD1",
+        "22 Tall Cut Stump | LOD1",
+        "23 Split Cut Stump | LOD1",
+        "24 Snow Capped Stump | LOD1",
+        "25 Fallen Cut Log | LOD1",
+        "26 Snowy Broken Log | LOD1"
+      ],
+      "objects": []
+    },
+    {
+      "name": "LOD2 | Low detail",
+      "children": [
+        "01 Tower Spruce | LOD2",
+        "02 Broad Fir | LOD2",
+        "03 Slender Spruce | LOD2",
+        "04 Irregular Drooping Fir | LOD2",
+        "05 Wind Bent Pine | LOD2",
+        "06 Open Alpine Larch | LOD2",
+        "07 Young Fir | LOD2",
+        "08 Spruce Sapling | LOD2",
+        "09 Snowy Tower Spruce | LOD2",
+        "10 Snowy Broad Fir | LOD2",
+        "11 Snowy Slender Spruce | LOD2",
+        "12 Snowy Irregular Drooping Fir | LOD2",
+        "13 Snowy Wind Bent Pine | LOD2",
+        "14 Snowy Open Alpine Larch | LOD2",
+        "15 Snowy Young Fir | LOD2",
+        "16 Snowy Spruce Sapling | LOD2",
+        "17 Tall Dead Snag | LOD2",
+        "18 Thin Bare Snag | LOD2",
+        "19 Broken Alpine Trunk | LOD2",
+        "20 Bare Young Sapling | LOD2",
+        "21 Low Cut Stump | LOD2",
+        "22 Tall Cut Stump | LOD2",
+        "23 Split Cut Stump | LOD2",
+        "24 Snow Capped Stump | LOD2",
+        "25 Fallen Cut Log | LOD2",
+        "26 Snowy Broken Log | LOD2"
+      ],
+      "objects": []
+    },
+    {
+      "name": "LOD3 | Distant detail",
+      "children": [
+        "01 Tower Spruce | LOD3",
+        "02 Broad Fir | LOD3",
+        "03 Slender Spruce | LOD3",
+        "04 Irregular Drooping Fir | LOD3",
+        "05 Wind Bent Pine | LOD3",
+        "06 Open Alpine Larch | LOD3",
+        "07 Young Fir | LOD3",
+        "08 Spruce Sapling | LOD3",
+        "09 Snowy Tower Spruce | LOD3",
+        "10 Snowy Broad Fir | LOD3",
+        "11 Snowy Slender Spruce | LOD3",
+        "12 Snowy Irregular Drooping Fir | LOD3",
+        "13 Snowy Wind Bent Pine | LOD3",
+        "14 Snowy Open Alpine Larch | LOD3",
+        "15 Snowy Young Fir | LOD3",
+        "16 Snowy Spruce Sapling | LOD3",
+        "17 Tall Dead Snag | LOD3",
+        "18 Thin Bare Snag | LOD3",
+        "19 Broken Alpine Trunk | LOD3",
+        "20 Bare Young Sapling | LOD3",
+        "21 Low Cut Stump | LOD3",
+        "22 Tall Cut Stump | LOD3",
+        "23 Split Cut Stump | LOD3",
+        "24 Snow Capped Stump | LOD3",
+        "25 Fallen Cut Log | LOD3",
+        "26 Snowy Broken Log | LOD3"
+      ],
+      "objects": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "01 Tower Spruce | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -17.399999618530273,
+        1.0,
+        8.250100135803223
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "01 Tower Spruce | LOD1"
+      ],
+      "location": [
+        -22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "01 Tower Spruce | LOD2"
+      ],
+      "location": [
+        -22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "01 Tower Spruce | LOD3"
+      ],
+      "location": [
+        -22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "01 Tower Spruce"
+      ],
+      "location": [
+        -22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "01 Tower Spruce | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "01 Tower Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 524,
+      "triangles": 904,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "01 Tower Spruce | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "01 Tower Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 388,
+      "triangles": 632,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "01 Tower Spruce | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "01 Tower Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 275,
+      "triangles": 406,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "01 Tower Spruce | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "01 Tower Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 207,
+      "triangles": 270,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "02 Broad Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -11.0,
+        1.0,
+        6.890100002288818
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "02 Broad Fir | LOD1"
+      ],
+      "location": [
+        -16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "02 Broad Fir | LOD2"
+      ],
+      "location": [
+        -16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "02 Broad Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "02 Broad Fir | LOD3"
+      ],
+      "location": [
+        -16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "02 Broad Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "02 Broad Fir"
+      ],
+      "location": [
+        -16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "02 Broad Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "02 Broad Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 401,
+      "triangles": 694,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "02 Broad Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "02 Broad Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 296,
+      "triangles": 484,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "02 Broad Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "02 Broad Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 210,
+      "triangles": 312,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "02 Broad Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "02 Broad Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 158,
+      "triangles": 208,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "03 Slender Spruce | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -4.600000381469727,
+        1.0,
+        9.275064468383789
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "03 Slender Spruce | LOD1"
+      ],
+      "location": [
+        -9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "03 Slender Spruce | LOD2"
+      ],
+      "location": [
+        -9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "03 Slender Spruce | LOD3"
+      ],
+      "location": [
+        -9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "03 Slender Spruce"
+      ],
+      "location": [
+        -9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "03 Slender Spruce | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "03 Slender Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 545,
+      "triangles": 942,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "03 Slender Spruce | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "03 Slender Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 403,
+      "triangles": 658,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "03 Slender Spruce | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "03 Slender Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 285,
+      "triangles": 422,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "03 Slender Spruce | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "03 Slender Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 215,
+      "triangles": 282,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "04 Irregular Drooping Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        1.7999999523162842,
+        1.0,
+        7.400100231170654
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD1"
+      ],
+      "location": [
+        -3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD2"
+      ],
+      "location": [
+        -3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD3"
+      ],
+      "location": [
+        -3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "04 Irregular Drooping Fir"
+      ],
+      "location": [
+        -3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "04 Irregular Drooping Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "04 Irregular Drooping Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 452,
+      "triangles": 780,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "04 Irregular Drooping Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 335,
+      "triangles": 546,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "04 Irregular Drooping Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 237,
+      "triangles": 350,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "04 Irregular Drooping Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "04 Irregular Drooping Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 179,
+      "triangles": 234,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "05 Wind Bent Pine | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        8.199999809265137,
+        1.0,
+        6.720099925994873
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "05 Wind Bent Pine | LOD1"
+      ],
+      "location": [
+        3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "05 Wind Bent Pine | LOD2"
+      ],
+      "location": [
+        3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "05 Wind Bent Pine | LOD3"
+      ],
+      "location": [
+        3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "05 Wind Bent Pine"
+      ],
+      "location": [
+        3.200000047683716,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "05 Wind Bent Pine | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "05 Wind Bent Pine"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 377,
+      "triangles": 646,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "05 Wind Bent Pine | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "05 Wind Bent Pine | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 280,
+      "triangles": 452,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "05 Wind Bent Pine | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "05 Wind Bent Pine | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 199,
+      "triangles": 290,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "05 Wind Bent Pine | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "05 Wind Bent Pine | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 150,
+      "triangles": 192,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "06 Open Alpine Larch | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        14.600000381469727,
+        1.0,
+        7.569249629974365
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "06 Open Alpine Larch | LOD1"
+      ],
+      "location": [
+        9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "06 Open Alpine Larch | LOD2"
+      ],
+      "location": [
+        9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "06 Open Alpine Larch | LOD3"
+      ],
+      "location": [
+        9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "06 Open Alpine Larch"
+      ],
+      "location": [
+        9.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "06 Open Alpine Larch | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "06 Open Alpine Larch"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1133,
+      "triangles": 1966,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "06 Open Alpine Larch | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "06 Open Alpine Larch | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 838,
+      "triangles": 1376,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "06 Open Alpine Larch | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "06 Open Alpine Larch | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 592,
+      "triangles": 884,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "06 Open Alpine Larch | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "06 Open Alpine Larch | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 444,
+      "triangles": 588,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "07 Young Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        21.0,
+        1.0,
+        3.915099859237671
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "07 Young Fir | LOD1"
+      ],
+      "location": [
+        16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "07 Young Fir | LOD2"
+      ],
+      "location": [
+        16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "07 Young Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "07 Young Fir | LOD3"
+      ],
+      "location": [
+        16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "07 Young Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "07 Young Fir"
+      ],
+      "location": [
+        16.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "07 Young Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "07 Young Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 239,
+      "triangles": 426,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "07 Young Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "07 Young Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 175,
+      "triangles": 298,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "07 Young Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "07 Young Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 121,
+      "triangles": 190,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "07 Young Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "07 Young Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 89,
+      "triangles": 126,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "08 Spruce Sapling | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        27.399999618530273,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "08 Spruce Sapling | LOD1"
+      ],
+      "location": [
+        22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "08 Spruce Sapling | LOD2"
+      ],
+      "location": [
+        22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "08 Spruce Sapling | LOD3"
+      ],
+      "location": [
+        22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "08 Spruce Sapling"
+      ],
+      "location": [
+        22.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "08 Spruce Sapling | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "08 Spruce Sapling"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 218,
+      "triangles": 388,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "08 Spruce Sapling | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "08 Spruce Sapling | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 159,
+      "triangles": 270,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "08 Spruce Sapling | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "08 Spruce Sapling | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 111,
+      "triangles": 174,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "08 Spruce Sapling | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "08 Spruce Sapling | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 82,
+      "triangles": 116,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -17.399999618530273,
+        -10.0,
+        8.250100135803223
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD1"
+      ],
+      "location": [
+        -22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD2"
+      ],
+      "location": [
+        -22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD3"
+      ],
+      "location": [
+        -22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "09 Snowy Tower Spruce"
+      ],
+      "location": [
+        -22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Snow",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 246,
+      "triangles": 386,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 207,
+      "triangles": 308,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 178,
+      "triangles": 250,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 149,
+      "triangles": 192,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 524,
+      "triangles": 904,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 433,
+      "triangles": 722,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 365,
+      "triangles": 586,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "09 Snowy Tower Spruce | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "09 Snowy Tower Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 298,
+      "triangles": 452,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -11.0,
+        -10.0,
+        6.890100002288818
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "10 Snowy Broad Fir | LOD1"
+      ],
+      "location": [
+        -16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "10 Snowy Broad Fir | LOD2"
+      ],
+      "location": [
+        -16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "10 Snowy Broad Fir | LOD3"
+      ],
+      "location": [
+        -16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "10 Snowy Broad Fir"
+      ],
+      "location": [
+        -16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "10 Snowy Broad Fir | Snow",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 183,
+      "triangles": 287,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 154,
+      "triangles": 229,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 132,
+      "triangles": 185,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 111,
+      "triangles": 143,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 401,
+      "triangles": 694,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 331,
+      "triangles": 554,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 279,
+      "triangles": 450,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "10 Snowy Broad Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "10 Snowy Broad Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 227,
+      "triangles": 346,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -4.600000381469727,
+        -10.0,
+        9.275064468383789
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD1"
+      ],
+      "location": [
+        -9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD2"
+      ],
+      "location": [
+        -9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD3"
+      ],
+      "location": [
+        -9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "11 Snowy Slender Spruce"
+      ],
+      "location": [
+        -9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Snow",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 267,
+      "triangles": 419,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 225,
+      "triangles": 335,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 193,
+      "triangles": 271,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 162,
+      "triangles": 209,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 545,
+      "triangles": 942,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 450,
+      "triangles": 752,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 380,
+      "triangles": 612,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "11 Snowy Slender Spruce | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "11 Snowy Slender Spruce | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 309,
+      "triangles": 470,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        1.7999999523162842,
+        -10.0,
+        7.400100231170654
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD1"
+      ],
+      "location": [
+        -3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD2"
+      ],
+      "location": [
+        -3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD3"
+      ],
+      "location": [
+        -3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir"
+      ],
+      "location": [
+        -3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Snow",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 204,
+      "triangles": 320,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 172,
+      "triangles": 256,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 148,
+      "triangles": 208,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 124,
+      "triangles": 160,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 452,
+      "triangles": 780,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 374,
+      "triangles": 624,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 315,
+      "triangles": 506,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "12 Snowy Irregular Drooping Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "12 Snowy Irregular Drooping Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 257,
+      "triangles": 390,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        8.199999809265137,
+        -10.0,
+        6.720099925994873
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD1"
+      ],
+      "location": [
+        3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD2"
+      ],
+      "location": [
+        3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD3"
+      ],
+      "location": [
+        3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "13 Snowy Wind Bent Pine"
+      ],
+      "location": [
+        3.200000047683716,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Snow",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 159,
+      "triangles": 247,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 134,
+      "triangles": 197,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 115,
+      "triangles": 159,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 97,
+      "triangles": 123,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 377,
+      "triangles": 646,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 312,
+      "triangles": 516,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 263,
+      "triangles": 418,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "13 Snowy Wind Bent Pine | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "13 Snowy Wind Bent Pine | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 215,
+      "triangles": 322,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        14.600000381469727,
+        -10.0,
+        7.569249629974365
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD1"
+      ],
+      "location": [
+        9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD2"
+      ],
+      "location": [
+        9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD3"
+      ],
+      "location": [
+        9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "14 Snowy Open Alpine Larch"
+      ],
+      "location": [
+        9.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Snow",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 435,
+      "triangles": 667,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 368,
+      "triangles": 533,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 318,
+      "triangles": 433,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 268,
+      "triangles": 333,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1133,
+      "triangles": 1966,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 936,
+      "triangles": 1572,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 788,
+      "triangles": 1276,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "14 Snowy Open Alpine Larch | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "14 Snowy Open Alpine Larch | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 641,
+      "triangles": 982,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | blue spruce",
+        "Needles | underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        21.0,
+        -10.0,
+        3.915099859237671
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "15 Snowy Young Fir | LOD1"
+      ],
+      "location": [
+        16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "15 Snowy Young Fir | LOD2"
+      ],
+      "location": [
+        16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "15 Snowy Young Fir | LOD3"
+      ],
+      "location": [
+        16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "15 Snowy Young Fir"
+      ],
+      "location": [
+        16.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "15 Snowy Young Fir | Snow",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 141,
+      "triangles": 221,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 118,
+      "triangles": 175,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 102,
+      "triangles": 143,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 85,
+      "triangles": 109,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 239,
+      "triangles": 426,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 196,
+      "triangles": 340,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 164,
+      "triangles": 276,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "15 Snowy Young Fir | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "15 Snowy Young Fir | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 132,
+      "triangles": 212,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        27.399999618530273,
+        -10.0,
+        3.0
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD1"
+      ],
+      "location": [
+        22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD2"
+      ],
+      "location": [
+        22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD3"
+      ],
+      "location": [
+        22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "16 Snowy Spruce Sapling"
+      ],
+      "location": [
+        22.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Snow",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 120,
+      "triangles": 188,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 101,
+      "triangles": 150,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 87,
+      "triangles": 122,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 73,
+      "triangles": 94,
+      "materials": [
+        "Snow | ivory",
+        "Snow | blue facet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 218,
+      "triangles": 388,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 179,
+      "triangles": 310,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 150,
+      "triangles": 252,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "16 Snowy Spruce Sapling | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "16 Snowy Spruce Sapling | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 121,
+      "triangles": 194,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Needles | forest jade",
+        "Needles | underside",
+        "Needles | deep alpine green"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "17 Tall Dead Snag | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -18.399999618530273,
+        -21.0,
+        8.500504493713379
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "17 Tall Dead Snag | LOD1"
+      ],
+      "location": [
+        -23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "17 Tall Dead Snag | LOD2"
+      ],
+      "location": [
+        -23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "17 Tall Dead Snag | LOD3"
+      ],
+      "location": [
+        -23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "17 Tall Dead Snag"
+      ],
+      "location": [
+        -23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "17 Tall Dead Snag | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "17 Tall Dead Snag"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 623,
+      "triangles": 1054,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "17 Tall Dead Snag | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "17 Tall Dead Snag | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 464,
+      "triangles": 736,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "17 Tall Dead Snag | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "17 Tall Dead Snag | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 333,
+      "triangles": 474,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "17 Tall Dead Snag | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "17 Tall Dead Snag | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 254,
+      "triangles": 316,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "18 Thin Bare Snag | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -13.200000762939453,
+        -21.0,
+        7.3955793380737305
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "18 Thin Bare Snag | LOD1"
+      ],
+      "location": [
+        -18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "18 Thin Bare Snag | LOD2"
+      ],
+      "location": [
+        -18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "18 Thin Bare Snag | LOD3"
+      ],
+      "location": [
+        -18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "18 Thin Bare Snag"
+      ],
+      "location": [
+        -18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "18 Thin Bare Snag | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "18 Thin Bare Snag"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 503,
+      "triangles": 874,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "18 Thin Bare Snag | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "18 Thin Bare Snag | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 371,
+      "triangles": 610,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "18 Thin Bare Snag | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "18 Thin Bare Snag | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 262,
+      "triangles": 392,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "18 Thin Bare Snag | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "18 Thin Bare Snag | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 197,
+      "triangles": 262,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "19 Broken Alpine Trunk | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -8.0,
+        -21.0,
+        4.116196632385254
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD1"
+      ],
+      "location": [
+        -13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD2"
+      ],
+      "location": [
+        -13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD3"
+      ],
+      "location": [
+        -13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "19 Broken Alpine Trunk"
+      ],
+      "location": [
+        -13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "19 Broken Alpine Trunk | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "19 Broken Alpine Trunk"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 445,
+      "triangles": 750,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Exposed wood | honey"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "19 Broken Alpine Trunk | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 332,
+      "triangles": 524,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Exposed wood | honey"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "19 Broken Alpine Trunk | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 238,
+      "triangles": 336,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Exposed wood | honey"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "19 Broken Alpine Trunk | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "19 Broken Alpine Trunk | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 182,
+      "triangles": 224,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows",
+        "Exposed wood | honey"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "20 Bare Young Sapling | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -2.8000001907348633,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "20 Bare Young Sapling | LOD1"
+      ],
+      "location": [
+        -7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "20 Bare Young Sapling | LOD2"
+      ],
+      "location": [
+        -7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "20 Bare Young Sapling | LOD3"
+      ],
+      "location": [
+        -7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "20 Bare Young Sapling"
+      ],
+      "location": [
+        -7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "20 Bare Young Sapling | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "20 Bare Young Sapling"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 323,
+      "triangles": 562,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "20 Bare Young Sapling | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "20 Bare Young Sapling | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 238,
+      "triangles": 392,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "20 Bare Young Sapling | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "20 Bare Young Sapling | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 168,
+      "triangles": 252,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "20 Bare Young Sapling | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "20 Bare Young Sapling | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 126,
+      "triangles": 168,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "21 Low Cut Stump | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        2.4000000953674316,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "21 Low Cut Stump | LOD1"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "21 Low Cut Stump | LOD2"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "21 Low Cut Stump | LOD3"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "21 Low Cut Stump"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "21 Low Cut Stump | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "21 Low Cut Stump"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 137,
+      "triangles": 220,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "21 Low Cut Stump | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "21 Low Cut Stump | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 104,
+      "triangles": 154,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "21 Low Cut Stump | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "21 Low Cut Stump | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 76,
+      "triangles": 98,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "21 Low Cut Stump | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "21 Low Cut Stump | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 59,
+      "triangles": 66,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "22 Tall Cut Stump | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        7.599999904632568,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "22 Tall Cut Stump | LOD1"
+      ],
+      "location": [
+        2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "22 Tall Cut Stump | LOD2"
+      ],
+      "location": [
+        2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "22 Tall Cut Stump | LOD3"
+      ],
+      "location": [
+        2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "22 Tall Cut Stump"
+      ],
+      "location": [
+        2.5999999046325684,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "22 Tall Cut Stump | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "22 Tall Cut Stump"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 137,
+      "triangles": 220,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "22 Tall Cut Stump | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "22 Tall Cut Stump | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 104,
+      "triangles": 154,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "22 Tall Cut Stump | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "22 Tall Cut Stump | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 75,
+      "triangles": 98,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "22 Tall Cut Stump | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "22 Tall Cut Stump | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 58,
+      "triangles": 66,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "23 Split Cut Stump | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        12.800000190734863,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "23 Split Cut Stump | LOD1"
+      ],
+      "location": [
+        7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "23 Split Cut Stump | LOD2"
+      ],
+      "location": [
+        7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "23 Split Cut Stump | LOD3"
+      ],
+      "location": [
+        7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "23 Split Cut Stump"
+      ],
+      "location": [
+        7.800000190734863,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "23 Split Cut Stump | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "23 Split Cut Stump"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 157,
+      "triangles": 252,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "23 Split Cut Stump | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "23 Split Cut Stump | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 119,
+      "triangles": 176,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "23 Split Cut Stump | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "23 Split Cut Stump | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 87,
+      "triangles": 112,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "23 Split Cut Stump | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "23 Split Cut Stump | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 67,
+      "triangles": 74,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        18.0,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "24 Snow Capped Stump | LOD1"
+      ],
+      "location": [
+        13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "24 Snow Capped Stump | LOD2"
+      ],
+      "location": [
+        13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "24 Snow Capped Stump | LOD3"
+      ],
+      "location": [
+        13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "24 Snow Capped Stump"
+      ],
+      "location": [
+        13.0,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "24 Snow Capped Stump | Snow",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 5,
+      "triangles": 3,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 5,
+      "triangles": 3,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 5,
+      "triangles": 3,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 5,
+      "triangles": 3,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 137,
+      "triangles": 220,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 115,
+      "triangles": 176,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 98,
+      "triangles": 142,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "24 Snow Capped Stump | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "24 Snow Capped Stump | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 82,
+      "triangles": 110,
+      "materials": [
+        "Bark | warm brown",
+        "Bark | amber facets",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings",
+        "Bark | deep furrows"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "25 Fallen Cut Log | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        23.200000762939453,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "25 Fallen Cut Log | LOD1"
+      ],
+      "location": [
+        18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "25 Fallen Cut Log | LOD2"
+      ],
+      "location": [
+        18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "25 Fallen Cut Log | LOD3"
+      ],
+      "location": [
+        18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "25 Fallen Cut Log"
+      ],
+      "location": [
+        18.200000762939453,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "25 Fallen Cut Log | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "25 Fallen Cut Log"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 135,
+      "triangles": 232,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "25 Fallen Cut Log | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "25 Fallen Cut Log | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 100,
+      "triangles": 162,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "25 Fallen Cut Log | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "25 Fallen Cut Log | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 71,
+      "triangles": 104,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "25 Fallen Cut Log | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "25 Fallen Cut Log | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 53,
+      "triangles": 68,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Detail camera",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        28.399999618530273,
+        -21.0,
+        3.0
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD1 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "26 Snowy Broken Log | LOD1"
+      ],
+      "location": [
+        23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD2 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "26 Snowy Broken Log | LOD2"
+      ],
+      "location": [
+        23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | LOD3 | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "26 Snowy Broken Log | LOD3"
+      ],
+      "location": [
+        23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | MOVE ASSET",
+      "type": "EMPTY",
+      "collections": [
+        "26 Snowy Broken Log"
+      ],
+      "location": [
+        23.399999618530273,
+        -11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "26 Snowy Broken Log | Snow",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 6,
+      "triangles": 6,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Snow | LOD1",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 6,
+      "triangles": 6,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Snow | LOD2",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 6,
+      "triangles": 6,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Snow | LOD3",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 6,
+      "triangles": 6,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Tree or Wood",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 185,
+      "triangles": 312,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Tree or Wood | LOD1",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 153,
+      "triangles": 248,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Tree or Wood | LOD2",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 130,
+      "triangles": 202,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "26 Snowy Broken Log | Tree or Wood | LOD3",
+      "type": "MESH",
+      "collections": [
+        "26 Snowy Broken Log | LOD3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 107,
+      "triangles": 156,
+      "materials": [
+        "Bark | warm brown",
+        "Exposed wood | honey",
+        "Exposed wood | growth rings"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Alpine forest overview",
+      "type": "CAMERA",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        12.0,
+        -64.0,
+        54.0
+      ]
+    },
+    {
+      "name": "Cool fill",
+      "type": "LIGHT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        20.0,
+        12.0,
+        25.0
+      ]
+    },
+    {
+      "name": "Label 01 Tower Spruce",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -22.399999618530273,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 02 Broad Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -16.0,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 03 Slender Spruce",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -9.600000381469727,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 04 Irregular Drooping Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -3.200000047683716,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 05 Wind Bent Pine",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        3.200000047683716,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 06 Open Alpine Larch",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        9.600000381469727,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 07 Young Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        16.0,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 08 Spruce Sapling",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        22.399999618530273,
+        7.650000095367432,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 09 Snowy Tower Spruce",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -22.399999618530273,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 10 Snowy Broad Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -16.0,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 11 Snowy Slender Spruce",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -9.600000381469727,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 12 Snowy Irregular Drooping Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -3.200000047683716,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 13 Snowy Wind Bent Pine",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        3.200000047683716,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 14 Snowy Open Alpine Larch",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        9.600000381469727,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 15 Snowy Young Fir",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        16.0,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 16 Snowy Spruce Sapling",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        22.399999618530273,
+        -3.3499999046325684,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 17 Tall Dead Snag",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -23.399999618530273,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 18 Thin Bare Snag",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -18.200000762939453,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 19 Broken Alpine Trunk",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -13.0,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 20 Bare Young Sapling",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -7.800000190734863,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 21 Low Cut Stump",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 22 Tall Cut Stump",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        2.5999999046325684,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 23 Split Cut Stump",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        7.800000190734863,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 24 Snow Capped Stump",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        13.0,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 25 Fallen Cut Log",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        18.200000762939453,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Label 26 Snowy Broken Log",
+      "type": "FONT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        23.399999618530273,
+        -13.020000457763672,
+        0.004000000189989805
+      ]
+    },
+    {
+      "name": "Large soft sky",
+      "type": "LIGHT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -18.0,
+        -22.0,
+        32.0
+      ]
+    },
+    {
+      "name": "Model presentation tile",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -22.399999618530273,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.001",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -16.0,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.002",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -9.600000381469727,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.003",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -3.200000047683716,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.004",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        3.200000047683716,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.005",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        9.600000381469727,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.006",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        16.0,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.007",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        22.399999618530273,
+        11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.008",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -22.399999618530273,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.009",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -16.0,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.010",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -9.600000381469727,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.011",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -3.200000047683716,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.012",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        3.200000047683716,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.013",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        9.600000381469727,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.014",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        16.0,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.015",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        22.399999618530273,
+        0.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.016",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -23.399999618530273,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.017",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -18.200000762939453,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.018",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -13.0,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.019",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -7.800000190734863,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.020",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        -2.5999999046325684,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.021",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        2.5999999046325684,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.022",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        7.800000190734863,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.023",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        13.0,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.024",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        18.200000762939453,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Model presentation tile.025",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        23.399999618530273,
+        -11.0,
+        -0.03999999910593033
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Snow | ivory"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Studio snowy ground",
+      "type": "MESH",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        -0.15000000596046448
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Presentation | snow floor"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Winter sun",
+      "type": "LIGHT",
+      "collections": [
+        "00 Presentation | Hide for Export"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        20.0
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Bark | amber facets",
+      "color": [
+        0.38999998569488525,
+        0.20999999344348907,
+        0.10499999672174454,
+        1.0
+      ]
+    },
+    {
+      "name": "Bark | deep furrows",
+      "color": [
+        0.17000000178813934,
+        0.07999999821186066,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "name": "Bark | warm brown",
+      "color": [
+        0.2800000011920929,
+        0.12999999523162842,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "name": "Dots Stroke",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "Exposed wood | growth rings",
+      "color": [
+        0.550000011920929,
+        0.33000001311302185,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Exposed wood | honey",
+      "color": [
+        0.800000011920929,
+        0.5899999737739563,
+        0.27000001072883606,
+        1.0
+      ]
+    },
+    {
+      "name": "Needles | blue spruce",
+      "color": [
+        0.11999999731779099,
+        0.36000001430511475,
+        0.3199999928474426,
+        1.0
+      ]
+    },
+    {
+      "name": "Needles | deep alpine green",
+      "color": [
+        0.054999999701976776,
+        0.25,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Needles | forest jade",
+      "color": [
+        0.07500000298023224,
+        0.3400000035762787,
+        0.25,
+        1.0
+      ]
+    },
+    {
+      "name": "Needles | underside",
+      "color": [
+        0.03500000014901161,
+        0.1599999964237213,
+        0.14499999582767487,
+        1.0
+      ]
+    },
+    {
+      "name": "Presentation | ink",
+      "color": [
+        0.11999999731779099,
+        0.25,
+        0.28999999165534973,
+        1.0
+      ]
+    },
+    {
+      "name": "Presentation | snow floor",
+      "color": [
+        0.6800000071525574,
+        0.8100000023841858,
+        0.8799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow | blue facet",
+      "color": [
+        0.7799999713897705,
+        0.8899999856948853,
+        0.9599999785423279,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow | ivory",
+      "color": [
+        0.9399999976158142,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "texts": [
+    "READ ME | Four LOD sets",
+    "START HERE | Alpine Trees"
+  ]
+}

@@ -102,3 +102,14 @@ are preserved. No nearby snow obstacle flags changed; the original active seed
 reference and complete data remain unchanged. No tree-specific seed was created.
 No district rebake or player-save write. Full forest/collision walkthrough, runtime
 culling, Android rendering/build and Galaxy A07 timings remain untested.
+
+## Superseded active visuals: lowest supplied LOD3
+
+The user's four-LOD pack replaces the active tree/wood visuals with LOD3 only.
+Current source/preparation/validation: SourceAssets/AlpineTreesLowestLOD/README.md.
+The 26 existing IDs and prefab GUIDs are retained, with 97 scene instances at
+40,939 triangles / 145 renderers. The older geometry counts above describe this
+preserved original source, not the current active forest. The regular intake
+forwards to LowestTreeLODIntake while lod3-only entries are active. No LOD0/1/2
+geometry from the new pack is imported; no LODGroup or runtime switching is used.
+Original pose, collider, palette/snow and culling bindings remain unchanged.

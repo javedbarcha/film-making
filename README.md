@@ -16,7 +16,15 @@ All 12 former primitive mountains now use a shuffled mix of the [five imported a
 
 All [12 alpine street-light variants](SourceAssets/AlpineStreetLights/README.md) are prepared as reusable catalog prefabs and used across 28 Pinefall fixtures, replacing the nine primitive poles and adding depot bollards, neighborhood globes and a workshop wall lantern. Frame, opaque luminous surfaces and removable snow caps are separate. Optional shadowless point lights are saved under an inactive **Optional lights | enable in Editor (mobile default off)** group. Use **Snowglow > Asset intake > Import twelve alpine street lights** for repeat-safe installation. Unity save/reopen, scene checks and 19 snow checks passed; night lighting and device performance remain untested.
 
-All 97 former primitive tree locations now use the [26 alpine tree/wood variants](SourceAssets/AlpineTrees/README.md), with every variant represented and the existing 230 m distance culling retained. Snow caps stay removable on snowy variants; stumps/logs follow the local terrain slope. **Snowglow > Asset intake > Import twenty six alpine trees** preserves this saved mix on repetition. The forest inventory is 96,243 triangles / 145 renderers, reduced from 454,736 / 679; these are geometry counts, not measured phone performance. Scene save/reopen and 19 snow checks passed; the snow seed is unchanged.
+All 97 forest tree/wood instances now use only the lowest supplied **LOD3** from
+the [four-LOD alpine pack](SourceAssets/AlpineTreesLowestLOD/README.md). All 26
+variants remain represented, with original poses, collision proxies, removable
+snow and 230 m distance culling retained. There is no LODGroup or runtime detail
+switching. Forest geometry is **40,939 triangles / 145 renderers**, reduced from
+96,243 triangles in the previous imported set. Unity saved/reopened the scene and
+validated the bindings and preserved snow data; phone performance remains untested.
+**Snowglow > Asset intake > Use lowest LOD3 for all alpine trees and wood** repeats
+this replacement without a district rebake. Original sources are preserved.
 
 ## Important: how the concrete scene is authored
 

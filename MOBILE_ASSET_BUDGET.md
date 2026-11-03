@@ -158,3 +158,10 @@ and +42 renderers/material slots. Total fixture geometry is now 17,614 triangles
 84 renderers, sharing the existing materials. New optional point lights remain off;
 there is no enabled real-time light-count increase. Native save/reopen, clearance
 and snow-accounting checks passed. Counts do not establish device frame-time cost.
+
+Current active forest uses supplied LOD3 only: 40,939 triangles / 145 renderers
+across the same 97 instances, down from 96,243 triangles (57.46% reduction). Native
+mesh references and saved/reopened scene verified. No LOD0/1/2 from the new pack
+are imported and no LODGroup switching is added. Material slots/culling are
+unchanged; render-submission and FPS improvements are not measured. See
+SourceAssets/AlpineTreesLowestLOD/README.md for per-variant LOD3 counts.

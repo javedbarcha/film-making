@@ -842,3 +842,23 @@ silence, zero-valued loop boundaries and no PCM clipping. Existing catalog poses
 and snow seed dependency hash matched; no rebake or player-save writes. Audible
 Play-mode, forward/reverse driving transitions and phone-speaker acceptance remain
 untested. Report/backup: Logs/ReverseAlarm; source notes: SourceAssets/ReverseAlarm.
+
+## Lowest tree and wood LOD replacement - 4 November 2026
+
+Blender 5.2.2 inspected all four LOD sets with autoexecution disabled and verified
+LOD3 is the minimum triangle count for every variant. Preserved source SHA256:
+895E555B6AE1371E639B207FFD301E5BD8B8D936E99C2FBFD0D4D3FB5425F94D.
+Only the 26 LOD3 FBXs were exported/imported; material colors matched the existing
+palette, mounting basis/floor retained and source/presentation objects excluded.
+Unity 6000.3.8f1 compiled LowestTreeLODIntake, updated existing prefabs and saved/
+reopened Pinefall. All 97 forest instances use only new LOD3 meshes, no old forest
+mesh remains elsewhere in the scene, and no LODGroups were introduced. Native
+counts: 96,243 -> 40,939 triangles, 145 renderers unchanged. Existing catalog IDs,
+prefab GUIDs, complete placement matrices, collision proxy shapes and culling
+settings retained; Terrain/snow seed/mesh hashes matched. Scene validation passed.
+Six native prefab previews and a 1280x720 forest view rendered; snowy tree, log and
+forest views visually inspected. No district rebake, snow-mask or player-save
+writes. Native import/save evidence does not establish live collision traversal,
+Android rendering or A07 frame-time gains. Report, original prefab/scene backups
+and previews: Logs/AlpineTreesLowestLOD. Durable details and metrics:
+SourceAssets/AlpineTreesLowestLOD/README.md. Entries remain Needs Review.
