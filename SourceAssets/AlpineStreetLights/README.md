@@ -85,3 +85,29 @@ Forty home and twelve mountain prefab-instance records remain byte-identical.
 The static-mask refresh changed 17,502 cells (16,341 added, 1,161 removed), preserving
 every snow depth/credit/accounting value and the original seeds. Repeating intake
 changes zero mask cells. See VALIDATION.md for the limits and correction details.
+
+## Roadside density expansion
+
+The user's request for about 1x more street lights adds 14 ground-mounted prepared
+fixtures along the six main-road shoulders, bringing Pinefall to 28 fixtures.
+Original 14 IDs/poses remain; new IDs are pinefall-road-light-01 through -14.
+The group Additional roadside lights | 14 prepared fixtures is saved in the scene.
+Largest-gap placement spreads the additions, with outreach arms toward roads and
+pole proxies clear of asphalt, driveways, houses and existing scenery. Styles
+reuse variants 03/04/05/07/08/09/10/11 and existing shared materials, emission and
+removable snow. New optional point lights remain off; enabled light count unchanged.
+
+Added inventory: 8,810 triangles / 42 renderers; total fixtures 17,614 triangles /
+84 renderers. A separate RoadsideLightsSnowSeed.asset updates 56 local obstacle
+flags, preserving all depth, credit, volume/accounting and original seed assets.
+No full-district or snow-geometry rebuild. Menu: Snowglow > Environment > Add
+fourteen roadside street lights. Repeating it preserves the existing additions.
+
+Unity 6000.3.8f1 compiled, saved/reopened all 28 fixtures, checked new pole clearance
+and persistent prefab/light settings, and passed scene validation and 19 snow
+ledger checks. Existing catalog poses and original mesh/Terrain/seed hashes matched.
+Serialized comparison confirmed no preexisting scene records were removed; only
+the SnowField seed reference and SceneRoots changed among preexisting records.
+An overview rendered and was inspected, although fog/distance limit fixture detail.
+Continuous driving clearance, night lighting and A07 profiling remain untested.
+Report/preview/backup: Logs/RoadsideLights. No player-save writes.

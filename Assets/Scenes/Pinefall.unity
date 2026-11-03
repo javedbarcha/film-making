@@ -9559,6 +9559,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170697129}
   m_CullTransparentMesh: 1
+--- !u!1001 &172179408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 967989066876657510, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5834766395882220105, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+--- !u!4 &172179409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 657678290370840871, guid: 4fdbf23f18c8b484d99d63429d150c18, type: 3}
+  m_PrefabInstance: {fileID: 172179408}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &173129848
 GameObject:
   m_ObjectHideFlags: 0
@@ -11264,6 +11330,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200346973}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &201271809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535538149122366905, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849070244665427573, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-07
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+--- !u!4 &201271810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+  m_PrefabInstance: {fileID: 201271809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &201813284
 GameObject:
   m_ObjectHideFlags: 0
@@ -26675,6 +26807,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476178601}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &476424272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183041575281834371, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742270471314927941, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+--- !u!4 &476424273 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1498785042130224265, guid: e7e4c13f89fc2b143acff396f8c56893, type: 3}
+  m_PrefabInstance: {fileID: 476424272}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &478949620
 GameObject:
   m_ObjectHideFlags: 0
@@ -27063,6 +27261,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482105039}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &484494525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 2475705210992115968, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913247007150611787, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+--- !u!4 &484494526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6418550476991495276, guid: 44533d0ba0463154c8495233c299b068, type: 3}
+  m_PrefabInstance: {fileID: 484494525}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &487121010
 GameObject:
   m_ObjectHideFlags: 0
@@ -38196,6 +38460,72 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 778732584065353297, guid: f5796e893eb621840a671e565e8e5ac3, type: 3}
   m_PrefabInstance: {fileID: 664651886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &664862750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027465461950282343, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131552543555092170, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-09
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+--- !u!4 &664862751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+  m_PrefabInstance: {fileID: 664862750}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &666271332
 GameObject:
@@ -50525,6 +50855,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878346348}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &879217879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7461256891245513787, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148462636655301525, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-04
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+--- !u!4 &879217880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+  m_PrefabInstance: {fileID: 879217879}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &882313550
 GameObject:
   m_ObjectHideFlags: 0
@@ -60195,6 +60591,72 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &1084215463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754044170039948453, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345840553365389931, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+--- !u!4 &1084215464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2762464695246380273, guid: 0bc0b35f400ad3f4eab8e8729619d816, type: 3}
+  m_PrefabInstance: {fileID: 1084215463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087808991
 GameObject:
   m_ObjectHideFlags: 0
@@ -66990,6 +67452,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184802471}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1186613112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535538149122366905, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849070244665427573, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+--- !u!4 &1186613113 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+  m_PrefabInstance: {fileID: 1186613112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1188373498
 GameObject:
   m_ObjectHideFlags: 0
@@ -201713,6 +202241,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244409605}
   m_CullTransparentMesh: 1
+--- !u!1001 &1247816060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535538149122366905, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849070244665427573, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+--- !u!4 &1247816061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1681959407971852520, guid: 91b4edcd8c9f40f44a1f85f455812191, type: 3}
+  m_PrefabInstance: {fileID: 1247816060}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1250798989
 GameObject:
   m_ObjectHideFlags: 0
@@ -208986,6 +209580,72 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &1358922153
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027465461950282343, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131552543555092170, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-09
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+--- !u!4 &1358922154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+  m_PrefabInstance: {fileID: 1358922153}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1360444143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -216024,7 +216684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Snowglow.SnowField
   palette: {fileID: 11400000, guid: 15eb6c24c4a609f43ba465c701d784cc, type: 2}
-  seed: {fileID: 11400000, guid: 92f72d83d05bf9246bbfc020d807453a, type: 2}
+  seed: {fileID: 11400000, guid: b411801d40b1dcf43a58b710f8c8537e, type: 2}
 --- !u!33 &1483895110
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -223600,6 +224260,72 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &1642693838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533300762430256667, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678765859837563593, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-09
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+--- !u!4 &1642693839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+  m_PrefabInstance: {fileID: 1642693838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1644910190
 GameObject:
   m_ObjectHideFlags: 0
@@ -230805,6 +231531,72 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764389305}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1765023297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 72.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533300762430256667, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678765859837563593, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+--- !u!4 &1765023298 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1315218505504444233, guid: 69aa9840b168604459dfb0777a1869ce, type: 3}
+  m_PrefabInstance: {fileID: 1765023297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1767681162
 GameObject:
   m_ObjectHideFlags: 0
@@ -232474,6 +233266,72 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &1802065883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7461256891245513787, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148462636655301525, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+--- !u!4 &1802065884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7047833790437674032, guid: 79d88a03dc6a09f46ba0e426e480ecec, type: 3}
+  m_PrefabInstance: {fileID: 1802065883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807664539
 GameObject:
   m_ObjectHideFlags: 0
@@ -237407,6 +238265,51 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.8}
   m_EffectDistance: {x: 0.6, y: -0.6}
   m_UseGraphicAlpha: 1
+--- !u!1 &1888578552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1888578553}
+  m_Layer: 0
+  m_Name: Additional roadside lights | 14 prepared fixtures
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1888578553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888578552}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2056917257}
+  - {fileID: 1765023298}
+  - {fileID: 1186613113}
+  - {fileID: 879217880}
+  - {fileID: 172179409}
+  - {fileID: 664862751}
+  - {fileID: 201271810}
+  - {fileID: 1084215464}
+  - {fileID: 1642693839}
+  - {fileID: 1358922154}
+  - {fileID: 1247816061}
+  - {fileID: 1802065884}
+  - {fileID: 476424273}
+  - {fileID: 484494526}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891142522
 GameObject:
   m_ObjectHideFlags: 0
@@ -247574,6 +248477,72 @@ RectTransform:
   m_AnchoredPosition: {x: 35, y: -204}
   m_SizeDelta: {x: 1210, y: 480}
   m_Pivot: {x: 0, y: 1}
+--- !u!1001 &2056917256
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1888578553}
+    m_Modifications:
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9740844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027465461950282343, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: placementId
+      value: pinefall-road-light-01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131552543555092170, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+      propertyPath: m_Name
+      value: alpine-street-light-09
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+--- !u!4 &2056917257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1564972752557574506, guid: 6eb7e703094d5564e81bf073231326bc, type: 3}
+  m_PrefabInstance: {fileID: 2056917256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2059300814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252994,3 +253963,4 @@ SceneRoots:
   - {fileID: 1995884786}
   - {fileID: 845037241}
   - {fileID: 653309668}
+  - {fileID: 1888578553}

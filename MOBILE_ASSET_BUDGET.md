@@ -152,3 +152,9 @@ sphere sweeps and Terrain samples. Wider/rotating viewpoints can reveal more ass
 and shadows than the original camera, so the existing geometry counts do not predict
 A07 timings. Editor input/terrain checks and three native renders passed; profile
 all four views during actual driving and snow work on the phone.
+
+The roadside fixture expansion adds 14 prepared lamps (28 total): +8,810 triangles
+and +42 renderers/material slots. Total fixture geometry is now 17,614 triangles /
+84 renderers, sharing the existing materials. New optional point lights remain off;
+there is no enabled real-time light-count increase. Native save/reopen, clearance
+and snow-accounting checks passed. Counts do not establish device frame-time cost.

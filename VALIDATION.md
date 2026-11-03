@@ -814,3 +814,18 @@ Four 1280x720 upward horizon renders produced; north/east visually inspected.
 No rebake, runtime factory, weather, snow mutation or player-save writes. Live
 all-camera comfort, Android packaging and A07 performance untested. Details:
 SourceAssets/AngularClouds/README.md; report/previews/backup: Logs/AngularClouds.
+
+## Additional roadside fixtures
+
+Unity 6000.3.8f1 compiled RoadsideLightsAuthoring and saved/reopened 14 new fixture
+prefab instances, 28 total. Added geometry 8,810 triangles / 42 renderers. Pole
+proxies passed road/driveway/scenery clearance with optional point lights off;
+enabled light count unchanged. Existing catalog IDs/transforms and original
+mesh/Terrain/seed hashes matched. New seed copy changes 56 local obstacle flags;
+every snow depth/credit/volume/accounting value retained. Scene validation and
+19 snow ledger checks passed. Native 1600x900 overview rendered and inspected,
+with fog/distance limiting small fixture detail. Serialized before/after comparison
+found no removed old records, 30 added records, and only SnowField seed reference
+and SceneRoots changed among preexisting records. No district rebake or player-save
+writes. Continuous driving, night illumination and A07 performance untested.
+Report/backup/preview: Logs/RoadsideLights. Source details: SourceAssets/AlpineStreetLights/README.md.

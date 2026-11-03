@@ -332,7 +332,7 @@ not completed device-test results.
 ### 4.1 Scene and environment
 
 Pinefall contains saved Terrain, roads, parking, service depot/fuel facilities,
-40 imported homes/fences, 97 imported alpine tree/wood assemblies, 12 imported alpine mountains, 14 imported alpine light fixtures, primitive signs/cars, curbs, slope
+40 imported homes/fences, 97 imported alpine tree/wood assemblies, 12 imported alpine mountains, 28 imported alpine light fixtures, primitive signs/cars, curbs, slope
 and ice test lanes, a disposal area, contract markers, UI, camera and audio sources.
 Most scenery remains primitive art. Both active machinery vehicles are now imported
 models. Older primitive machinery prefabs and catalog examples remain available;
@@ -1675,3 +1675,21 @@ snow hashes matched. Scene validation passed; four horizon renders produced and
 north/east inspected. No rebake or player-save writes. Live-camera comfort and A07
 profiling untested. Source details: SourceAssets/AngularClouds/README.md.
 Report/previews/backup: Logs/AngularClouds.
+
+## Additional street lights alongside roads
+
+User requested about 1x more fixtures. Pinefall now has 28: 14 original fixtures
+preserved and 14 new roadside prefab instances (pinefall-road-light-01..14),
+under Additional roadside lights | 14 prepared fixtures. Reused existing prepared
+variants/materials and luminous surfaces; new optional point lights remain off.
+Largest gaps along six main-road shoulders are filled, outreach aimed inward,
+with narrow proxy clearance from asphalt, driveways and nearby scenery checked.
+Added 8,810 triangles / 42 renderers; no enabled light-count increase.
+
+RoadsideLightsAuthoring provides Snowglow > Environment > Add fourteen roadside
+street lights; repeating preserves additions. A new scene-specific seed updates
+56 local obstacle flags without changing snow depth, credit or volume/accounting.
+Original seed/assets and existing catalog poses preserved; no scene records removed.
+Unity compiled, saved/reopened, passed clearance/scene checks and all 19 snow-ledger
+checks. Overview rendered; live driving, night and A07 testing remain untested.
+Details: SourceAssets/AlpineStreetLights/README.md. Report/backup: Logs/RoadsideLights.
