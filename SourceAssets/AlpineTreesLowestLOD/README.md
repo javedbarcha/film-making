@@ -74,3 +74,81 @@ Entries remain Needs Review. Live traversal and A07 performance remain untested.
 | Snow Capped Stump | 113 |
 | Fallen Cut Log | 68 |
 | Snowy Broken Log | 162 |
+
+## Forest density and terrain seating ? 4 November 2026
+
+User requested approximately 50% more trees/wood and repair of floating, deeply
+buried or mountain-overlapping placements. Pinefall now has **146 instances**
+(97 original + 49), all supplied LOD3; **62,496 triangles**. All 26 variants remain.
+The Editor-only `ForestSeatingAuthoring` menu expands by the original population
+once and repeats terrain repair without duplicates. Original IDs/variants remain;
+87 original objects moved horizontally to suitable ground, with all original
+heights corrected. Initial support audit found 47 floating, 48 excessively buried
+and 31 overlapping conservative mountain horizontal bounds (categories overlap).
+Trees stay upright; wood aligns to terrain slope. Mesh support samples are seated
+with bounded shallow burial; all visible mesh vertices pass terrain penetration
+limits. Full canopy/wood bounds clear mountain XZ envelopes by 3 m, preventing
+placement beneath mountains. New variants follow existing proportions with varied
+scale/yaw and spacing, outside the central worksite.
+
+Unity 6000.3.8f1 compiled, saved/reopened Pinefall and passed scene validation and
+19 snow ledger checks. A second run retained exactly 146 instances, required no
+further movement and found zero floating/deep support or mountain overlaps. Three
+native forest renders were visually inspected. Original Terrain, shared mesh and
+snow seed hashes and non-forest catalog poses remained unchanged. Ten nearby snow
+obstacle flags were updated in separate `SeatedForestSnowSeed.asset`; all depth,
+credit and volume stayed unchanged. No district rebake or player-save writes.
+Continuous driving and A07 performance were not tested. Reports, placement CSV,
+scene backup and three renders are under ignored `Logs/ForestSeating`.
+
+## Visible forest and slope placement - 4 November 2026
+
+The latest user request supersedes upright-only trees and scattering over the
+entire outer terrain. All 146 LOD3 tree/wood instances now stay within 280 m of
+the district center, before the first mountain horizontal envelope along rays
+from the district center to their full bounds. Full bounds also retain 3 m
+mountain clearance; nothing is placed beneath or beyond mountains along these
+rays. This is a conservative district-facing placement rule, not visibility from
+every possible camera angle.
+
+Tree roots tilt toward the terrain normal by up to 12 degrees, giving trunks a
+slight slope-aware lean. Wood/stumps/log ends rotate fully with the terrain.
+At least 34 trees and all six wood pieces occupy slopes of at least 5 degrees.
+Actual mesh support and visible-vertex terrain checks still prevent floating or
+excessive burial. The existing Editor menu applies these rules repeatably.
+
+Native Unity 6000.3.8f1 compiled, saved/reopened Pinefall and validated all 146
+placements, LOD3 bindings, mountain exclusion, terrain support and snow accounting.
+86 existing pieces moved horizontally in this revision; geometry stays at 62,496
+triangles / 219 renderers. Ten nearby obstacle flags changed in a new separate
+seed revision; all snow depth, credit and volume were preserved. Terrain, shared
+meshes, prior seed assets, non-forest catalog poses and player saves are preserved.
+Scene checks and 19 snow ledger checks passed. No district rebake or runtime
+spawning. Android performance and continuous driving remain untested.
+
+Final repeat run confirmed **91 trees and all six wood pieces** on slopes of at
+least 5 degrees, with all 146 positions stable (zero further relocations), matching
+saved slope rotations and zero additional snow-mask changes. Three native views
+were inspected, including a slope tree view and a close stump view.
+
+## User-marked outer forest boundary - 4 November 2026
+
+The annotated overhead reference supersedes the previous 280 m limit. The forest
+now extends toward the mountain ring within a 470 m maximum full-bounds radius.
+73 of the existing 146 LOD3 pieces were redistributed beyond 340 m; the farthest
+root is 467.9 m from town. The other half retains inner woodland coverage. There
+are no new objects or meshes: 62,496 triangles / 219 renderers remain. Full bounds
+still clear mountain envelopes by 3 m and remain before the first mountain along
+district-facing rays, with terrain seating and slope alignment preserved.
+111 trees and all six wood pieces occupy slopes of at least 5 degrees.
+
+Unity 6000.3.8f1 compiled, saved/reopened Pinefall and passed all placement,
+rotation, visible-vertex/support, scene and 19 snow-ledger checks. No snow-mask
+changes were needed; prior seed/Terrain/shared-mesh hashes and non-forest catalog
+poses matched. Player saves are untouched. The Editor-only forest menu retains
+this wider distribution. Reports and native previews: Logs/ForestSeating.
+Android performance and continuous driving remain untested.
+
+The wider layout passed a repeat native run with zero further relocations and
+zero snow-mask changes. A fog-free native overhead render was visually inspected
+against the supplied reference; temporary preview fog changes were restored.

@@ -16,15 +16,20 @@ All 12 former primitive mountains now use a shuffled mix of the [five imported a
 
 All [12 alpine street-light variants](SourceAssets/AlpineStreetLights/README.md) are prepared as reusable catalog prefabs and used across 28 Pinefall fixtures, replacing the nine primitive poles and adding depot bollards, neighborhood globes and a workshop wall lantern. Frame, opaque luminous surfaces and removable snow caps are separate. Optional shadowless point lights are saved under an inactive **Optional lights | enable in Editor (mobile default off)** group. Use **Snowglow > Asset intake > Import twelve alpine street lights** for repeat-safe installation. Unity save/reopen, scene checks and 19 snow checks passed; night lighting and device performance remain untested.
 
-All 97 forest tree/wood instances now use only the lowest supplied **LOD3** from
-the [four-LOD alpine pack](SourceAssets/AlpineTreesLowestLOD/README.md). All 26
-variants remain represented, with original poses, collision proxies, removable
-snow and 230 m distance culling retained. There is no LODGroup or runtime detail
-switching. Forest geometry is **40,939 triangles / 145 renderers**, reduced from
-96,243 triangles in the previous imported set. Unity saved/reopened the scene and
-validated the bindings and preserved snow data; phone performance remains untested.
-**Snowglow > Asset intake > Use lowest LOD3 for all alpine trees and wood** repeats
-this replacement without a district rebake. Original sources are preserved.
+The forest now contains **146 tree/wood instances** (97 + 49), using only the
+lowest supplied **LOD3** from the [four-LOD alpine pack](SourceAssets/AlpineTreesLowestLOD/README.md).
+All 26 variants remain represented. Terrain seating uses a slight tree-trunk tilt (up to 12 degrees) and fully
+slope-aligned wood. All forest bounds stay within 470 m of town, on the near side
+of mountain envelopes with 3 m clearance. Following the marked overhead reference,
+73 pieces extend into the outer band beyond 340 m; the farthest root is 467.9 m away.
+111 trees and all six wood pieces occupy slopes of 5 degrees or more.
+Forest geometry is **62,496 triangles / 219 renderers**. Removable snow,
+collision proxies and 230 m distance culling remain; no LODGroup switching.
+**Snowglow > Environment > Expand forest by half and repair all terrain seating**
+repeats the repair without adding duplicates. Unity compilation, save/reopen,
+support and visible-vertex checks, scene validation and 19 snow checks passed.
+Three native forest views were inspected; phone performance remains untested.
+Original sources, Terrain, snow depth/credit/volume and player saves are preserved.
 
 ## Important: how the concrete scene is authored
 

@@ -96,3 +96,22 @@ Source LOD3 exports use the same mounting basis and palette. All 97 saved forest
 instances therefore use one fixed lowest-detail mesh set, without LODGroup or
 runtime switching. Legacy tree-intake installation forwards to this intake while
 the lowest-detail entries are active. No scene regeneration or snow changes.
+
+Forest density/seating authoring (4 November 2026): `ForestSeatingAuthoring` is an
+Editor-only, repeat-safe repair of the saved Pinefall forest (146 LOD3 instances).
+It samples actual mesh support geometry and visible vertices against Terrain,
+excludes complete mountain horizontal bounds, and saves placements before Play.
+Only affected snow obstacle flags change in a separate seed copy; authoritative
+snow depth, credit and volume remain unchanged. No runtime forest spawning.
+
+Visible-forest revision: forest placement is bounded to 280 m around the district
+and rejected if any center/corner district-facing segment crosses a mountain
+horizontal envelope (3 m margin). Tree terrain-normal tilt is capped at 12 degrees;
+wood takes full terrain alignment. At least 34 trees and six wood pieces have
+5-degree-or-steeper slope sites. Support and visible-vertex seating remain checked.
+
+The marked outer-boundary revision supersedes the 280 m cap: forest full bounds
+now fit within 470 m, with half the existing instances assigned beyond 340 m.
+Mountain-facing exclusion and all slope/support rules remain; count and meshes
+are unchanged. Native overview renders temporarily disable fog and restore it
+before reopening the saved scene; gameplay fog is unchanged.
