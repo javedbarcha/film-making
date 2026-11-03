@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Long Cloud Bank
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: angular-cloud-04
+  displayName: Long Cloud Bank
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 2974188331757042031, guid: 6a1edd98c7d5b29428dc148e4abf2e54, type: 3}
+  tags:
+  - cloud
+  - angular-cloud
+  - sky
+  - opaque
+  - visual-only
+  sourceType: 0
+  sourceGuid: 11c0472ece75a96489e870a96609e9df
+  sourcePath: Assets/Snowglow/Catalog/Sources/AngularClouds/04_Long_Cloud_Bank.fbx
+  creationSourcePath: SourceAssets/AngularClouds/Eight_Angular_Low_Poly_Clouds.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Eight_Angular_Low_Poly_Clouds.blend; object 04_Long_Cloud_Bank;
+    SHA256 8AE32B6DE44F38348DB0D38BD745FA0C274D657D6E0E7B7D0A6D3318BEE681E9. Blender
+    autoexecution disabled. No embedded text exists.
+  assumptions: Static Editor-authored sky decoration. One flat-shaded mesh and shared
+    opaque unlit three-color palette. No colliders, Rigidbody, shadows, lights, wind
+    or runtime spawning. Source proportions preserved with uniform placement scale.
+    Day/night material response is future work.
+  reviewNotes: User-authorized sky scatter; needs final spherical sky/background
+    composition review and A07 profiling before Ready publication.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 0.8278501, z: 0}
+    m_Extent: {x: 2.634951, y: 0.8278501, z: 0.90876013}
+  triangles: 332
+  renderers: 1
+  materialSlots: 1
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 5
+  maximumScale: 40
+  blocksSnow: 0

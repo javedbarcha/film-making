@@ -1,0 +1,146 @@
+{
+  "clouds": [
+    {
+      "index": "01",
+      "name": "Alpine Puff",
+      "model": "01_Alpine_Puff",
+      "triangles": 332,
+      "size": [
+        3.5437679290771484,
+        1.850861668586731,
+        2.1553971767425537
+      ],
+      "included": [
+        "01_Alpine_Puff"
+      ]
+    },
+    {
+      "index": "02",
+      "name": "Wide Cumulus",
+      "model": "02_Wide_Cumulus",
+      "triangles": 332,
+      "size": [
+        4.665391445159912,
+        1.6570206880569458,
+        2.3462330102920532
+      ],
+      "included": [
+        "02_Wide_Cumulus"
+      ]
+    },
+    {
+      "index": "03",
+      "name": "Tall Cluster",
+      "model": "03_Tall_Cluster",
+      "triangles": 332,
+      "size": [
+        3.5223896503448486,
+        1.644956350326538,
+        2.6281603574752808
+      ],
+      "included": [
+        "03_Tall_Cluster"
+      ]
+    },
+    {
+      "index": "04",
+      "name": "Long Cloud Bank",
+      "model": "04_Long_Cloud_Bank",
+      "triangles": 332,
+      "size": [
+        5.269902229309082,
+        1.6557002067565918,
+        1.8175201416015625
+      ],
+      "included": [
+        "04_Long_Cloud_Bank"
+      ]
+    },
+    {
+      "index": "05",
+      "name": "Asymmetric Puff",
+      "model": "05_Asymmetric_Puff",
+      "triangles": 332,
+      "size": [
+        4.064945220947266,
+        1.9101699590682983,
+        2.5833544731140137
+      ],
+      "included": [
+        "05_Asymmetric_Puff"
+      ]
+    },
+    {
+      "index": "06",
+      "name": "Stepped Cluster",
+      "model": "06_Stepped_Cluster",
+      "triangles": 332,
+      "size": [
+        4.438628435134888,
+        1.8319231271743774,
+        2.179999589920044
+      ],
+      "included": [
+        "06_Stepped_Cluster"
+      ]
+    },
+    {
+      "index": "07",
+      "name": "Compact Crown",
+      "model": "07_Compact_Crown",
+      "triangles": 332,
+      "size": [
+        3.2951297760009766,
+        1.6797162294387817,
+        1.9521751403808594
+      ],
+      "included": [
+        "07_Compact_Crown"
+      ]
+    },
+    {
+      "index": "08",
+      "name": "Broad Alpine Bank",
+      "model": "08_Broad_Alpine_Bank",
+      "triangles": 332,
+      "size": [
+        4.720921039581299,
+        1.5354598760604858,
+        2.518576979637146
+      ],
+      "included": [
+        "08_Broad_Alpine_Bank"
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "name": "Cloud White",
+      "linearColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Cloud Pale Ice",
+      "linearColor": [
+        0.8600000143051147,
+        0.9300000071525574,
+        0.9700000286102295,
+        1.0
+      ]
+    },
+    {
+      "name": "Cloud Soft Underside",
+      "linearColor": [
+        0.6899999976158142,
+        0.7900000214576721,
+        0.8500000238418579,
+        1.0
+      ]
+    }
+  ],
+  "excluded": "No presentation objects, cameras, lights or embedded texts in supplied file."
+}

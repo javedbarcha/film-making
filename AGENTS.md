@@ -1656,3 +1656,22 @@ Live continuous driving, mountain perimeter traversal and Android/device testing
 remain untested. Report and backup: Logs/IntersectionObstacle/Validation.txt and
 Pinefall-before.unity. Menu: Snowglow > Environment > Repair central intersection
 mountain proxies. Audit command is available alongside the repair.
+
+## Angular cloud import and sky scatter - 3 November 2026
+
+User supplied Eight_Angular_Low_Poly_Clouds.blend and requested random sky scatter.
+Original preserved under SourceAssets/AngularClouds; Blender autoexecution disabled.
+Eight Landscape catalog prefabs (angular-cloud-01..08), Needs Review, each have
+332 triangles / one renderer. One shared opaque unlit white/ice/underside palette.
+Pinefall now has 40 saved prefab clouds (five each), grouped under Sky clouds |
+40 angular low-poly clouds. Seed 311103; jittered angular sectors, radii 260-620m,
+base altitude 195-260m, 45-85m uniform width fitting, random yaw and bounds clearance.
+Added inventory: 13,280 triangles / 40 renderers. No colliders, shadows, lights,
+wind or runtime creation. Existing skybox/camera background settings preserved.
+Repeat intake preserves poses. Menu: Snowglow > Asset intake > Import and scatter
+eight angular clouds. Unity compiled, validated entries and saved/reopened the
+40 placements. Existing non-cloud IDs/transforms and all existing mesh/Terrain/
+snow hashes matched. Scene validation passed; four horizon renders produced and
+north/east inspected. No rebake or player-save writes. Live-camera comfort and A07
+profiling untested. Source details: SourceAssets/AngularClouds/README.md.
+Report/previews/backup: Logs/AngularClouds.

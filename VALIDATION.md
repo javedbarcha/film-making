@@ -799,3 +799,18 @@ Live continuous driving, mountain perimeter traversal and Android/device testing
 remain untested. Report and backup: Logs/IntersectionObstacle/Validation.txt and
 Pinefall-before.unity. Menu: Snowglow > Environment > Repair central intersection
 mountain proxies. Audit command is available alongside the repair.
+
+## Angular cloud import and scatter - 3 November 2026
+
+Blender 5.2.2 inspected/exported all eight supplied meshes with autoexecution off.
+Source SHA256: 8AE32B6DE44F38348DB0D38BD745FA0C274D657D6E0E7B7D0A6D3318BEE681E9.
+Unity 6000.3.8f1 / Android compiled AngularCloudsIntake, prepared eight Needs Review
+catalog prefabs and saved/reopened 40 sky instances, five each. Native counts:
+332 triangles and one renderer per variant, 13,280 triangles / 40 renderers total,
+one shared opaque material. Unique IDs, persistent prefab instances, absent
+cloud physics and disabled shadows verified. Existing non-cloud catalog poses
+and all existing mesh/Terrain/snow hashes matched. Scene validation passed.
+Four 1280x720 upward horizon renders produced; north/east visually inspected.
+No rebake, runtime factory, weather, snow mutation or player-save writes. Live
+all-camera comfort, Android packaging and A07 performance untested. Details:
+SourceAssets/AngularClouds/README.md; report/previews/backup: Logs/AngularClouds.

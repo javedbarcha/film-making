@@ -1,0 +1,258 @@
+{
+  "objects": [
+    {
+      "name": "01_Alpine_Puff",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        -8.25,
+        -2.0,
+        2.0
+      ],
+      "dimensions": [
+        3.5437674522399902,
+        1.8508617877960205,
+        2.1553971767425537
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "02_Wide_Cumulus",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        -2.75,
+        -2.0,
+        2.0
+      ],
+      "dimensions": [
+        4.665391445159912,
+        1.6570208072662354,
+        2.3462328910827637
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "03_Tall_Cluster",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        2.75,
+        -2.0,
+        2.0
+      ],
+      "dimensions": [
+        3.5223898887634277,
+        1.6449564695358276,
+        2.6281604766845703
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "04_Long_Cloud_Bank",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        8.25,
+        -2.0,
+        2.0
+      ],
+      "dimensions": [
+        5.269902229309082,
+        1.6557002067565918,
+        1.817520260810852
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "05_Asymmetric_Puff",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        -8.25,
+        2.0,
+        2.0
+      ],
+      "dimensions": [
+        4.064945220947266,
+        1.910170078277588,
+        2.5833544731140137
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "06_Stepped_Cluster",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        -2.75,
+        2.0,
+        2.0
+      ],
+      "dimensions": [
+        4.438628196716309,
+        1.831923246383667,
+        2.179999589920044
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "07_Compact_Crown",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        2.75,
+        2.0,
+        2.0
+      ],
+      "dimensions": [
+        3.2951297760009766,
+        1.6797162294387817,
+        1.9521750211715698
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "08_Broad_Alpine_Bank",
+      "type": "MESH",
+      "collections": [
+        "Collection"
+      ],
+      "location": [
+        8.25,
+        2.0,
+        2.0
+      ],
+      "dimensions": [
+        4.720921516418457,
+        1.5354597568511963,
+        2.5185768604278564
+      ],
+      "vertices": 168,
+      "triangles": 332,
+      "materials": [
+        "Cloud White",
+        "Cloud Pale Ice",
+        "Cloud Soft Underside"
+      ],
+      "modifiers": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Collection",
+      "objects": [
+        "01_Alpine_Puff",
+        "02_Wide_Cumulus",
+        "03_Tall_Cluster",
+        "04_Long_Cloud_Bank",
+        "05_Asymmetric_Puff",
+        "06_Stepped_Cluster",
+        "07_Compact_Crown",
+        "08_Broad_Alpine_Bank"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Cloud Pale Ice",
+      "color": [
+        0.8600000143051147,
+        0.9300000071525574,
+        0.9700000286102295,
+        1.0
+      ]
+    },
+    {
+      "name": "Cloud Soft Underside",
+      "color": [
+        0.6899999976158142,
+        0.7900000214576721,
+        0.8500000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": "Cloud White",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Dots Stroke",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    }
+  ],
+  "texts": []
+}

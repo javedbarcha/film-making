@@ -157,3 +157,9 @@ from Drive by a 50-unit vertical gap. Recover is explicitly bound to the same
 Recover-to-depot action as service recovery and relabelled RECOVER TO DEPOT.
 UI and loader checks/results are recorded in Logs/DrivingButtons/Validation.txt
 and Logs/DrivingControls.txt. Physical-phone ergonomics remain to be tested.
+
+All eight angular cloud variants are prepared in the catalog and scattered as
+40 saved sky objects in Pinefall, using one shared opaque palette with no cloud
+colliders or shadows. See SourceAssets/AngularClouds/README.md for source details,
+counts and the repeat-safe Editor command. Native save/reopen and scene validation
+passed; Android performance remains untested.
