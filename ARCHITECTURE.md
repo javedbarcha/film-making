@@ -1,5 +1,14 @@
 # Prototype structure and extension boundaries
 
+`Editor/SelectedMountainRefit` is a selection-only authoring command separate
+from whole-set mountain intake. It precomputes source-derived meshes, preserves
+horizontal transforms, fits the lower skirt and creates persistent mesh revisions
+before assigning them in one Undo group with root seating and collider updates.
+Upper peaks remain source-shaped. Old mesh assets remain intact for Undo and
+existing scenes. Scene saving stays with the author; no runtime component,
+district rebuild, Terrain mutation or snow-mask update is introduced. Selections
+inside the interactive snow field are rejected to keep that mask consistent.
+
 ## Asset Workshop phase
 
 `CatalogAsset`/`AssetCatalog` store stable content IDs, provenance, approval state, measured bounds, constraints and prefab references. `AssetAnchor`, `AssetSocket` and `PreparedVehicleRig` describe authored connection and physical bindings. `FittingProfile` and `AssemblyRecipe` keep mounting adjustments and loadout composition separate from imported visuals. The importer preserves originals and creates reviewable prefab copies with suggested proxies/rigs; Ready approval includes a dependency/physics fingerprint.

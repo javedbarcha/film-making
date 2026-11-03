@@ -79,3 +79,37 @@ No source/catalog meshes or placements changed. Native saved/reopened overlap
 and intersection sweeps passed; 2,108 stale snow-blocking cells were cleared in
 a new scene-specific seed without changing snow volume/credit. See
 Logs/IntersectionObstacle/Validation.txt and VALIDATION.md.
+
+## Refit mountains after manual placement - 3 November 2026
+
+With Play stopped, select one or more **Mountain lot** groups in the Hierarchy,
+move/rotate/resize them, then choose **Snowglow > Environment > Refit selected
+mountains to terrain**. Selecting a mountain mesh child also works; selecting a
+larger group includes its mountain descendants, with duplicates removed. Save
+the scene after reviewing the result. Ctrl+Z / Ctrl+Y undo/redo the fitting.
+
+The command preserves horizontal placement, rotation and scale. It adjusts the
+lot's world Y to seat the source geometry above the highest sampled ground, then
+fits the lower 55% of the model to the terrain with a smooth blend. The upper
+45% retains its original shape. Base edges are sampled and buried at least
+0.75 m at sampled positions (base vertices at least 2 m); this is a sampled seating
+check, not an exact terrain/triangle intersection solver. Rock and decorative
+snow are fitted together, with normals, bounds and conservative box proxies
+updated. Uneven parent scaling and rotated boxes use the actual physics frame.
+
+Every fit starts from the original catalog meshes. New scene-specific mesh
+revisions are saved under `Assets/Snowglow/Catalog/SceneMeshes/MountainRefits`;
+prior revisions remain available for Undo and existing references. Do not delete
+them blindly. Source Blender/FBX files and shared catalog prefabs are unchanged.
+Unselected mountains, Terrain, snow data and player saves are not edited. This
+command does not save/reopen your working scene or rebake the district.
+
+Use positive scales, keep the whole mountain inside the scene's single Terrain,
+and keep background mountains/collision proxies outside the 256 m interactive
+snow field. Invalid selections are rejected before fitting; application failures
+roll back the scene operation. Prefab Mode and Play mode are unsupported.
+
+The older **Import five alpine mountains** command still refits the complete set
+using its original terrain-conforming workflow; use the selected command for
+manual placement work. Native checks: **Snowglow > Environment > Run selected
+mountain refit checks**, report `Logs/SelectedMountainRefit/Validation.txt`.

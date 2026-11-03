@@ -1,5 +1,27 @@
 # Verification record
 
+## Selected mountain refitting - 3 November 2026
+
+- Added **Snowglow > Environment > Refit selected mountains to terrain** for
+  selected lot groups, mountain roots or mesh children. No Pinefall placements
+  were automatically refitted. Scene saving remains a manual authoring action.
+- Native Unity 6000.3.8f1 / Android compiled and passed disposable fixture checks
+  for all five variants on uneven Terrain, parent/child selection/deduplication,
+  yaw/pitch and uneven ancestor scale, preserved X/Z/rotation/scale, buried bases,
+  unchanged upper peaks/geometry counts, collider coverage, repeat fitting,
+  full Undo/Redo and scene save/reopen with persistent mesh references.
+- Checks compare original catalog dependency hashes and Pinefall scene bytes;
+  both remained unchanged. No player save was read/written, Terrain/snow data
+  changed or district rebaked. Fixture scene, terrain and meshes are cleaned up.
+- The checks exposed and fixed tilted-base seating and conservative physics-box
+  fitting under sheared ancestor transforms. Meshes are rebuilt from sources
+  into independent persistent revisions so Undo does not overwrite old geometry.
+- Report: `Logs/SelectedMountainRefit/Validation.txt`. Menu to rerun:
+  **Snowglow > Environment > Run selected mountain refit checks**.
+  Rendered seam inspection after manual placement, manual menu interaction,
+  Android build and Galaxy A07 profiling remain untested. Sampled edge clearance
+  does not establish exact contact along every terrain triangle.
+
 ## Mountain terrain seating correction - 29 October 2026
 
 - The previous lowest-footprint seating rule left too much of some models below higher terrain. Replaced it with Editor-authored terrain-conforming mesh copies for all 12 placements. Each source vertex keeps its height above the model base, added to local Terrain height; the mountain is then buried by a small uniform depth. This preserves the complete upper features above the underlying ground instead of accepting only one visible peak vertex.

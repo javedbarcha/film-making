@@ -1,5 +1,34 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Selected mountain placement tool - 3 November 2026
+
+User requested an Editor option to refit manually moved, rotated or resized
+mountain groups, then authorized implementation. Use **Snowglow > Environment >
+Refit selected mountains to terrain** with Play stopped. Lot groups, mountain
+roots and child meshes resolve to deduplicated selections. X/Z, rotation and
+scale are preserved; root Y and the lower 55% of source geometry are fitted to
+terrain, keeping upper peaks unchanged. Rock, snow caps, normals/bounds and
+conservative physics proxies update together. Save the scene after review.
+
+This is separate from the all-mountain intake. No existing Pinefall mountains
+were automatically changed. Every fit reads original catalog meshes and saves
+new scene-specific revisions under Catalog/SceneMeshes/MountainRefits, retaining
+old assets for Undo and existing scene references. One Undo/Redo operation
+restores seating, mesh references and colliders. Never blindly delete previous
+mesh revisions. Positive scales, a single Terrain containing the footprint and
+background placement outside interactive snow are required. Prefab Mode and
+Play are unsupported; no snow-mask or runtime authoring is added.
+
+Unity 6000.3.8f1 / Android compiled and passed five-variant disposable checks,
+including uneven terrain, selection resolution, yaw/pitch/uneven ancestor scale,
+base burial, upper-peak preservation, repeated fitting, proxy coverage,
+Undo/Redo and fixture scene save/reopen. Source/catalog hashes and Pinefall bytes
+were unchanged. Tests caught/fixed tilted-base seating and sheared-parent
+physics-box fitting. No player saves were touched. Rendered seam inspection,
+manual menu interaction, Android packaging and Galaxy A07 profiling remain
+untested. Report: Logs/SelectedMountainRefit/Validation.txt. See the source
+mountain README and VALIDATION.md for controls and limitations.
+
 Last updated: **31 October 2026**, Asia/Karachi.
 
 This document records the conversation from the original pasted ChatGPT planning

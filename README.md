@@ -28,6 +28,12 @@ Snow volume data lives in the seed asset; visual and collision meshes are saved 
 
 ## Open and bake
 
+For manual mountain placement, select the changed **Mountain lot** group(s) and
+choose **Snowglow > Environment > Refit selected mountains to terrain**, with
+Play stopped. It preserves X/Z, rotation and scale, seats the lower slopes and
+updates rock, snow caps and collision proxies. Undo/Redo is supported; save the
+scene after review. See [mountain refitting](SourceAssets/FiveAlpineMountains/README.md#refit-mountains-after-manual-placement---3-november-2026).
+
 1. Extract the ZIP and add the `Snowglow` folder in Unity Hub.
 2. Open in **Unity 6000.3.8f1** with Android Build Support installed (the version recorded in ProjectSettings).
 3. Allow URP 17.3, Input System 1.18 and uGUI dependencies to import. The built-in Vehicles module supplies WheelCollider; do not remove it. Accept any requested input-system editor restart.
