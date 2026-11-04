@@ -16,6 +16,7 @@ MonoBehaviour:
   displayName: Golden tractor | body and wheels
   kind: 0
   status: 1
+  uiSprites: []
   prefab: {fileID: 7612987501173588279, guid: d4973b9bc2de3954fadd3e21b77e3b8b, type: 3}
   tags:
   - tractor

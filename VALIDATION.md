@@ -1,5 +1,18 @@
 # Verification record
 
+## Tractor left rear tyre guard - 5 November 2026
+
+Corrected inward winding on the mirrored rear fender in prepared TractorBody.fbx.
+Source left guard had negative signed volume while its opposite was outward.
+Exporter now repairs prepared rear-guard normals and asserts positive volume;
+`--body-only` preserves separate blade/beacon files. Source blend, metas, shape,
+placement and wheel physics remain unchanged. Body catalog remains 5,548 triangles.
+Unity 6000.3.8f1 / Android reimported, passed scene validation and 19 snow checks;
+native left/right starter-prefab renders inspected with solid outward guards.
+No scene/prefab reconstruction or player-save writes; phone driving untested.
+Evidence: Logs/TractorGuard/Validation.txt and paired Tractor-left/right.png.
+
+
 ## Four-bay garage and standing fuel sign - 5 November 2026
 
 Imported the supplied low-poly garage through CatalogPreparation as the reusable

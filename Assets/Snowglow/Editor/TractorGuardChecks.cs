@@ -1,0 +1,16 @@
+using System;
+using System.IO;
+using System.Linq;
+using UnityEngine;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
+namespace Snowglow.Editor {
+ public static class TractorGuardChecks {
+ const string Logs="Logs/TractorGuard",Request="Logs/CheckTractorGuard.request";
+ [InitializeOnLoadMethod]static void Register(){EditorApplication.update+=Pending;}
+ static void Pending(){if(!File.Exists(Request)){EditorApplication.update-=Pending;return;}if(EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.isPlayingOrWillChangePlaymode)return;EditorApplication.update-=Pending;File.Delete(Request);try{Run();}catch(Exception e){File.WriteAllText(Logs+"/Validation.txt","FAIL: "+e);Debug.LogException(e);}}
+ static void Preview(GameObject go,string file,Vector3 direction){var p=new PreviewRenderUtility();try{var copy=UnityEngine.Object.Instantiate(go);copy.transform.position=Vector3.zero;p.AddSingleGO(copy);foreach(var t in copy.GetComponentsInChildren<WorldSignLabel>())t.Refresh();var b=CatalogValidation.BoundsOf(copy);p.camera.orthographic=true;p.camera.orthographicSize=Mathf.Max(b.extents.x,b.extents.y)*1.3f;p.camera.nearClipPlane=.1f;p.camera.farClipPlane=300;p.camera.transform.position=b.center+direction.normalized*80;p.camera.transform.LookAt(b.center);p.camera.backgroundColor=new Color(.3f,.4f,.47f);p.camera.clearFlags=CameraClearFlags.SolidColor;p.ambientColor=Color.gray;p.lights[0].intensity=1.2f;p.lights[0].transform.rotation=p.camera.transform.rotation;p.BeginStaticPreview(new Rect(0,0,1200,800));p.Render(true);var image=p.EndStaticPreview();File.WriteAllBytes(Logs+"/"+file+".png",image.EncodeToPNG());UnityEngine.Object.DestroyImmediate(image);}finally{p.Cleanup();}}
+ public static void Run(){var scene=SceneManager.GetActiveScene();if(scene.path!=SceneValidation.ScenePath)throw new InvalidOperationException("Open Pinefall");SceneValidation.Validate(scene);var path="Assets/Snowglow/Catalog/Sources/LowPolySnowPlower/TractorBody.fbx";AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport|ImportAssetOptions.ForceUpdate);var a=CatalogPreparation.Library().Find("imported-tractor-body");CatalogPreparation.RecordMetrics(a);if(a.triangles!=5548)throw new InvalidOperationException("Triangle count changed: "+a.triangles);AssetDatabase.SaveAssets();MechanicsChecks.Run();var prefab=AssetDatabase.LoadAssetAtPath<GameObject>(StarterPlowAuthoring.PrefabPath);if(!prefab||!prefab.GetComponent<MachineController>())throw new InvalidOperationException("Tractor rig missing");Preview(prefab,"Tractor-left",new Vector3(-1,.28f,-.2f));Preview(prefab,"Tractor-right",new Vector3(1,.28f,-.2f));File.WriteAllText(Logs+"/Validation.txt","PASS: Unity "+Application.unityVersion+" / "+EditorUserBuildSettings.activeBuildTarget+". Reimported body FBX with mirrored rear-guard winding corrected. Body catalog remains 5548 triangles. Starter rig retained; scene validation and 19 snow checks passed. Native left/right previews written. No prefab/scene geometry authoring, wheel physics changes or player-save writes. Source blend untouched; phone driving untested.");Debug.Log(File.ReadAllText(Logs+"/Validation.txt"));}
+ }
+}

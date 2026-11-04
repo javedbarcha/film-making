@@ -66,3 +66,15 @@ the original Blender toon shading is approximated. 7,274 total triangles, 7 rend
 and 30 material slots require device profiling; the renderer reduction is not evidence
 of acceptable phone performance. Driving, lift/angle clipping, snow interaction, Android
 build and sustained Galaxy A07 performance remain untested.
+
+## Rear tyre guard winding correction - 5 November 2026
+
+The left rear guard was mirrored across source Y with unchanged face winding.
+Its signed volume was -0.13640273 m3 versus +0.13640273 on the opposite guard,
+causing inward-facing surfaces and apparent gaps under backface culling.
+`export_plower.py` now recalculates outward normals on prepared rear-fender
+copies and asserts positive volume. Source blend, vertex positions, guard shape,
+wheel physics and triangle count are unchanged. `--body-only` skips the source
+render and exports only TractorBody.fbx; plow/beacon exports and all metas remain
+intact. Previous body bytes: Logs/TractorGuard/TractorBody-before.fbx. Native
+validation and paired side previews: Logs/TractorGuard. No source file saved.

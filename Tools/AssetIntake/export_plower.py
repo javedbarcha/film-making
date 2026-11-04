@@ -3,7 +3,7 @@ Usage: blender --background --factory-startup --disable-autoexec SOURCE --python
 Source stays untouched. FBX uses metres, +Y up/-Z forward; Unity's importer converts
 to +Z forward. The Blender mapping first makes original +X forward into -Y.
 """
-import bpy, bmesh, json, os, math
+import bpy, bmesh, json, os, math, sys
 from mathutils import Matrix, Vector
 
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -53,18 +53,28 @@ for obj in original:
     bm.to_mesh(obj.data);bm.free();tread_report.append(dict(name=obj.name,outward_blocks=blocks))
 with open(os.path.join(out,'TreadValidation.json'),'w') as f:json.dump(tread_report,f,indent=2)
 
+# Mirrored rear guard copies retain the original winding; repair prepared copies.
+for obj in original:
+    if not obj.name.startswith('Yellow rear fender'): continue
+    obj.data=obj.data.copy();bm=bmesh.new();bm.from_mesh(obj.data)
+    bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.normal_update()
+    assert bm.calc_volume(signed=True)>0, obj.name
+    bm.to_mesh(obj.data);bm.free()
+
 # Save a source-view image before modifying the in-memory model.
-for o in bpy.context.scene.objects:
-    if o.type=='MESH' and o not in original: o.hide_render=True
 scene=bpy.context.scene
-scene.render.engine='CYCLES';scene.cycles.samples=24
-scene.render.resolution_x=1000;scene.render.resolution_y=800;scene.render.resolution_percentage=100
-if not scene.camera:
-    cam=bpy.data.objects.new('Intake camera',bpy.data.cameras.new('Intake camera'));scene.collection.objects.link(cam);scene.camera=cam
-cam=scene.camera;cam.location=(7,-8,5.5);cam.rotation_euler=(Vector((.2,0,1.25))-cam.location).to_track_quat('-Z','Y').to_euler()
-cam.data.type='ORTHO';cam.data.ortho_scale=7.3
-scene.render.filepath=os.path.join(logs,'source-preview.png')
-bpy.ops.render.render(write_still=True)
+if '--body-only' not in sys.argv:
+    for o in bpy.context.scene.objects:
+        if o.type=='MESH' and o not in original: o.hide_render=True
+    scene=bpy.context.scene
+    scene.render.engine='CYCLES';scene.cycles.samples=24
+    scene.render.resolution_x=1000;scene.render.resolution_y=800;scene.render.resolution_percentage=100
+    if not scene.camera:
+        cam=bpy.data.objects.new('Intake camera',bpy.data.cameras.new('Intake camera'));scene.collection.objects.link(cam);scene.camera=cam
+    cam=scene.camera;cam.location=(7,-8,5.5);cam.rotation_euler=(Vector((.2,0,1.25))-cam.location).to_track_quat('-Z','Y').to_euler()
+    cam.data.type='ORTHO';cam.data.ortho_scale=7.3
+    scene.render.filepath=os.path.join(logs,'source-preview.png')
+    bpy.ops.render.render(write_still=True)
 
 # Evaluate chamfers; bake all transforms into meshes then join each rigid module.
 rotation=Matrix.Rotation(-math.pi/2,4,'Z')
@@ -83,6 +93,7 @@ def module(key,origin):
     return obj
 made={key:module(key,centres.get(key,Vector())) for key in groups if groups[key]}
 def export(name,keys):
+    if '--body-only' in sys.argv and name!='TractorBody':return
     bpy.ops.object.select_all(action='DESELECT')
     for key in keys: made[key].select_set(True)
     bpy.ops.export_scene.fbx(filepath=os.path.join(out,name+'.fbx'),use_selection=True,
