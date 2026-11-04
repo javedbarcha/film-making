@@ -1,5 +1,28 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Disposal access snow strip correction - 4 November 2026
+
+User clarified that the unwanted strip was interactive snow extending into the
+yard, remaining after the asphalt removal. Removed only its 1,000 authored seed
+cells (x > 70 and x < 95, abs(z + 85) < 5), retaining the main north/south road.
+Revised starting volume by 65.851 m3 and rebuilt only two affected mesh chunks
+into new assets. Original seed/meshes retained; outside depth/credit unchanged.
+SnowField.Seed no longer generates dumpLink. This is an authored starting-layout
+change, not gameplay disposal; player saves untouched. Unity saved/reopened
+Pinefall; scene validation and 19 snow checks passed. Phone playtest untested.
+Evidence: Logs/DisposalAccess/SnowValidation.txt.
+
+
+## Disposal yard west access removed - 4 November 2026
+
+Removed the redundant 30 x 10 m road segment entering the disposal yard from
+the west at (78, -85), including its collider. Yard, other roads and snow seed
+remain unchanged. DistrictFactory no longer creates this spur; no district rebake
+was performed. Unity saved/reopened Pinefall, passed scene validation and all 19
+snow checks. Phone playtesting remains untested. Evidence:
+`Logs/DisposalAccess/Validation.txt`.
+
+
 ## Edited sign caption depth correction - 4 November 2026
 
 The apparent open backs on the four edited signs were captions rendering through

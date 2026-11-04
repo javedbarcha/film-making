@@ -64,8 +64,7 @@ namespace Snowglow {
     bool connection=x>60&&x<95&&Mathf.Abs(z-27)<5;
     bool depot=x>-115&&x<-75&&z>-110&&z<-70;
     bool lane=x>-95&&x<-60&&Mathf.Abs(z+90)<5;
-    bool dumpLink=x>60&&x<95&&Mathf.Abs(z+85)<5;
-    if(roads||parking||connection||lane||dumpLink)Grid.depth[i]=.22f+.08f*Mathf.PerlinNoise(x*.1f+20,z*.1f+20);
+    if(roads||parking||connection||lane)Grid.depth[i]=.22f+.08f*Mathf.PerlinNoise(x*.1f+20,z*.1f+20);
     if(depot)Grid.depth[i]=0;
     // Keep curb/fence lots snow-free in the data field. Terrain is decorative blanket snow.
     if(IsTarget(x,z))Grid.credit[i]=Grid.depth[i];

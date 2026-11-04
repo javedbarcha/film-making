@@ -17,7 +17,7 @@ namespace Snowglow { public static class DistrictFactory {
   foreach(float lane in new[]{-65f,0,65f}) { Road(roads,new Vector3(0,0,lane),new Vector3(226,.18f,10),p);Road(roads,new Vector3(lane,0,0),new Vector3(10,.18f,226),p); }
   Road(roads,new Vector3(-95,0,-90),new Vector3(40,.18f,40),p);Road(roads,new Vector3(-76,0,-90),new Vector3(28,.18f,10),p);
   Road(roads,new Vector3(92,0,27),new Vector3(36,.18f,40),p);Road(roads,new Vector3(78,0,27),new Vector3(30,.18f,10),p);
-  Road(roads,new Vector3(94,0,-85),new Vector3(34,.18f,32),p);Road(roads,new Vector3(78,0,-85),new Vector3(30,.18f,10),p);
+  Road(roads,new Vector3(94,0,-85),new Vector3(34,.18f,32),p);
   var ice=PrimitiveKit.Cube("ICE | braking test",roads,new Vector3(30,BaseHeight+.16f,0),new Vector3(22,.025f,9.7f),p.ice);ice.AddComponent<SurfaceZone>().grip=.28f;
   var ramp=PrimitiveKit.Cube("SLOPE | traction test",roads,new Vector3(94,BaseHeight+1.9f,-34),new Vector3(12,.8f,28),p.asphalt,true);ramp.transform.localRotation=Quaternion.Euler(-8,0,0);
   var props=PrimitiveKit.Group("02 Primitive neighbourhood",root,Vector3.zero);int k=0;
