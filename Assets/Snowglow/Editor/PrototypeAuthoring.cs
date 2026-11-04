@@ -27,7 +27,7 @@ namespace Snowglow.Editor {
    try{
     EditorUtility.DisplayProgressBar("Snowglow","Saving URP, materials and definitions",.05f);
     var renderer=ScriptableObject.CreateInstance<UniversalRendererData>();Asset(renderer,"MobileRenderer");
-    var urp=UniversalRenderPipelineAsset.Create(renderer);urp.supportsHDR=false;urp.msaaSampleCount=2;urp.renderScale=.9f;urp.shadowDistance=65;urp.mainLightShadowmapResolution=1024;urp.shadowCascadeCount=1;urp.useSRPBatcher=true;urp.maxAdditionalLightsCount=0;Asset(urp,"MobileURP");
+    var urp=UniversalRenderPipelineAsset.Create(renderer);urp.supportsHDR=false;urp.msaaSampleCount=2;urp.renderScale=.9f;urp.shadowDistance=65;urp.mainLightShadowmapResolution=1024;urp.shadowCascadeCount=1;urp.useSRPBatcher=true;urp.maxAdditionalLightsCount=2;Asset(urp,"MobileURP");
     GraphicsSettings.defaultRenderPipeline=urp;QualitySettings.renderPipeline=urp;
     var p=ScriptableObject.CreateInstance<PrototypePalette>();
     p.snow=Material("Snow white","#EDF4F8");p.asphalt=Material("Road grey","#52616B");p.orange=Material("Plow orange","#D8873F");p.teal=Material("Municipal teal","#3F777D");p.dark=Material("Tyres and steel","#28333B");

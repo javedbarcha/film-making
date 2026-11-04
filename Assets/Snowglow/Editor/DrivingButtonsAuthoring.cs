@@ -62,7 +62,7 @@ namespace Snowglow.Editor {
    foreach(var text in hud.GetComponentsInChildren<Text>(true).Where(t=>t.text.StartsWith("DESKTOP: W/S",StringComparison.Ordinal)))text.text="DESKTOP: W/S drive/reverse | A/D steer | Space brake | E work/carry | Q blade angle\nB dump | C cycles 3 cameras | H recover to depot | Esc pause\nOrbit: right-drag or J/L + I/K | scroll or +/- zoom | Home resets";
    foreach(var zoom in hud.driving.GetComponentsInChildren<UICommand>(true).Where(c=>c.command=="camera:in"||c.command=="camera:out").ToArray())UnityEngine.Object.DestroyImmediate(zoom.gameObject);
    if(hud.cameraTools){var reset=hud.cameraTools.GetComponentsInChildren<UICommand>(true).Single(c=>c.command=="camera:reset");Position((RectTransform)reset.transform,hud.cameraTools.transform,0,230,150,42,true);}
-   PSDUIIntake.ApplyPrepared(hud);EditorUtility.SetDirty(hud);
+   VehicleLightsAuthoring.ConfigureButton(hud);PSDUIIntake.ApplyPrepared(hud);EditorUtility.SetDirty(hud);
   }
   [MenuItem("Snowglow/UI/Install simplified driving buttons")]
   public static void Install(){

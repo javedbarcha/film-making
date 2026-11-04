@@ -1,5 +1,93 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Latest lighting UI, beacon color and Editor recovery - 4 November 2026
+
+Latest user decisions supersede older descriptions: front housings are yellow,
+rear housings white. Both roof lenses remain constant tractor-yellow/amber while
+rotating; only their separate glow flashes on/off. No red or sweeping lens-color
+effect. Lights toggle still controls front/rear beams/lenses/halos independently
+of the operating roof beacon. Supplied teal PNG on/off icons now replace the text
+button, at 48x48 design units, anchored right-center. Sprite swaps are per selected
+machine; no bitmap edits. Originals/provenance: SourceAssets/VehicleLightButton.
+
+User reported Editor errors during this work. Tractor prefab had become entirely
+zero-filled (214,607 bytes); intact staged Git blob restored with GUID preserved.
+Do not save placeholder damage from the corrupt scene. EditorRecoveryChecks
+preserves any unsaved scene separately, reimports the restored prefab and reopens
+Pinefall from disk. Native fleet/scene/19 snow checks passed. Recovery copies and
+report: Logs/EditorRecovery_20261104. No other zero-filled/NUL text assets found.
+Prior Unity Remote errors were no-device ADB failures; no phone currently attached.
+
+Native validation of icon swaps on both machines, paused input, saved sprite
+bindings/48x48 right-center placement and constant-amber rotor/halo flashing
+passed. HUD and both amber beacon renders inspected. Latest active Editor target
+was StandaloneWindows64, so this is not Android build/device acceptance. No
+player-save writes, source-model replacement or district rebake. See VALIDATION.md.
+
+## Solid colored lamp geometry - 4 November 2026
+
+User requested actual tractor rear-light geometry and orange front/white rear
+lamp boxes on both vehicles. VehicleLightsAuthoring version 5 adds permanent
+colored cuboid housings behind the existing illuminated faces: two front/two
+rear on tractor, four front/two rear on loader. All front housings are orange;
+rear housings white. Geometry remains enabled with the light switch off and
+when parked; illumination/glow still follow the switch and the red beacon stays
+independent during operation. Saved Editor-authored primitive boxes have no
+colliders. Preserve original imported meshes, rigs and save IDs. Validation
+evidence: Logs/VehicleLights/LampBoxes.txt and the main lighting report.
+
+## Lights switch and visible lamp glow - 4 November 2026
+
+Latest user decision supersedes the gear-dependent rear colors: front lamps have
+warm glow, rear lamps stay white in both gears, and beam intensity rises from 7
+to 10. A small LIGHTS ON/OFF button is saved at the safe-area right-center. It
+toggles front/rear beams, surfaces and halos on the selected machine; the red roof
+beacon remains lit and rotating independently of that switch during operation.
+Pause/park/engine-unavailable states still stop operating lights. Toggle state is
+per-machine, defaults on and lasts the current session; no save schema migration.
+
+VehicleLightsButton and VehicleOperatingLights only update authored UI/renderer/
+Light bindings. Four tractor/six loader front/rear additive glow quads are saved
+alongside their existing beacon halo; no extra real-time lights or global bloom.
+Future HUD authoring includes the button through DrivingButtonsAuthoring.Apply.
+Unity saved/reopened prefabs/UI, passed direct button commands for both machines,
+independent beacon rotation with lamps off, paired pixel checks, shader/scene
+checks and 19 snow checks. Sixteen vehicle and one HUD render produced/inspected.
+Actual touch driving, all camera views and A07 costs remain untested. See
+VEHICLE_LIGHTS.md and latest Logs/VehicleLights/Validation.txt.
+
+## Operating vehicle lights - 4 November 2026
+
+Later same-day correction supersedes the initial steady amber beacon choice:
+user screenshots showed mismatched pairs and requested glowing, rotating red
+roof beacons. Exported paired lamps had separate material slots and authoring
+updated only the first. They now share one validated material/submesh per group.
+Rear lamps switch together red/white with forward/reverse gear. Red roof lenses
+rotate with sweeping surface highlights and one small additive halo each; pause
+freezes animation and extinguishes glow. No extra real-time beacon lights or
+scene-wide bloom. See VEHICLE_LIGHTS.md and the latest validation report.
+
+User explicitly requested lights while machinery operates, authorizing this
+specific lighting task ahead of the broader deferred lighting update. Both
+equipped machines now have automatic front/work beams, bright opaque rear lamps
+and steady amber beacon surfaces. Selected active-play machinery stays lit at
+rest; menus/pause, parked machines, empty fuel or zero condition switch it off.
+No new light button, day/night cycle, bloom, flashing or snowfall was added.
+
+All Light objects, source-derived lamp surfaces and controller bindings are
+authored in prefabs before Play. Runtime VehicleOperatingLights toggles those
+bindings only. Two shadowless spots per machine, 22 m range; only the selected
+operating machine enables them. Mobile URP permits two additional lights per
+object (previously zero). Rear lamps/beacons have no point lights. Future machine
+builds use VehicleLightsAuthoring.Configure. Preserve these bindings on model
+replacement. No source blends, original geometry, save IDs or snow changed.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened both prefabs and Pinefall,
+passed direct operating/paused/parked/fuel/condition/disable state checks plus
+scene validation and 19 snow-ledger checks. Actual driving, lifecycle/switching
+playthrough and A07 costs remain untested. See VEHICLE_LIGHTS.md, VALIDATION.md
+and Logs/VehicleLights/Validation.txt for evidence and limits.
+
 ## Selected mountain placement tool - 3 November 2026
 
 User requested an Editor option to refit manually moved, rotated or resized
@@ -1811,3 +1899,7 @@ Android performance and continuous driving remain untested.
 The wider layout passed a repeat native run with zero further relocations and
 zero snow-mask changes. A fog-free native overhead render was visually inspected
 against the supplied reference; temporary preview fog changes were restored.
+
+Latest lamp color correction (4 November 2026): front lamp housings are yellow, superseding orange, on both machines; rear housings stay white. FrontOrangeHousing.mat retains its historical filename/GUID with yellow color to preserve references. Future authoring and existing color checks use yellow.
+
+Latest beacon color decision (4 November 2026): retain original amber/orange roof color while operating, superseding red. Shared Beacon and BeaconHalo colors plus future authoring are amber/orange. Rotation/glow and independence from the lamps toggle remain.

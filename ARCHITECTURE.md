@@ -29,6 +29,18 @@ Vehicle definitions now optionally provide base grip and dry centre of mass, wit
 
 ## Runtime mechanics
 
+`VehicleOperatingLights` reads the selected machine's operating/session state and
+updates Editor-authored beam/lamp bindings. It creates no runtime objects or
+materials. `VehicleLightsAuthoring` prepares source-derived lamp surfaces and two
+shadowless spots per equipped prefab; future machine builds reuse those bindings.
+The mobile URP additional-light budget is two per object. Lamp surfaces use shared
+opaque unlit materials; bloom/day-night lighting remains separate future work.
+The paired-lamp revision enforces one material/submesh per group, switches rear
+running lamps to white in reverse, and animates authored red beacon rotors with
+an opaque sweep shader plus one small additive camera-facing halo per machine.
+Runtime uses reused material property blocks; no per-frame material copies or
+new light objects are created. Beacon animation stops with operating lights off.
+
 - `MachineController`: Rigidbody/WheelCollider movement, surface-dependent tyre friction, assistance, fuel, condition and carried-load mass/center of mass.
 - `AttachmentController`: blade/bucket state, Auto/Manual input, working-edge queries, processing budget, carried volume and dumping.
 - `SnowVolumeGrid`: engine-independent, authoritative volume and original-work-credit accounting. It refuses full/out-of-bounds/static-obstacle deposition.

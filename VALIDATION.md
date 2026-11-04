@@ -1,5 +1,120 @@
 # Verification record
 
+## Editor asset recovery and supplied light icons - 4 November 2026
+
+The Editor reported an unreadable GoldenTractor-Starter.prefab and a placeholder
+machine while reopening Pinefall. The 214,607-byte prefab contained only zero
+bytes. Restored the intact staged Git blob, preserving the prefab GUID and all
+other scene/model work. Corrupt/restored copies are under Logs/EditorRecovery_20261104.
+Scanned Assets/ProjectSettings/Packages for remaining zero-filled and NUL-containing
+text assets: none remained. A generated empty LayerSettings JSON was already
+recreated by Unity. Earlier Unity Remote failures reported no USB device; ADB
+currently lists no devices. No C# compilation error was found in those logs.
+
+Native Unity 6000.3.8f1 reimported the restored prefab, reopened existing Pinefall
+without saving placeholder damage, and passed both fleet bindings, scene
+validation and 19 snow-ledger checks. Any unsaved scene is preserved as a recovery
+copy before reopening; no district rebake/player-save write. Evidence:
+Logs/EditorRecovery_20261104/Validation.txt.
+
+Both supplied teal PNGs are preserved intact and imported as cropped sprites.
+The saved right-center button is 48x48, with hidden text and untinted on/off
+artwork. Native direct command checks passed sprite swaps for both vehicles and
+paused input; saved/reopened sprite references/listener and size/anchor checks
+passed. Inspected the rendered HUD. Both beacon lenses retain constant amber
+through eight animation samples while halo visibility flashes fully on/off;
+rotation, shaders and all lighting checks passed. Evidence: Logs/VehicleLights/
+Validation.txt, AmberBeacon.txt and LightsButton.png. The current validation run
+used StandaloneWindows64; Android builds, physical touch size and A07 profiling
+remain untested. Earlier Console entries are retained as historical evidence.
+
+## Solid lamp-box geometry - 4 November 2026
+
+Tractor rear lamps now have explicit solid white 25x19x10 cm housings outside
+the ballast. Both machines have orange 26x23x10 cm front boxes and white rear
+boxes, permanently visible with illumination off. Counts are four boxes on
+tractor and six on loader. All are Editor-authored prefab geometry; original
+model meshes, rigs and collision setup remain unchanged. Native checks inspect
+counts, material colors and renderer visibility when switched off; renders
+include `Tractor/Loader-front-boxes-off.png` and `rear-boxes-off.png` under
+Logs/VehicleLights. Results are recorded separately in `LampBoxes.txt` after
+the installer completes. Live driving and phone appearance remain untested.
+
+Completed: Unity 6000.3.8f1 saved/reopened both updated prefabs and Pinefall;
+LampBoxes.txt passed counts, exact colors and persistent visibility with lamps
+off. Inspected all four front/rear off renders: orange front housings and white
+rear boxes are visible on both vehicles. Existing light-button, independent
+beacon, paired pixel, shader, scene and 19 snow-ledger checks also passed.
+
+## Light switch, warm front and white rear glow - 4 November 2026
+
+- Added a 96x64 button centered vertically at the safe-area right controls, with
+  persistent onClick binding. Saved/reopened the UI in Pinefall and both updated
+  machine prefabs. Direct button-command fixtures exercise both selections and
+  paused input; the selected machine's label/state tracks its own session toggle.
+- Lamp-off checks confirm front/rear beams, surfaces and halos are disabled while
+  the red beacon and its halo remain enabled and its rotor advances. Pause,
+  parked, empty-fuel, broken-condition and disable behavior remain checked.
+- Front beams are warmer and intensity 10 (previously 7). Rear surfaces are white
+  in both gears. Four tractor and six loader lamp glow quads are authored in
+  addition to each existing beacon halo, without extra real-time lights.
+- Unity 6000.3.8f1 / Android compiled and passed scene validation, both shader
+  checks, paired lamp pixel checks, button/state checks and 19 snow-ledger checks.
+  Sixteen native vehicle renders and one HUD render were generated. Inspected
+  the button placement, tractor/loader front glow, loader rear-white glow and
+  beacon-on/lamps-off view. Fleet/environment poses, IDs and seed hash preserved.
+- Report: `Logs/VehicleLights/Validation.txt`; HUD: `LightsButton.png`.
+  Touch clicks, phone ergonomics, all views during continuous driving, Android
+  packaging and Galaxy A07 costs remain untested. No player-save schema/write.
+
+## Paired lamps and rotating red beacons - 4 November 2026
+
+User screenshots exposed mismatched paired lamps and static roof beacons. The
+lamp exporter created a new material per part, leaving extra imported slots that
+the controller did not update. Export now shares one material; authoring binds
+exactly one slot and checks one submesh per group. Prepared closed lamp surfaces
+also receive outward-normal validation. Original blends/body meshes are preserved.
+
+The rear pair now switches together from red running lamps to white in reverse.
+Each red roof lens rotates around its own center, with an opaque sweeping highlight
+and one small additive billboard halo. No beacon point lights, global bloom or HDR
+were added. Pause/park/engine-unavailable behavior remains off. Two front spots and
+the mobile URP light budget remain unchanged. Native evidence and render results
+are recorded in `Logs/VehicleLights/Validation.txt`; device play/profiling remains
+untested.
+
+Unity 6000.3.8f1 / Android saved/reopened the updated prefabs and scene. Fourteen
+native renders were produced and front/rear views inspected: both front lamps
+are white, both rear lamps red in forward and white in reverse, and low/bright
+red beacon phases have distinct glow. Pixel samples independently check both
+front lamps and both rear lamps/colors. Rotation, pulse variation, pause freeze,
+single-material bindings and both beacon shader compilations passed. Scene and
+19 snow-ledger checks passed; environment/fleet poses, save IDs and seed hashes
+were retained. Rear shells moved 6 cm behind the source ballast surface to avoid
+occlusion. An Editor-only SendMessage assertion in the test harness was replaced
+with a direct shutdown-helper call; normal runtime disabling delegates to it.
+
+## Operating vehicle lights - 4 November 2026
+
+- Unity 6000.3.8f1 / Android compiled the runtime controller and Editor installer.
+  Both equipped prefabs and Pinefall saved/reopened with three source-derived
+  luminous groups and two shadowless spots per machine. Original rig meshes,
+  vehicle transforms/save IDs and snow seed remained unchanged.
+- Native state checks passed for operating, menu/pause, parked selection, empty
+  fuel, zero condition, disable handler and return to operation. These exercise
+  authored bindings directly in Edit mode, not a continuous driving playtest.
+  Scene validation and all 19 snow-ledger checks passed; no player save writes.
+- Mobile URP additional-light limit increased from zero to two so beams can
+  illuminate surfaces. Rear lamps/beacons add no real-time lights. Beam range is
+  22 m with shadows off. Device performance is not established by these limits.
+- Report: `Logs/VehicleLights/Validation.txt`; controls and authoring details:
+  `VEHICLE_LIGHTS.md`. Live driving, pause/machine-switch playthroughs, Android
+  packaging and Galaxy A07 light/frame-time profiling remain untested.
+- Four native on/off preview renders were generated. Inspected both operating
+  views and the loader's off view: forward ground illumination and amber beacon
+  visibility are present. This isolated dim-light fixture does not change the
+  district's daytime lighting or prove visibility/clearance from every angle.
+
 ## Selected mountain refitting - 3 November 2026
 
 - Added **Snowglow > Environment > Refit selected mountains to terrain** for

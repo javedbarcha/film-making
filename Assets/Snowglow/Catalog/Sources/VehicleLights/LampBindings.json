@@ -1,0 +1,90 @@
+{
+  "vehicles": [
+    {
+      "model": "Tractor",
+      "lights": [
+        {
+          "name": "Headlight lens",
+          "position": [
+            -0.4899999797344208,
+            1.6500000953674316,
+            1.5499999523162842
+          ]
+        },
+        {
+          "name": "Headlight lens.001",
+          "position": [
+            0.49000000953674316,
+            1.6500000953674316,
+            1.5499999523162842
+          ]
+        }
+      ],
+      "parts": {
+        "Front": [
+          "Headlight lens",
+          "Headlight lens.001"
+        ],
+        "Rear": [
+          "Rear orange lamp",
+          "Rear orange lamp.001"
+        ],
+        "Beacon": [
+          "Amber roof beacon"
+        ]
+      }
+    },
+    {
+      "model": "Loader",
+      "lights": [
+        {
+          "name": "Work light lens",
+          "position": [
+            -0.5,
+            2.9799997806549072,
+            0.5099999904632568
+          ]
+        },
+        {
+          "name": "Front lower lamp",
+          "position": [
+            -0.5600000023841858,
+            1.71999990940094,
+            0.44999998807907104
+          ]
+        },
+        {
+          "name": "Work light lens.001",
+          "position": [
+            0.5,
+            2.9799997806549072,
+            0.5099999904632568
+          ]
+        },
+        {
+          "name": "Front lower lamp.001",
+          "position": [
+            0.559999942779541,
+            1.71999990940094,
+            0.44999998807907104
+          ]
+        }
+      ],
+      "parts": {
+        "Front": [
+          "Work light lens",
+          "Front lower lamp",
+          "Work light lens.001",
+          "Front lower lamp.001"
+        ],
+        "Rear": [
+          "Rear red-orange lamp",
+          "Rear red-orange lamp.001"
+        ],
+        "Beacon": [
+          "Amber beacon"
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,30 @@
 # Snowglow mobile art budget
 
+Permanent colored lamp housings add four boxes / 48 triangles to tractor and
+six boxes / 72 triangles to loader. Orange front and white rear materials are
+shared across the fleet. Housings stay visible when lamps are off; no colliders
+or additional lights. These counts exclude the existing glow/lens geometry and
+do not establish device frame time.
+
+Lights toggle/glow revision (4 November): four tractor and six loader lamp halo
+quads join the existing one-per-machine beacon halo. These are small additive
+billboards, enabled with that machine's light switch. Beacon glow remains enabled
+independently during operation. Front spot intensity is 10 rather than 7; there
+are still only two enabled shadowless spots on the selected machine. Phone
+profiling must include these small transparent surfaces; geometry counts do not
+establish their overdraw cost.
+
+Operating vehicle lamps (4 November): two shadowless 22 m spotlights on the
+selected operating machine; parked machinery has no enabled beams. URP now
+allows two additional lights per object, previously zero. Three extra opaque
+lamp-surface renderers are enabled on that machine; rear/beacon surfaces add
+no point lights. Native ground-illumination previews passed, but A07 cost and
+daytime readability across all gameplay cameras still need device validation.
+The subsequent beacon revision adds one small additive halo quad per vehicle,
+enabled only with that machine's operating lights, plus a rotating opaque red
+lens shader. No additional point lights. Paired lamp groups use one shared
+material slot each; phone profiling remains required.
+
 Reference: Samsung Galaxy A07, Android URP, 30 FPS (33.3 ms/frame). These are
 conservative starting budgets for this mid low-poly game, not device limits or
 evidence that most phones run it smoothly. Profile representative older/lower-end

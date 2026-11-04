@@ -50,6 +50,7 @@ namespace Snowglow.Editor {
     var rb=root.GetComponent<Rigidbody>();rb.mass=definition.mass+machine.equipment.mass;rb.centerOfMass=(definition.mass*definition.dryCenterOfMass+machine.equipment.mass*tool.mount.localPosition)/rb.mass;
     // This is an equipped output, not the unequipped catalog body.
     root.GetComponent<CatalogPlacement>().assetId="golden-tractor-starter";
+    VehicleLightsAuthoring.Configure(root,"Tractor");
     var prefab=PrefabUtility.SaveAsPrefabAsset(root,PrefabPath);AssetDatabase.SaveAssets();return prefab;
    }finally{UnityEngine.Object.DestroyImmediate(root);}
   }

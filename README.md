@@ -114,6 +114,16 @@ Camera order is **Isometric ? Follow ? Orbit ? Scenic**. Orbit provides full 360
 
 ## Physics and machinery
 
+Use **LIGHTS ON/OFF** at the right-center of the screen for the selected machine's
+warm front and white rear lamps. Both machines have visible lamp glow; the red
+roof beacon continues rotating when those lamps are switched off. Settings are
+per-machine for the current play session. See [vehicle lights](VEHICLE_LIGHTS.md).
+
+Both machines now have [automatic operating lights](VEHICLE_LIGHTS.md): front/work
+beams, paired rear lamps and rotating red roof beacons turn on during active play on the
+selected fueled, serviceable machine. Parked machines and menus/pause turn them
+off. Two shadowless spotlights illuminate ahead; no manual light control is needed.
+
 Both machines use a Rigidbody, four WheelColliders, powered wheels, front-wheel steering, tuned suspension, tyre surface grip and torque/braking. Assistance provides steering moderation, traction assistance and anti-roll/upright torque. It does not directly translate the machine or guarantee forward speed. Load adds 250 kg per cubic metre to mass and shifts the calculated center of mass.
 
 The loader uses a rigid chassis and front-wheel steering. Boom/bucket movement is transform-driven equipment articulation, not a solver-based hydraulic-joint simulation. Snow is a conservative depth/volume field with pile collision proxies, not granular snow physics. Thin snow affects resistance/grip; substantial piles have collider geometry. These are prototype approximations requiring playtesting.
