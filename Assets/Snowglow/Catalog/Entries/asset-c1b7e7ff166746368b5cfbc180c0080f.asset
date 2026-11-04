@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Four-bay snow garage
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: four-bay-snow-garage
+  displayName: Four-bay snow garage
+  kind: 4
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 7213902088821200288, guid: 26cc2fadf233d744d823dffd3f8e95df, type: 3}
+  tags:
+  - garage
+  - four-bay
+  - removable-snow
+  - static-doors
+  sourceType: 0
+  sourceGuid: 19c9eed21a31db24b8527dead35eaf62
+  sourcePath: Assets/Snowglow/Catalog/Sources/FourBaySnowGarage/FourBayGarage.fbx
+  creationSourcePath: SourceAssets/FourBaySnowGarage/Low_Poly_Four_Bay_Snow_Garage.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Low_Poly_Four_Bay_Snow_Garage.blend, preserved under
+    SourceAssets/FourBaySnowGarage. Preview ground/cameras/lights excluded; embedded
+    text never executed.
+  assumptions: Source metres; facade corrected toward +Z. Four separate closed door
+    meshes retain source lift pivots; no door animation requested. Decorative snow
+    separate, opaque palette/windows, static shape mesh collision rather than a solid
+    envelope over the apron. No optional realtime lights imported.
+  reviewNotes: Review driving clearance and Android cost before Ready publication.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 3.5198576, z: 2.9849997}
+    m_Extent: {x: 16.21554, y: 3.9498575, z: 10.014999}
+  triangles: 3832
+  renderers: 10
+  materialSlots: 10
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1
+  blocksSnow: 1

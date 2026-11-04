@@ -197,3 +197,8 @@ All eight angular cloud variants are prepared in the catalog and scattered as
 colliders or shadows. See SourceAssets/AngularClouds/README.md for source details,
 counts and the repeat-safe Editor command. Native save/reopen and scene validation
 passed; Android performance remains untested.
+
+The [four-bay snow garage](SourceAssets/FourBaySnowGarage/README.md) is a reusable
+Needs Review building assembly, now replacing the primitive Pinefall workshop.
+Its old wall lantern is removed; Fuel + Repair is a standing sign near the red
+tank. Use **Snowglow > Asset intake > Import four bay snow garage**.

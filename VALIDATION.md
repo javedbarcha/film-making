@@ -1,5 +1,30 @@
 # Verification record
 
+## Four-bay garage and standing fuel sign - 5 November 2026
+
+Imported the supplied low-poly garage through CatalogPreparation as the reusable
+BuildingAssembly `four-bay-snow-garage` (Needs Review). Its 3,832 triangles include
+four separate doors and mesh bay numbers; preview ground/cameras/lights excluded.
+Original blend preserved with SHA256/provenance in SourceAssets/FourBaySnowGarage.
+Opaque palette/windows and removable toon snow retain the project style. Static
+shape collision follows the model; automatic garage-door operation is not added.
+
+Pinefall's primitive workshop and old wall lantern were removed. The facade
+Fuel + Repair board was replaced by a standing imported hanging-board variant
+beside the red fuel tank, facing the depot forecourt. Placement ID
+`pinefall-sign-10` is retained; the sign now uses `alpine-sign-10`. The tank and
+Workshop Parts + Service board remain. Sign wayfinding intent was updated.
+Garage intake is repeat-safe and preserves subsequent garage/sign transforms.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed scene
+validation plus 19 snow checks. Garage front/rear, fuel-sign and combined depot-context renders inspected.
+Snow depth, credit and volume preserved; obstacle updates use a separate seed
+revision. Original seed/meshes and player saves untouched; no district rebake.
+Driving clearance, Android packaging and Galaxy A07 costs remain untested.
+Evidence: Logs/FourBayGarage/Validation.txt. Reimporting older environment sets
+may retain older validation assumptions about the removed facade fixture.
+
+
 ## Disposal access snow strip correction - 4 November 2026
 
 User clarified that the unwanted strip was interactive snow extending into the

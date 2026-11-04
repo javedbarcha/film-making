@@ -22,7 +22,7 @@ namespace Snowglow.Editor {
    var home=All<CatalogPlacement>(scene).Where(p=>(p.placementId??"").StartsWith("pinefall-home-",StringComparison.Ordinal)).OrderBy(p=>(Flat(p.transform.position)-new Vector3(-82,0,44)).sqrMagnitude).First();var entrance=home.GetComponentsInChildren<AssetAnchor>().Single(a=>a.role==AnchorRole.Entrance).transform.position;
    var depot=new Vector3(-94,0,-90);var town=Vector3.zero;
    Add("pinefall-sign-07",3,new Vector3(-72,0,-98),new Vector3(-72,0,-90),"One snow depot sign at depot driveway",depot,1);
-   var fuel=Add("pinefall-sign-10",6,new Vector3(-94,7,-102.96f),new Vector3(-94,0,-93),"One Fuel + Repair board on workshop facade",depot);fuel.wall=true;fuel.rows.Add(new Row(1.8f,"FUEL + REPAIR"));
+   var fuel=Add("pinefall-sign-10",10,new Vector3(-113,0,-78),new Vector3(-104,0,-78),"One standing Fuel + Repair board beside red fuel tank",new Vector3(-112,0,-85));fuel.rows.Add(new Row(2.15f,"FUEL + REPAIR"));
    Add("pinefall-sign-14",10,new Vector3(-119,0,-94),new Vector3(-111,0,-94),"One Workshop Parts + Service board beside workshop",depot).rows.Add(new Row(2.15f,"WORKSHOP\nPARTS + SERVICE"));
    var lodge=Add("pinefall-sign-06",2,new Vector3(-73,0,8),new Vector3(-65,0,8),"One Alpine Lodge sign beside existing "+home.placementId,entrance,1);lodge.rows.Add(new Row(2.2f,"ALPINE LODGE"));lodge.rows.Add(new Row(1.96f,"> "+(Mathf.RoundToInt(Flat(entrance-lodge.read).magnitude/5)*5)+" m"));
    Add("pinefall-sign-12",8,new Vector3(12,0,-7.5f),new Vector3(12,0,0),"One Town Center arrow west along central road",town,1);

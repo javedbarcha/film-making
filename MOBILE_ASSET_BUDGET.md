@@ -208,3 +208,8 @@ Latest curated signs: 31 scene instances across nine of the 12 catalog variants,
 overrides. Twelve road closures and twelve boundary warnings account for 11,340
 triangles. Custom destination TextMesh captions are additional. Native scene and
 snow checks are not A07 frame-time or live touch-readability measurements.
+
+Four-bay garage (5 November): 3,832 triangles / 10 renderers, shared opaque
+palette and existing toon snow material. Preview ground excluded; four doors
+remain separate. Static mesh collision requires mobile handling/performance
+review. Native preview counts are not Galaxy A07 frame-time measurements.

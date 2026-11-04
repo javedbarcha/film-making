@@ -120,3 +120,8 @@ repeat-safe import menu and acceptance limits.
 Sign export now recalculates outward winding per closed source solid before
 separating material groups. Open source lettering is preserved. Use the sign
 normals/four-sided-render check menu after re-export; keep backface culling on.
+
+The [four-bay snow garage](SourceAssets/FourBaySnowGarage/README.md) is a reusable
+Needs Review building assembly, now replacing the primitive Pinefall workshop.
+Its old wall lantern is removed; Fuel + Repair is a standing sign near the red
+tank. Use **Snowglow > Asset intake > Import four bay snow garage**.

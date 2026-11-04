@@ -1,0 +1,161 @@
+{
+  "parts": [
+    {
+      "name": "Garage shell | static geometry.001",
+      "triangles": 2304
+    },
+    {
+      "name": "SnowCap | Garage shell | static geometry",
+      "triangles": 304
+    },
+    {
+      "name": "Door_01 | vertical lift mesh.001",
+      "triangles": 288
+    },
+    {
+      "name": "Bay number 01.001",
+      "triangles": 10
+    },
+    {
+      "name": "Door_02 | vertical lift mesh.001",
+      "triangles": 288
+    },
+    {
+      "name": "Bay number 02.001",
+      "triangles": 18
+    },
+    {
+      "name": "Door_03 | vertical lift mesh.001",
+      "triangles": 288
+    },
+    {
+      "name": "Bay number 03.001",
+      "triangles": 21
+    },
+    {
+      "name": "Door_04 | vertical lift mesh.001",
+      "triangles": 288
+    },
+    {
+      "name": "Bay number 04.001",
+      "triangles": 23
+    }
+  ],
+  "triangles": 3832,
+  "excluded": [
+    "Preview ground",
+    "cameras",
+    "lights",
+    "embedded text (not executed)"
+  ],
+  "palette": [
+    {
+      "name": "Concrete cool grey",
+      "color": [
+        0.3199999928474426,
+        0.4000000059604645,
+        0.4399999976158142,
+        1.0
+      ]
+    },
+    {
+      "name": "Dark roof and frames",
+      "color": [
+        0.04500000178813934,
+        0.07500000298023224,
+        0.10000000149011612,
+        1.0
+      ]
+    },
+    {
+      "name": "Garage door frost grey",
+      "color": [
+        0.7200000286102295,
+        0.8100000023841858,
+        0.8399999737739563,
+        1.0
+      ]
+    },
+    {
+      "name": "Lamp diffuser warm ivory",
+      "color": [
+        0.9800000190734863,
+        0.8600000143051147,
+        0.5899999737739563,
+        1.0
+      ]
+    },
+    {
+      "name": "Opaque blue window glass",
+      "color": [
+        0.07999999821186066,
+        0.23000000417232513,
+        0.30000001192092896,
+        1.0
+      ]
+    },
+    {
+      "name": "Safety yellow",
+      "color": [
+        0.9599999785423279,
+        0.6299999952316284,
+        0.03999999910593033,
+        1.0
+      ]
+    },
+    {
+      "name": "Siding seam blue",
+      "color": [
+        0.10999999940395355,
+        0.17000000178813934,
+        0.2199999988079071,
+        1.0
+      ]
+    },
+    {
+      "name": "Siding slate blue",
+      "color": [
+        0.14000000059604645,
+        0.20999999344348907,
+        0.2800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow cyan edge",
+      "color": [
+        0.5600000023841858,
+        0.7799999713897705,
+        0.8299999833106995,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow white",
+      "color": [
+        0.9399999976158142,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Steel grey",
+      "color": [
+        0.30000001192092896,
+        0.36000001430511475,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "Window corner reflection",
+      "color": [
+        0.20999999344348907,
+        0.4300000071525574,
+        0.5099999904632568,
+        1.0
+      ]
+    }
+  ]
+}
