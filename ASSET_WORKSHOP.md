@@ -125,3 +125,7 @@ The [four-bay snow garage](SourceAssets/FourBaySnowGarage/README.md) is a reusab
 Needs Review building assembly, now replacing the primitive Pinefall workshop.
 Its old wall lantern is removed; Fuel + Repair is a standing sign near the red
 tank. Use **Snowglow > Asset intake > Import four bay snow garage**.
+
+The [imported snow disposal yard](SourceAssets/SnowDisposalYard/README.md) replaces
+Pinefall?s primitive yard and pad. Its reusable catalog assembly remains Needs
+Review; use **Snowglow > Asset intake > Import snow disposal yard**.

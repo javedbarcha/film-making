@@ -213,3 +213,8 @@ Four-bay garage (5 November): 3,832 triangles / 10 renderers, shared opaque
 palette and existing toon snow material. Preview ground excluded; four doors
 remain separate. Static mesh collision requires mobile handling/performance
 review. Native preview counts are not Galaxy A07 frame-time measurements.
+
+Snow disposal yard (5 November): 972 triangles / three renderers / two shared
+materials, excluding studio ground. Static shape colliders; no new realtime
+lights. Replaces primitive pad/walls/markers, with removable decorative snow.
+Native render/structural checks passed; A07 frame-time cost remains unmeasured.

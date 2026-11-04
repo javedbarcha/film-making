@@ -143,3 +143,8 @@ Road/junction readers, real destination targets and boundary-ring checks validat
 facing and arrows. Caption overrides leave catalog/source lettering untouched.
 Moved/deleted footprints are reconciled against authored scene colliders in a
 separate obstacle-mask seed; snow depth/credit/volume remain unchanged.
+
+`SnowDisposalYardIntake` prepares the supplied yard as a reusable building,
+replaces only the primitive yard/pad in the Editor, and revises obstacle flags
+without changing snow quantities or the existing runtime processing rectangle.
+PrototypeAuthoring reuses its prepared prefab on future explicit district bakes.

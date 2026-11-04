@@ -1,0 +1,124 @@
+{
+  "parts": [
+    {
+      "name": "01 Ground pad | snow receiving surface.001",
+      "triangles": 44
+    },
+    {
+      "name": "02 Yard | retaining walls snow caps markings and drains.001",
+      "triangles": 710
+    },
+    {
+      "name": "SnowCap | 02 Yard | retaining walls snow caps markings and drains",
+      "triangles": 218
+    }
+  ],
+  "triangles": 972,
+  "excluded": [
+    "Plane (studio ground)",
+    "cameras",
+    "lights",
+    "embedded text (not executed)"
+  ],
+  "palette": [
+    {
+      "name": "Alpine metal charcoal",
+      "color": [
+        0.054999999701976776,
+        0.10000000149011612,
+        0.11999999731779099,
+        1.0
+      ]
+    },
+    {
+      "name": "Drain steel",
+      "color": [
+        0.25999999046325684,
+        0.3499999940395355,
+        0.3799999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "Lamp warm diffuser",
+      "color": [
+        0.9800000190734863,
+        0.8899999856948853,
+        0.6000000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": "Pure snow",
+      "color": [
+        0.9399999976158142,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Retaining concrete",
+      "color": [
+        0.4699999988079071,
+        0.5899999737739563,
+        0.6299999952316284,
+        1.0
+      ]
+    },
+    {
+      "name": "Safety warm yellow",
+      "color": [
+        0.9800000190734863,
+        0.7900000214576721,
+        0.1599999964237213,
+        1.0
+      ]
+    },
+    {
+      "name": "Sign ivory",
+      "color": [
+        0.9399999976158142,
+        0.949999988079071,
+        0.8500000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": "Sign warm timber",
+      "color": [
+        0.3400000035762787,
+        0.17000000178813934,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow cyan edge",
+      "color": [
+        0.5699999928474426,
+        0.8100000023841858,
+        0.8600000143051147,
+        1.0
+      ]
+    },
+    {
+      "name": "Yard sign evergreen",
+      "color": [
+        0.054999999701976776,
+        0.2800000011920929,
+        0.23999999463558197,
+        1.0
+      ]
+    },
+    {
+      "name": "Yard slate blue grey",
+      "color": [
+        0.28999999165534973,
+        0.4000000059604645,
+        0.44999998807907104,
+        1.0
+      ]
+    }
+  ]
+}

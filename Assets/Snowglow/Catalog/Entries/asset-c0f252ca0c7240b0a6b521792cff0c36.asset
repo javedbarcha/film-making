@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Snow disposal yard
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: snow-disposal-yard
+  displayName: Snow disposal yard
+  kind: 4
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 9043085985924093391, guid: c853d7eed1da61543bd456faaf9f050c, type: 3}
+  tags:
+  - disposal-yard
+  - retaining-walls
+  - removable-snow
+  - open-north-entrance
+  sourceType: 0
+  sourceGuid: ebbf5050fa0a70e419409b1e7a4af9eb
+  sourcePath: Assets/Snowglow/Catalog/Sources/SnowDisposalYard/SnowDisposalYard.fbx
+  creationSourcePath: SourceAssets/SnowDisposalYard/Snow_Disposal_Yard_Only.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Snow_Disposal_Yard_Only.blend; SHA256 5B8481C450C63344CB3774B5B83C2E2462615FA04EC0BD0785158EAF739797AF.
+    Preserved source; studio Plane/cameras/lights excluded, embedded text not executed.
+  assumptions: Source metres, front corrected to +Z; static detailed pad/wall collision
+    keeps entrance open. Pure snow/cyan edge separated as removable decorative geometry,
+    not ledger volume. Pinefall uses uniform 1.4 scale so existing processing rectangle
+    remains inside the yard. No source lights/camera/studio ground or runtime factory.
+  reviewNotes: Review physical driving/dumping and Galaxy A07 costs before Ready
+    approval.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 0.46446845, z: -0.005001068}
+    m_Extent: {x: 12.564999, y: 0.74446845, z: 10.405001}
+  triangles: 972
+  renderers: 3
+  materialSlots: 3
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1.5
+  blocksSnow: 1

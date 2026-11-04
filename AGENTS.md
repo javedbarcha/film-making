@@ -1,5 +1,31 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Imported snow disposal yard - 5 November 2026
+
+Replaced Pinefall's primitive disposal walls/markers and old asphalt pad with
+the supplied Snow_Disposal_Yard_Only.blend through CatalogPreparation. Reusable
+BuildingAssembly `snow-disposal-yard` remains Needs Review: 972 triangles, three
+renderers, two shared materials. Studio Plane/cameras/lights excluded; embedded
+text never executed. Original source/hash/provenance in SourceAssets/SnowDisposalYard.
+Pure snow/cyan caps remain separately removable decorative geometry. No runtime
+assembly or added real-time lights. Static pad/wall shape collision keeps the
+entrance open rather than blocking the whole yard with an aggregate box.
+
+Saved placement `pinefall-disposal-yard` is centred at (94, 5.13, -85), uniform
+scale 1.4, entrance facing north. Existing disposal processing rectangle and
+runtime accounting remain unchanged. Redundant west road/snow strip stays removed.
+Repeat intake retains placement; future district baking uses the prepared yard
+when present in the catalog. Current intake performed no district rebake.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed scene
+validation plus 19 snow checks. Front/rear/top native renders inspected. Updated
+obstacles use a separate seed revision; depth, credit, initial/disposed volumes,
+original snow meshes and all existing catalog transforms were preserved. No
+player-save writes. Physical driving/dumping, Android packaging and Galaxy A07
+performance remain untested. Evidence: Logs/DisposalYard/Validation.txt.
+Use Snowglow > Asset intake > Import snow disposal yard.
+
+
 ## Tractor left rear tyre guard - 5 November 2026
 
 Corrected inward winding on the mirrored rear fender in prepared TractorBody.fbx.
