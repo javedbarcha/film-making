@@ -31,6 +31,17 @@ support and visible-vertex checks, scene validation and 19 snow checks passed.
 Three native forest views were inspected; phone performance remains untested.
 Original sources, Terrain, snow depth/credit/volume and player saves are preserved.
 
+The [alpine sign-board kit](SourceAssets/AlpineSignBoards/README.md) keeps all 12
+catalog variants. Pinefall uses the user's curated **31-sign** layout: seven
+single-purpose destination/service boards, 12 Road Closed signs at outer road
+ends, and 12 inward-facing Alpine Danger signs around the town boundary.
+Faces and arrows use actual roads, junctions and destinations; scene captions
+fit the boards. **Snowglow > Asset intake > Import twelve alpine sign boards**
+retains this curated layout on repeat. Native save/reopen, scene and snow checks
+passed; phone performance remains untested. All 12 sign variants also passed
+closed-solid winding and normal checks after repairing reversed arrow/warning
+faces; backface culling stays enabled. Catalog entries stay Needs Review.
+
 ## Important: how the concrete scene is authored
 
 The district has now been baked with **Unity 6000.3.8f1**. `Assets/Scenes/Pinefall.unity` contains the concrete terrain, colored primitive scenery, machinery prefab instances and snow chunks. Keep `Assets/Snowglow/Generated/` with the project. The editor tool creates this content **in Edit mode, before Play**. Nothing calls the district or vehicle factories at runtime.

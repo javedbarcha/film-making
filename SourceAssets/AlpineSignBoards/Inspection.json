@@ -1,0 +1,1654 @@
+{
+  "units": 1.0,
+  "collections": [
+    {
+      "name": "00 Studio | exclude for export",
+      "children": [],
+      "objects": [
+        "Studio ground",
+        "Camera",
+        "Area",
+        "Area.001"
+      ]
+    },
+    {
+      "name": "01 Trail directory four routes",
+      "children": [],
+      "objects": [
+        "01 Trail directory four routes | MOVE ASSET",
+        "01 Trail directory four routes | Geometry",
+        "TEXT | PINE RIDGE",
+        "TEXT | <",
+        "TEXT | +",
+        "TEXT | FROST VALLEY",
+        "TEXT | >",
+        "TEXT | +.001",
+        "TEXT | SUMMIT PASS",
+        "TEXT | >.001",
+        "TEXT | +.002",
+        "TEXT | NORTH BASIN",
+        "TEXT | <.001",
+        "TEXT | \u25c6"
+      ]
+    },
+    {
+      "name": "02 Single green trail board",
+      "children": [],
+      "objects": [
+        "02 Single green trail board | MOVE ASSET",
+        "02 Single green trail board | Geometry",
+        "TEXT | ALPINE LODGE",
+        "TEXT | <  450 m"
+      ]
+    },
+    {
+      "name": "03 Blue direction arrow",
+      "children": [],
+      "objects": [
+        "03 Blue direction arrow | MOVE ASSET",
+        "03 Blue direction arrow | Geometry",
+        "TEXT | SNOW DEPOT"
+      ]
+    },
+    {
+      "name": "04 Alpine hazard warning",
+      "children": [],
+      "objects": [
+        "04 Alpine hazard warning | MOVE ASSET",
+        "04 Alpine hazard warning | Geometry",
+        "TEXT | !",
+        "TEXT | ALPINE DANGER",
+        "TEXT | UNCONTROLLED AREA",
+        "TEXT | DO NOT ENTER"
+      ]
+    },
+    {
+      "name": "05 Road closed warning",
+      "children": [],
+      "objects": [
+        "05 Road closed warning | MOVE ASSET",
+        "05 Road closed warning | Geometry",
+        "TEXT | ROAD CLOSED",
+        "TEXT | SNOW CLEARING"
+      ]
+    },
+    {
+      "name": "06 Blank wall timber board",
+      "children": [],
+      "objects": [
+        "06 Blank wall timber board | MOVE ASSET",
+        "06 Blank wall timber board | Geometry"
+      ]
+    },
+    {
+      "name": "07 Large twin post noticeboard",
+      "children": [],
+      "objects": [
+        "07 Large twin post noticeboard | MOVE ASSET",
+        "07 Large twin post noticeboard | Geometry"
+      ]
+    },
+    {
+      "name": "08 Wooden arrow right",
+      "children": [],
+      "objects": [
+        "08 Wooden arrow right | MOVE ASSET",
+        "08 Wooden arrow right | Geometry",
+        "TEXT | TOWN CENTER"
+      ]
+    },
+    {
+      "name": "09 Twin wooden arrows",
+      "children": [],
+      "objects": [
+        "09 Twin wooden arrows | MOVE ASSET",
+        "09 Twin wooden arrows | Geometry"
+      ]
+    },
+    {
+      "name": "10 Blank hanging board",
+      "children": [],
+      "objects": [
+        "10 Blank hanging board | MOVE ASSET",
+        "10 Blank hanging board | Geometry"
+      ]
+    },
+    {
+      "name": "11 Festive hanging board",
+      "children": [],
+      "objects": [
+        "11 Festive hanging board | MOVE ASSET",
+        "11 Festive hanging board | Geometry",
+        "TEXT | ALPINE MARKET",
+        "TEXT | WINTER SUPPLIES"
+      ]
+    },
+    {
+      "name": "12 Small blank timber post",
+      "children": [],
+      "objects": [
+        "12 Small blank timber post | MOVE ASSET",
+        "12 Small blank timber post | Geometry"
+      ]
+    },
+    {
+      "name": "Collection",
+      "children": [],
+      "objects": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "01 Trail directory four routes | Geometry",
+      "type": "MESH",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 264,
+      "triangles": 432,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Trail evergreen",
+        "Trail blue",
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          -1.4900000095367432,
+          -0.16131561994552612,
+          0.0
+        ],
+        [
+          1.4900000095367432,
+          0.2199999988079071,
+          3.3204526901245117
+        ]
+      ]
+    },
+    {
+      "name": "01 Trail directory four routes | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "02 Single green trail board | Geometry",
+      "type": "MESH",
+      "parent": "02 Single green trail board | MOVE ASSET",
+      "collections": [
+        "02 Single green trail board"
+      ],
+      "position": [
+        5.199999809265137,
+        0.0,
+        0.0
+      ],
+      "vertices": 88,
+      "triangles": 144,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Trail evergreen"
+      ],
+      "bounds": [
+        [
+          3.9599997997283936,
+          -0.16131561994552612,
+          0.0
+        ],
+        [
+          6.439999580383301,
+          0.2199999988079071,
+          2.623821496963501
+        ]
+      ]
+    },
+    {
+      "name": "02 Single green trail board | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "02 Single green trail board"
+      ],
+      "position": [
+        5.199999809265137,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "03 Blue direction arrow | Geometry",
+      "type": "MESH",
+      "parent": "03 Blue direction arrow | MOVE ASSET",
+      "collections": [
+        "03 Blue direction arrow"
+      ],
+      "position": [
+        10.399999618530273,
+        0.0,
+        0.0
+      ],
+      "vertices": 90,
+      "triangles": 148,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Trail blue"
+      ],
+      "bounds": [
+        [
+          9.03499984741211,
+          -0.16131561994552612,
+          0.0
+        ],
+        [
+          11.799999237060547,
+          0.2199999988079071,
+          2.518913745880127
+        ]
+      ]
+    },
+    {
+      "name": "03 Blue direction arrow | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "03 Blue direction arrow"
+      ],
+      "position": [
+        10.399999618530273,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "04 Alpine hazard warning | Geometry",
+      "type": "MESH",
+      "parent": "04 Alpine hazard warning | MOVE ASSET",
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        0.0,
+        0.0
+      ],
+      "vertices": 100,
+      "triangles": 160,
+      "materials": [
+        "Safety red",
+        "Fresh snow",
+        "Icy snow edges",
+        "Safety yellow",
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          14.735000610351562,
+          -0.16131561994552612,
+          0.0
+        ],
+        [
+          16.46500015258789,
+          0.2199999988079071,
+          3.024358034133911
+        ]
+      ]
+    },
+    {
+      "name": "04 Alpine hazard warning | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "05 Road closed warning | Geometry",
+      "type": "MESH",
+      "parent": "05 Road closed warning | MOVE ASSET",
+      "collections": [
+        "05 Road closed warning"
+      ],
+      "position": [
+        0.0,
+        5.5,
+        0.0
+      ],
+      "vertices": 132,
+      "triangles": 216,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -1.2899999618530273,
+          5.338684558868408,
+          0.0
+        ],
+        [
+          1.290000081062317,
+          5.71999979019165,
+          2.1725480556488037
+        ]
+      ]
+    },
+    {
+      "name": "05 Road closed warning | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "05 Road closed warning"
+      ],
+      "position": [
+        0.0,
+        5.5,
+        0.0
+      ]
+    },
+    {
+      "name": "06 Blank wall timber board | Geometry",
+      "type": "MESH",
+      "parent": "06 Blank wall timber board | MOVE ASSET",
+      "collections": [
+        "06 Blank wall timber board"
+      ],
+      "position": [
+        5.199999809265137,
+        5.5,
+        0.0
+      ],
+      "vertices": 124,
+      "triangles": 200,
+      "materials": [
+        "Wood lighter planks",
+        "Wood honey",
+        "Dull galvanized metal",
+        "Fresh snow",
+        "Icy snow edges",
+        "Dark timber and rope"
+      ],
+      "bounds": [
+        [
+          3.7599997520446777,
+          5.338684558868408,
+          1.125
+        ],
+        [
+          6.639999866485596,
+          5.710000038146973,
+          2.5227608680725098
+        ]
+      ]
+    },
+    {
+      "name": "06 Blank wall timber board | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "06 Blank wall timber board"
+      ],
+      "position": [
+        5.199999809265137,
+        5.5,
+        0.0
+      ]
+    },
+    {
+      "name": "07 Large twin post noticeboard | Geometry",
+      "type": "MESH",
+      "parent": "07 Large twin post noticeboard | MOVE ASSET",
+      "collections": [
+        "07 Large twin post noticeboard"
+      ],
+      "position": [
+        10.399999618530273,
+        5.5,
+        0.0
+      ],
+      "vertices": 204,
+      "triangles": 332,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks",
+        "Dull galvanized metal"
+      ],
+      "bounds": [
+        [
+          8.90999984741211,
+          5.338684558868408,
+          0.0
+        ],
+        [
+          11.889999389648438,
+          5.71999979019165,
+          3.0200417041778564
+        ]
+      ]
+    },
+    {
+      "name": "07 Large twin post noticeboard | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "07 Large twin post noticeboard"
+      ],
+      "position": [
+        10.399999618530273,
+        5.5,
+        0.0
+      ]
+    },
+    {
+      "name": "08 Wooden arrow right | Geometry",
+      "type": "MESH",
+      "parent": "08 Wooden arrow right | MOVE ASSET",
+      "collections": [
+        "08 Wooden arrow right"
+      ],
+      "position": [
+        15.600000381469727,
+        5.5,
+        0.0
+      ],
+      "vertices": 90,
+      "triangles": 148,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks"
+      ],
+      "bounds": [
+        [
+          14.230000495910645,
+          5.338684558868408,
+          0.0
+        ],
+        [
+          17.05000114440918,
+          5.71999979019165,
+          2.724961519241333
+        ]
+      ]
+    },
+    {
+      "name": "08 Wooden arrow right | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "08 Wooden arrow right"
+      ],
+      "position": [
+        15.600000381469727,
+        5.5,
+        0.0
+      ]
+    },
+    {
+      "name": "09 Twin wooden arrows | Geometry",
+      "type": "MESH",
+      "parent": "09 Twin wooden arrows | MOVE ASSET",
+      "collections": [
+        "09 Twin wooden arrows"
+      ],
+      "position": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "vertices": 136,
+      "triangles": 224,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks"
+      ],
+      "bounds": [
+        [
+          -1.399999976158142,
+          10.83868408203125,
+          0.0
+        ],
+        [
+          1.399999976158142,
+          11.220000267028809,
+          3.3199000358581543
+        ]
+      ]
+    },
+    {
+      "name": "09 Twin wooden arrows | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "09 Twin wooden arrows"
+      ],
+      "position": [
+        0.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "10 Blank hanging board | Geometry",
+      "type": "MESH",
+      "parent": "10 Blank hanging board | MOVE ASSET",
+      "collections": [
+        "10 Blank hanging board"
+      ],
+      "position": [
+        5.199999809265137,
+        11.0,
+        0.0
+      ],
+      "vertices": 240,
+      "triangles": 392,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks",
+        "Dark timber and rope",
+        "Dull galvanized metal"
+      ],
+      "bounds": [
+        [
+          3.309999942779541,
+          10.83868408203125,
+          0.0
+        ],
+        [
+          7.089999675750732,
+          11.220000267028809,
+          3.8153021335601807
+        ]
+      ]
+    },
+    {
+      "name": "10 Blank hanging board | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "10 Blank hanging board"
+      ],
+      "position": [
+        5.199999809265137,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "11 Festive hanging board | Geometry",
+      "type": "MESH",
+      "parent": "11 Festive hanging board | MOVE ASSET",
+      "collections": [
+        "11 Festive hanging board"
+      ],
+      "position": [
+        10.399999618530273,
+        11.0,
+        0.0
+      ],
+      "vertices": 500,
+      "triangles": 800,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks",
+        "Dark timber and rope",
+        "Dull galvanized metal",
+        "Safety yellow",
+        "Safety red",
+        "Trail blue",
+        "Trail evergreen"
+      ],
+      "bounds": [
+        [
+          8.50999927520752,
+          10.753214836120605,
+          0.0
+        ],
+        [
+          12.289999961853027,
+          11.220000267028809,
+          3.8198533058166504
+        ]
+      ]
+    },
+    {
+      "name": "11 Festive hanging board | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "11 Festive hanging board"
+      ],
+      "position": [
+        10.399999618530273,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "12 Small blank timber post | Geometry",
+      "type": "MESH",
+      "parent": "12 Small blank timber post | MOVE ASSET",
+      "collections": [
+        "12 Small blank timber post"
+      ],
+      "position": [
+        15.600000381469727,
+        11.0,
+        0.0
+      ],
+      "vertices": 144,
+      "triangles": 236,
+      "materials": [
+        "Wood honey",
+        "Fresh snow",
+        "Icy snow edges",
+        "Wood lighter planks",
+        "Dull galvanized metal"
+      ],
+      "bounds": [
+        [
+          14.610000610351562,
+          10.83868408203125,
+          0.0
+        ],
+        [
+          16.59000015258789,
+          11.220000267028809,
+          2.4739222526550293
+        ]
+      ]
+    },
+    {
+      "name": "12 Small blank timber post | MOVE ASSET",
+      "type": "EMPTY",
+      "parent": null,
+      "collections": [
+        "12 Small blank timber post"
+      ],
+      "position": [
+        15.600000381469727,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Area",
+      "type": "LIGHT",
+      "parent": null,
+      "collections": [
+        "00 Studio | exclude for export"
+      ],
+      "position": [
+        2.0,
+        -7.0,
+        17.0
+      ],
+      "lightType": "AREA",
+      "energy": 2200.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "radius": 0.0
+    },
+    {
+      "name": "Area.001",
+      "type": "LIGHT",
+      "parent": null,
+      "collections": [
+        "00 Studio | exclude for export"
+      ],
+      "position": [
+        15.0,
+        9.0,
+        17.0
+      ],
+      "lightType": "AREA",
+      "energy": 1800.0,
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "radius": 0.0
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "collections": [
+        "00 Studio | exclude for export"
+      ],
+      "position": [
+        11.0,
+        -23.0,
+        21.0
+      ]
+    },
+    {
+      "name": "Studio ground",
+      "type": "MESH",
+      "parent": null,
+      "collections": [
+        "00 Studio | exclude for export"
+      ],
+      "position": [
+        7.800000190734863,
+        5.5,
+        -0.07999999821186066
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "materials": [
+        "Studio frost"
+      ],
+      "bounds": [
+        [
+          -12.199999809265137,
+          -7.5,
+          -0.12999999523162842
+        ],
+        [
+          27.799999237060547,
+          18.5,
+          -0.029999997466802597
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | !",
+      "type": "FONT",
+      "parent": "04 Alpine hazard warning | MOVE ASSET",
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        -0.10999999940395355,
+        2.319999933242798
+      ],
+      "vertices": 12,
+      "triangles": 8,
+      "materials": [
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          15.578579902648926,
+          -0.11000000685453415,
+          2.2087600231170654
+        ],
+        [
+          15.621780395507812,
+          -0.10999999195337296,
+          2.4607598781585693
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | +",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        1.1799999475479126,
+        -0.12999999523162842,
+        2.950000047683716
+      ],
+      "vertices": 12,
+      "triangles": 10,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          1.128079891204834,
+          -0.12999999523162842,
+          2.9097399711608887
+        ],
+        [
+          1.2319198846817017,
+          -0.12999999523162842,
+          3.013580083847046
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | +.001",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        1.1799999475479126,
+        -0.12999999523162842,
+        2.4200000762939453
+      ],
+      "vertices": 12,
+      "triangles": 10,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          1.128079891204834,
+          -0.12999999523162842,
+          2.379739999771118
+        ],
+        [
+          1.2319198846817017,
+          -0.12999999523162842,
+          2.4835801124572754
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | +.002",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        1.1799999475479126,
+        -0.12999999523162842,
+        1.8899999856948853
+      ],
+      "vertices": 12,
+      "triangles": 10,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          1.128079891204834,
+          -0.12999999523162842,
+          1.8497400283813477
+        ],
+        [
+          1.2319198846817017,
+          -0.12999999523162842,
+          1.9535800218582153
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | <",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        -1.1799999475479126,
+        -0.12999999523162842,
+        2.950000047683716
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -1.251099944114685,
+          -0.12999999523162842,
+          2.8933000564575195
+        ],
+        [
+          -1.1088999509811401,
+          -0.12999999523162842,
+          3.039100170135498
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | <  450 m",
+      "type": "FONT",
+      "parent": "02 Single green trail board | MOVE ASSET",
+      "collections": [
+        "02 Single green trail board"
+      ],
+      "position": [
+        5.199999809265137,
+        -0.12999999523162842,
+        1.9600000381469727
+      ],
+      "vertices": 61,
+      "triangles": 55,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          4.895784854888916,
+          -0.12999999523162842,
+          1.9074699878692627
+        ],
+        [
+          5.50353479385376,
+          -0.12999999523162842,
+          2.0264699459075928
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | <.001",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        -1.1799999475479126,
+        -0.12999999523162842,
+        1.3600000143051147
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -1.251099944114685,
+          -0.12999999523162842,
+          1.3033000230789185
+        ],
+        [
+          -1.1088999509811401,
+          -0.12999999523162842,
+          1.4491000175476074
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | >",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        -1.1799999475479126,
+        -0.12999999523162842,
+        2.4200000762939453
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -1.251099944114685,
+          -0.12999999523162842,
+          2.363300085067749
+        ],
+        [
+          -1.1088999509811401,
+          -0.12999999523162842,
+          2.5090999603271484
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | >.001",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        -1.1799999475479126,
+        -0.12999999523162842,
+        1.8899999856948853
+      ],
+      "vertices": 7,
+      "triangles": 5,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -1.251099944114685,
+          -0.12999999523162842,
+          1.833299994468689
+        ],
+        [
+          -1.1088999509811401,
+          -0.12999999523162842,
+          1.979099988937378
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | ALPINE DANGER",
+      "type": "FONT",
+      "parent": "04 Alpine hazard warning | MOVE ASSET",
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        -0.09000000357627869,
+        1.7599999904632568
+      ],
+      "vertices": 129,
+      "triangles": 115,
+      "materials": [
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          14.960969924926758,
+          -0.09000000357627869,
+          1.7074699401855469
+        ],
+        [
+          16.239030838012695,
+          -0.09000000357627869,
+          1.8264700174331665
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | ALPINE LODGE",
+      "type": "FONT",
+      "parent": "02 Single green trail board | MOVE ASSET",
+      "collections": [
+        "02 Single green trail board"
+      ],
+      "position": [
+        5.199999809265137,
+        -0.12999999523162842,
+        2.190000057220459
+      ],
+      "vertices": 105,
+      "triangles": 91,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          4.454309940338135,
+          -0.12999999523162842,
+          2.1220200061798096
+        ],
+        [
+          5.939310073852539,
+          -0.12999999523162842,
+          2.276020050048828
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | ALPINE MARKET",
+      "type": "FONT",
+      "parent": "11 Festive hanging board | MOVE ASSET",
+      "collections": [
+        "11 Festive hanging board"
+      ],
+      "position": [
+        10.149999618530273,
+        10.869999885559082,
+        2.0299999713897705
+      ],
+      "vertices": 129,
+      "triangles": 113,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          9.275439262390137,
+          10.869999885559082,
+          1.9579999446868896
+        ],
+        [
+          11.020479202270508,
+          10.869999885559082,
+          2.1226398944854736
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | DO NOT ENTER",
+      "type": "FONT",
+      "parent": "04 Alpine hazard warning | MOVE ASSET",
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        -0.09000000357627869,
+        1.25
+      ],
+      "vertices": 103,
+      "triangles": 91,
+      "materials": [
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          15.026080131530762,
+          -0.09000000357627869,
+          1.2005599737167358
+        ],
+        [
+          16.186080932617188,
+          -0.09000000357627869,
+          1.312559962272644
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | FROST VALLEY",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        -0.12999999523162842,
+        2.4200000762939453
+      ],
+      "vertices": 106,
+      "triangles": 90,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -0.6439000964164734,
+          -0.12999999523162842,
+          2.3582000732421875
+        ],
+        [
+          0.6591000556945801,
+          -0.12999999523162842,
+          2.4982001781463623
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | NORTH BASIN",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        -0.12999999523162842,
+        1.3600000143051147
+      ],
+      "vertices": 110,
+      "triangles": 100,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -0.6390001177787781,
+          -0.12999999523162842,
+          1.298200011253357
+        ],
+        [
+          0.6388000845909119,
+          -0.12999999523162842,
+          1.4381999969482422
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | PINE RIDGE",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        -0.12999999523162842,
+        2.950000047683716
+      ],
+      "vertices": 95,
+      "triangles": 83,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -0.5023000240325928,
+          -0.12999999523162842,
+          2.888200044631958
+        ],
+        [
+          0.5105000138282776,
+          -0.12999999523162842,
+          3.028200149536133
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | ROAD CLOSED",
+      "type": "FONT",
+      "parent": "05 Road closed warning | MOVE ASSET",
+      "collections": [
+        "05 Road closed warning"
+      ],
+      "position": [
+        0.0,
+        5.369999885559082,
+        1.649999976158142
+      ],
+      "vertices": 104,
+      "triangles": 96,
+      "materials": [
+        "Safety red"
+      ],
+      "bounds": [
+        [
+          -0.8371250629425049,
+          5.369999885559082,
+          1.5727499723434448
+        ],
+        [
+          0.8448750376701355,
+          5.369999885559082,
+          1.7477500438690186
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | SNOW CLEARING",
+      "type": "FONT",
+      "parent": "05 Road closed warning | MOVE ASSET",
+      "collections": [
+        "05 Road closed warning"
+      ],
+      "position": [
+        0.0,
+        5.369999885559082,
+        1.340000033378601
+      ],
+      "vertices": 127,
+      "triangles": 109,
+      "materials": [
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          -0.6835699677467346,
+          5.369999885559082,
+          1.2874699831008911
+        ],
+        [
+          0.6789800524711609,
+          5.369999885559082,
+          1.4064700603485107
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | SNOW DEPOT",
+      "type": "FONT",
+      "parent": "03 Blue direction arrow | MOVE ASSET",
+      "collections": [
+        "03 Blue direction arrow"
+      ],
+      "position": [
+        10.25,
+        -0.12999999523162842,
+        2.0799999237060547
+      ],
+      "vertices": 93,
+      "triangles": 83,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          9.503765106201172,
+          -0.12999999523162842,
+          2.008929967880249
+        ],
+        [
+          11.001524925231934,
+          -0.12999999523162842,
+          2.1699299812316895
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | SUMMIT PASS",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        0.0,
+        -0.12999999523162842,
+        1.8899999856948853
+      ],
+      "vertices": 113,
+      "triangles": 97,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          -0.5873001217842102,
+          -0.12999999523162842,
+          1.8281999826431274
+        ],
+        [
+          0.588900089263916,
+          -0.12999999523162842,
+          1.9681999683380127
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | TOWN CENTER",
+      "type": "FONT",
+      "parent": "08 Wooden arrow right | MOVE ASSET",
+      "collections": [
+        "08 Wooden arrow right"
+      ],
+      "position": [
+        15.440000534057617,
+        5.369999885559082,
+        2.200000047683716
+      ],
+      "vertices": 108,
+      "triangles": 92,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          14.613035202026367,
+          5.369999885559082,
+          2.12893009185791
+        ],
+        [
+          16.270875930786133,
+          5.369999885559082,
+          2.2899301052093506
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | UNCONTROLLED AREA",
+      "type": "FONT",
+      "parent": "04 Alpine hazard warning | MOVE ASSET",
+      "collections": [
+        "04 Alpine hazard warning"
+      ],
+      "position": [
+        15.600000381469727,
+        -0.09000000357627869,
+        1.5
+      ],
+      "vertices": 168,
+      "triangles": 150,
+      "materials": [
+        "Sign charcoal"
+      ],
+      "bounds": [
+        [
+          15.040560722351074,
+          -0.09000000357627869,
+          1.467555046081543
+        ],
+        [
+          16.16584587097168,
+          -0.09000000357627869,
+          1.5410549640655518
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | WINTER SUPPLIES",
+      "type": "FONT",
+      "parent": "11 Festive hanging board | MOVE ASSET",
+      "collections": [
+        "11 Festive hanging board"
+      ],
+      "position": [
+        10.149999618530273,
+        10.869999885559082,
+        1.6699999570846558
+      ],
+      "vertices": 146,
+      "triangles": 124,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          9.514559745788574,
+          10.869999885559082,
+          1.6205599308013916
+        ],
+        [
+          10.780319213867188,
+          10.869999885559082,
+          1.7325599193572998
+        ]
+      ]
+    },
+    {
+      "name": "TEXT | \u25c6",
+      "type": "FONT",
+      "parent": "01 Trail directory four routes | MOVE ASSET",
+      "collections": [
+        "01 Trail directory four routes"
+      ],
+      "position": [
+        1.1799999475479126,
+        -0.12999999523162842,
+        1.3600000143051147
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "materials": [
+        "Sign ivory"
+      ],
+      "bounds": [
+        [
+          1.0749499797821045,
+          -0.12999999523162842,
+          1.2691400051116943
+        ],
+        [
+          1.2850499153137207,
+          -0.12999999523162842,
+          1.4790199995040894
+        ]
+      ]
+    }
+  ],
+  "texts": [
+    "READ ME | Alpine Sign Kit"
+  ],
+  "materials": [
+    {
+      "name": "Dark timber and rope",
+      "color": [
+        0.14000000059604645,
+        0.07500000298023224,
+        0.03500000014901161,
+        1.0
+      ]
+    },
+    {
+      "name": "Dots Stroke",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "Dull galvanized metal",
+      "color": [
+        0.23000000417232513,
+        0.28999999165534973,
+        0.3100000023841858,
+        1.0
+      ]
+    },
+    {
+      "name": "Fresh snow",
+      "color": [
+        0.9300000071525574,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Icy snow edges",
+      "color": [
+        0.5,
+        0.7699999809265137,
+        0.8399999737739563,
+        1.0
+      ]
+    },
+    {
+      "name": "Material",
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "Safety red",
+      "color": [
+        0.6700000166893005,
+        0.07999999821186066,
+        0.05999999865889549,
+        1.0
+      ]
+    },
+    {
+      "name": "Safety yellow",
+      "color": [
+        0.9800000190734863,
+        0.6499999761581421,
+        0.03999999910593033,
+        1.0
+      ]
+    },
+    {
+      "name": "Sign charcoal",
+      "color": [
+        0.02500000037252903,
+        0.03999999910593033,
+        0.04500000178813934,
+        1.0
+      ]
+    },
+    {
+      "name": "Sign ivory",
+      "color": [
+        0.9599999785423279,
+        0.9599999785423279,
+        0.8700000047683716,
+        1.0
+      ]
+    },
+    {
+      "name": "Studio frost",
+      "color": [
+        0.6100000143051147,
+        0.7300000190734863,
+        0.7699999809265137,
+        1.0
+      ]
+    },
+    {
+      "name": "Trail blue",
+      "color": [
+        0.05000000074505806,
+        0.28999999165534973,
+        0.47999998927116394,
+        1.0
+      ]
+    },
+    {
+      "name": "Trail evergreen",
+      "color": [
+        0.04500000178813934,
+        0.2800000011920929,
+        0.23000000417232513,
+        1.0
+      ]
+    },
+    {
+      "name": "Wood honey",
+      "color": [
+        0.36000001430511475,
+        0.18000000715255737,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Wood lighter planks",
+      "color": [
+        0.47999998927116394,
+        0.27000001072883606,
+        0.11999999731779099,
+        1.0
+      ]
+    }
+  ]
+}

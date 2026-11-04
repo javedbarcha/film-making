@@ -1,0 +1,2468 @@
+[
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "01 Trail directory four routes | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.24011997878551486,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.07148263151733165,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012622207092742135,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018446496687829505,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.24012008061011633,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.06653252551526145,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621524122854077,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001844649668782949,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.24011998375256854,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.07772082684565858,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.09216005479296047,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621787997583536,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.0046587265799947425,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018446446241190042,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.24012001355489093,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.06683293490884049,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621306814253309,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001844654325395824,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.09215990826487541,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621776356051367,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004460273873216164,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018446554895490392,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621011895438023,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018446729518473132,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | PINE RIDGE",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.000247951034301271,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00023968455449600393,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0002726729823431621,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.00011584874785815677,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.00027329838768726705,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0002479441415440912,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00032821521259999525,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.00011585171644886336,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00020071121252840385,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | <",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 0.0002962433500215411,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | +",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00014825433026999235,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | FROST VALLEY",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 7,
+        "closed": false,
+        "signedVolumeBefore": 0.00018188997000834206,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00024794653290882707,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 0.00016282868455164135,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 0.0001628308576376488,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0002603277874489625,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 0.0002022807845302547,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 0.0001878439070424065,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0001629323887755163,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00020538394649823508,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.0002732978094475887,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0001969909256634613,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | >",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 0.00029624311719089746,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | +.001",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00014824746176600456,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | SUMMIT PASS",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0001629342344434311,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00016293980297632515,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00016293770750053227,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0002603208946917827,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00020072187514112255,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 0.00018784512303682277,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.00011584916501305997,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 13,
+        "closed": false,
+        "signedVolumeBefore": 0.00034034932529417955,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 13,
+        "closed": false,
+        "signedVolumeBefore": 0.0003403472946956754,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00019268476413950944,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | >.001",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 0.0002962450574462613,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | +.002",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00014824365886549154,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | NORTH BASIN",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 0.00018784554655818889,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.0002733003805891106,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00020538094880369803,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0003282145335106179,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00032821946175924194,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.0001158492329219977,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0001629315568910291,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0002603215665052024,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": false,
+        "signedVolumeBefore": 0.000289606890532923,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0002899660818608633,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | <.001",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 0.0002962464544301232,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "01 Trail directory four routes",
+    "object": "TEXT | \u25c6",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.0009554028511047363,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "02 Single green trail board",
+    "object": "02 Single green trail board | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.2611200014750163,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.07199991835902136,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.057447869796305895,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004914898803690447,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012619898188859197,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012621105027695468,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018448207993060356,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018447963520884503,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "02 Single green trail board",
+    "object": "TEXT | ALPINE LODGE",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0003000136154393355,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00029003033948053297,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0003300180348257224,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0002484831493347883,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 0.00019705179147422314,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.0003000826109200716,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00039719479779402417,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 0.00014017638750374317,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.0002429511999556174,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 0.00019702385179698467,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0003149895928800106,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "02 Single green trail board",
+    "object": "TEXT | <  450 m",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.0001709860710737606,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 5,
+        "closed": false,
+        "signedVolumeBefore": 9.514820218707123e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00011433133234580357,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00013342920768385133,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 15,
+        "closed": false,
+        "signedVolumeBefore": 0.00015125526503349343,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "03 Blue direction arrow",
+    "object": "03 Blue direction arrow | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004141015039446459,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.05207216510704408,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012626584308842825,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012620383252700103,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001844981840501227,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018451324043174778,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 7,
+        "closed": true,
+        "signedVolumeBefore": -0.2970001933475335,
+        "flippedByRecalc": 7
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.06912013034646718,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "03 Blue direction arrow",
+    "object": "TEXT | SNOW DEPOT",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 0.0002483085263520479,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0002717897295951843,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00026554834524480003,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00032782950438559055,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.000360487795357282,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0005123453641620775,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0002717558139314254,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0004339673032518476,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00021533582669993243,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "04 Alpine hazard warning",
+    "object": "04 Alpine hazard warning | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012619847742219742,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001843816911180814,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018451347326239008,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.4075501213471095,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0777599786718685,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 5,
+        "closed": true,
+        "signedVolumeBefore": -0.004407929877440138,
+        "flippedByRecalc": 5
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.005019775358960027,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 5,
+        "closed": true,
+        "signedVolumeBefore": -0.0026831676562627145,
+        "flippedByRecalc": 5
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.03822790154178317,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001261972356587651,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "04 Alpine hazard warning",
+    "object": "TEXT | !",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 0.00016192683445600173,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 3.4241704270243645e-05,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "04 Alpine hazard warning",
+    "object": "TEXT | ALPINE DANGER",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00011991271579366487,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0001641213360320156,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.0001302794941390554,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00013632566939728955,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00012400133224825063,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.0001641369356851404,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": 5.79441354299585e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": 0.00010038028267445043,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 8.14278998101751e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 0.00013020168989896774,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.00013674006913788617,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00012389970167229572,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "04 Alpine hazard warning",
+    "object": "TEXT | UNCONTROLLED AREA",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 5.2115031091185905e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 4.961717058904469e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 5.193555747003605e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 4.726524154345195e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 3.106110186005632e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": 3.107996114219229e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 3.912127188717326e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 5.221174311979363e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 3.5819384114195905e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 6.25659668003209e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 3.912059279779593e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 3.549754076933217e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 6.25628914955693e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 3.691152475463847e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": 4.965031985193491e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 4.7303367561350264e-05,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "04 Alpine hazard warning",
+    "object": "TEXT | DO NOT ENTER",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": 0.0001211350318044424,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00010995180734122793,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 8.322987317418058e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00014546449529007077,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00010993731363366048,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": 8.324820858736832e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 9.108449254805843e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 0.00014544402559598288,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": 9.097092940161626e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": 0.00012090514792362228,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "05 Road closed warning",
+    "object": "05 Road closed warning | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.05903955797354381,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004464457121988136,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012636308868726087,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018452915052572904,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.05904011428356168,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004588174633681777,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012619669238726273,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018424044052759835,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.39999893307685896,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.06573662286003432,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012616254389286095,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018448320527871432,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "05 Road closed warning",
+    "object": "TEXT | ROAD CLOSED",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": -0.010509544362624487,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.012025630217976868,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.017599264315019052,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.016802166278163593,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.013256384680668512,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": -0.017639521587019164,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.017599190585315228,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.016003093371788662,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.01051635853946209,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.013256118322412172,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "05 Road closed warning",
+    "object": "TEXT | SNOW CLEARING",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": -0.008156588572698334,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.007769274214903514,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.007399785953263442,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": -0.004859604135466118,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.005560647638048977,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.011560349104305109,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.006129649157325427,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.009795451226333777,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.004862878937274218,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": -0.007153462230538328,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.009795565158128738,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": -0.0034574431677659354,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "06 Blank wall timber board",
+    "object": "06 Blank wall timber board | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.956475019454979e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.907859981060002e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.66043861707053e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.50919183095296e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.06792219976584116,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012587507565816236,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018524006009101976,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.022681196530659975,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.02268233895301819,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.19051201144854224,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.19051043192545578,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.1905132929484049,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "07 Large twin post noticeboard",
+    "object": "07 Large twin post noticeboard | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012691815694173213,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001841013630231198,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.20384182532628353,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.20383632183074946,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.20384669303894065,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.2038470109303793,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.378674586613928e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.874270280202228e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.969141006469759e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.558365662892674e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.07494110117355983,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001275092363357532,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018323709567387935,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.08352247873942065,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004383263488610589,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012684489289919532,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001873100797335314,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.08351945877075179,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004306601981321971,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "08 Wooden arrow right",
+    "object": "08 Wooden arrow right | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001865774393081665,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 7,
+        "closed": true,
+        "signedVolumeBefore": -0.4056070645650228,
+        "flippedByRecalc": 7
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.07487150033315021,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.05884003142515814,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004397809505462653,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001231605807940168,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001296897729237877,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018202016750971386,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "08 Wooden arrow right",
+    "object": "TEXT | TOWN CENTER",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": -0.014933517202734947,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.013543541232744852,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": -0.010261898239453634,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.017931145305434864,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.01355116069316864,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.01018288778141141,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.01793197977046172,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.021164011520644028,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.01122601330280304,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": -0.010261759161949158,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "09 Twin wooden arrows",
+    "object": "09 Twin wooden arrows | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012653445204099,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018453101317087784,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.09216039317349582,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.0052175691816955805,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012619003731136524,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018447730690240838,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 7,
+        "closed": true,
+        "signedVolumeBefore": -0.27440064648787205,
+        "flippedByRecalc": 7
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.059601737928460345,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001270193606615072,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018415600061416626,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 7,
+        "closed": true,
+        "signedVolumeBefore": 0.27440136671066306,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.06034037626037992,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "10 Blank hanging board",
+    "object": "10 Blank hanging board | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.000930150349936e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.713586091995207e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.418659369150767e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.0653386662403743,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.10656023025512695,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004421123613913856,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012655432025591507,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018597642580668074,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012722611427307172,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00019010901451110992,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.1701903343200684,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.08867881198724101,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012705475091934242,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001800258954366053,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.011506175001462296,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.002548441290855402,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.0025373299916585253,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15884087483088175,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15884705384572362,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15884091456731153,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.158841888109843,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.030980825424167e-05,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "11 Festive hanging board",
+    "object": "11 Festive hanging board | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.10656809806823717,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004639709368348124,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012445946534474792,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001797576745351144,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.17017761866251635,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.09323569014668474,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012949605782826745,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00019569198290506963,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.011495471000671406,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.0025297651688257865,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 0.002525240182876595,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15883499383926405,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15884967645009362,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15884999434153246,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.15885929266611737,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.528066635131852e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 7.773439089457163e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.3357095718384e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.46584637959792e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.0618880987167359,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012942651907602932,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.0001862769325574246,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 9.308258692423472e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 9.23325618108115e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 9.657939275105792e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 8.86172056198112e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 9.531776110331073e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 8.81105661392226e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 8.798142274220734e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 8.566677570342953e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 8.076429367065397e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00010260442892710364,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 4.5922895272572926e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.00043091674645741676,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.626057585080463e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.0004150097568829856,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 4.991206030050915e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.000399410724639893,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 6.516712407271064e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.0004064813256263731,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.775534858306255e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.00042369713385899854,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.8317634587486045e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.0004075989127159123,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.661711717645298e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.00042540828386942553,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.94624628623321e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.00039342542489369725,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 5.0965075691541316e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 20,
+        "closed": true,
+        "signedVolumeBefore": 0.0004040375351905823,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "11 Festive hanging board",
+    "object": "TEXT | ALPINE MARKET",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": -0.02262191971143087,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.02984236677487691,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 9,
+        "closed": false,
+        "signedVolumeBefore": -0.03221787015597025,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": -0.03290353808552027,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.03134553382794062,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 13,
+        "closed": false,
+        "signedVolumeBefore": -0.040982868522405624,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.029855142037073772,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.03952110682924589,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": -0.013946046431859335,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": -0.02417072094976902,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": -0.01960532863934835,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.03133858988682429,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "11 Festive hanging board",
+    "object": "TEXT | WINTER SUPPLIES",
+    "type": "FONT",
+    "components": [
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": -0.006201406319936117,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 11,
+        "closed": false,
+        "signedVolumeBefore": -0.020728963427245617,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.008724008686840534,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.0132610152165095,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 2,
+        "closed": false,
+        "signedVolumeBefore": -0.006202359994252523,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 4,
+        "closed": false,
+        "signedVolumeBefore": -0.00871117909749349,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": -0.010739149836202463,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 12,
+        "closed": false,
+        "signedVolumeBefore": -0.010751873254776001,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.01031574234366417,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.0087269963696599,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 17,
+        "closed": false,
+        "signedVolumeBefore": -0.014625380436579386,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 10,
+        "closed": false,
+        "signedVolumeBefore": -0.013263930877049765,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": false,
+        "signedVolumeBefore": -0.010052412748336792,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": false,
+        "signedVolumeBefore": -0.017566074927647907,
+        "flippedByRecalc": 0
+      }
+    ]
+  },
+  {
+    "collection": "12 Small blank timber post",
+    "object": "12 Small blank timber post | Geometry",
+    "type": "MESH",
+    "components": [
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.06768782933553037,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.004671459396680188,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012901456405719298,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018307752907276262,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.13269635041554753,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.13269639015197768,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.849302927653067e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.139014244079601e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 9.526809056599971e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 8,
+        "closed": true,
+        "signedVolumeBefore": 8.262197176615426e-05,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 14,
+        "closed": true,
+        "signedVolumeBefore": 0.0428043107191722,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00012857994685570574,
+        "flippedByRecalc": 0
+      },
+      {
+        "faces": 6,
+        "closed": true,
+        "signedVolumeBefore": 0.00018097211917241472,
+        "flippedByRecalc": 0
+      }
+    ]
+  }
+]

@@ -127,3 +127,19 @@ now fit within 470 m, with half the existing instances assigned beyond 340 m.
 Mountain-facing exclusion and all slope/support rules remain; count and meshes
 are unchanged. Native overview renders temporarily disable fog and restore it
 before reopening the saved scene; gameplay fog is unchanged.
+
+SignBoardsIntake prepares 12 Blender sign variants through CatalogPreparation and
+saves 16 Pinefall placements before Play, preserving other scene work. Body and
+evaluated FONT artwork use a shared opaque palette; snow is separate. Variant 06
+has a wall mount; blank replacement boards have authored destination TextMesh
+children. Only nearby snow obstacle flags change in a separate seed copy. Runtime
+does not build signs, fonts or colliders. Repeat intake retains scene placements.
+
+Latest sign curation supersedes all-variant scene placement: SignWayfindingAuthoring
+authors 31 approved-purpose signs through SignBoardsIntake (seven destination/service
+boards, twelve outer road-end closures, twelve inward town-boundary warnings).
+A versioned scene marker prevents repeated imports from recreating removed types.
+Road/junction readers, real destination targets and boundary-ring checks validate
+facing and arrows. Caption overrides leave catalog/source lettering untouched.
+Moved/deleted footprints are reconciled against authored scene colliders in a
+separate obstacle-mask seed; snow depth/credit/volume remain unchanged.

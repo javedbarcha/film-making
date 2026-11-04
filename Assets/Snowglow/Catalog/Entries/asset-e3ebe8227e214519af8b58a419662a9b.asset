@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Festive hanging board
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: alpine-sign-11
+  displayName: Festive hanging board
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 4225037662578966766, guid: d80c836b536701b4694d65b5d1ce1667, type: 3}
+  tags:
+  - alpine-sign
+  - removable-snow
+  - ground-mounted
+  - sign11
+  sourceType: 0
+  sourceGuid: 37ac7c97bcfdb924d8e3cb874a6525a8
+  sourcePath: Assets/Snowglow/Catalog/Sources/AlpineSignBoards/Sign11.fbx
+  creationSourcePath: SourceAssets/AlpineSignBoards/Alpine_Mobile_Sign_Boards_12_Variants.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Alpine_Mobile_Sign_Boards_12_Variants.blend; SHA256 A533FFDEB2781572932C7FAC07F0FC6312B600D50133BD23607DAF399DD22A12.
+    Collection 11. Embedded READ ME treated as source data and not executed.
+  assumptions: Metres, Y-up. Original mounting origins retained. Body, evaluated
+    mesh lettering (where supplied) and removable SnowCap are separate. Source FONT
+    objects are preserved in the blend and exported as static mesh artwork. One shared
+    opaque palette material plus existing toon snow. No lights, animation or runtime
+    factories. Conservative sign-envelope collision requires handling review; wall
+    variant requires a facade.
+  reviewNotes: Authorized scene placement; not published Ready. Review readability,
+    collision clearance and Galaxy A07 cost.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 1.9099267, z: 0.013392597}
+    m_Extent: {x: 1.89, y: 1.9099267, z: 0.2333926}
+  triangles: 1037
+  renderers: 3
+  materialSlots: 3
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 0.75
+  maximumScale: 1.5
+  blocksSnow: 1

@@ -110,3 +110,13 @@ already-bound Work icon for plow/loader. Existing button actions and touch targe
 remain. Artwork for future or removed controls is inventory, not authorization to
 reintroduce those controls. See SourceAssets/SnowDistrictUI/README.md for provenance,
 re-export commands and the mobile atlas budget.
+
+The alpine sign-board intake adds 12 Needs Review landscape entries with static
+mesh lettering, separate removable snow and explicit ground/wall mount anchors.
+Blank replacement boards retain destination labels as scene-authored TextMesh
+children. See SourceAssets/AlpineSignBoards/README.md for provenance, counts,
+repeat-safe import menu and acceptance limits.
+
+Sign export now recalculates outward winding per closed source solid before
+separating material groups. Open source lettering is preserved. Use the sign
+normals/four-sided-render check menu after re-export; keep backface culling on.

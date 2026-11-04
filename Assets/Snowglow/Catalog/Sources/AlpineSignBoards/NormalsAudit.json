@@ -1,0 +1,326 @@
+[
+  {
+    "object": "01 Trail directory four routes | Geometry",
+    "kind": "MESH",
+    "closedSolids": 24,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | PINE RIDGE",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 9
+  },
+  {
+    "object": "TEXT | <",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | +",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | FROST VALLEY",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 11
+  },
+  {
+    "object": "TEXT | >",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | +.001",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | SUMMIT PASS",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 10
+  },
+  {
+    "object": "TEXT | >.001",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | +.002",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | NORTH BASIN",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 10
+  },
+  {
+    "object": "TEXT | <.001",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "TEXT | \u25c6",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 1
+  },
+  {
+    "object": "02 Single green trail board | Geometry",
+    "kind": "MESH",
+    "closedSolids": 8,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | ALPINE LODGE",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 11
+  },
+  {
+    "object": "TEXT | <  450 m",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 5
+  },
+  {
+    "object": "03 Blue direction arrow | Geometry",
+    "kind": "MESH",
+    "closedSolids": 8,
+    "inwardBefore": 1,
+    "flippedFaces": 7,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | SNOW DEPOT",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 9
+  },
+  {
+    "object": "04 Alpine hazard warning | Geometry",
+    "kind": "MESH",
+    "closedSolids": 10,
+    "inwardBefore": 2,
+    "flippedFaces": 10,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | !",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 2
+  },
+  {
+    "object": "TEXT | ALPINE DANGER",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 12
+  },
+  {
+    "object": "TEXT | UNCONTROLLED AREA",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 16
+  },
+  {
+    "object": "TEXT | DO NOT ENTER",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 10
+  },
+  {
+    "object": "05 Road closed warning | Geometry",
+    "kind": "MESH",
+    "closedSolids": 12,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | ROAD CLOSED",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 10
+  },
+  {
+    "object": "TEXT | SNOW CLEARING",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 12
+  },
+  {
+    "object": "06 Blank wall timber board | Geometry",
+    "kind": "MESH",
+    "closedSolids": 12,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "07 Large twin post noticeboard | Geometry",
+    "kind": "MESH",
+    "closedSolids": 19,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "08 Wooden arrow right | Geometry",
+    "kind": "MESH",
+    "closedSolids": 8,
+    "inwardBefore": 1,
+    "flippedFaces": 7,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | TOWN CENTER",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 10
+  },
+  {
+    "object": "09 Twin wooden arrows | Geometry",
+    "kind": "MESH",
+    "closedSolids": 12,
+    "inwardBefore": 1,
+    "flippedFaces": 7,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "10 Blank hanging board | Geometry",
+    "kind": "MESH",
+    "closedSolids": 22,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "11 Festive hanging board | Geometry",
+    "kind": "MESH",
+    "closedSolids": 50,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  },
+  {
+    "object": "TEXT | ALPINE MARKET",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 12
+  },
+  {
+    "object": "TEXT | WINTER SUPPLIES",
+    "kind": "FONT",
+    "closedSolids": 0,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 14
+  },
+  {
+    "object": "12 Small blank timber post | Geometry",
+    "kind": "MESH",
+    "closedSolids": 13,
+    "inwardBefore": 0,
+    "flippedFaces": 0,
+    "inwardAfter": 0,
+    "openPartsPreserved": 0
+  }
+]

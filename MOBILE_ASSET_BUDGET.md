@@ -195,3 +195,16 @@ SourceAssets/AlpineTreesLowestLOD/README.md for per-variant LOD3 counts.
 62,496 triangles / 219 renderers, still LOD3 only. The 49 additions contribute
 21,557 triangles. Terrain seating and conservative mountain exclusion passed native
 save/reopen checks. Geometry counts are not measured A07 performance.
+
+Alpine sign boards (4 November 2026): 12 variants, 200-1,037 triangles each
+(4,981 for one of each), including source lettering and decorative snow. Sixteen
+Pinefall instances total 6,117 mesh triangles / 39 mesh renderers, plus five
+destination TextMesh labels. Two shared opaque materials (palette and existing
+snow); no new lights. Envelope colliders need handling review. Android native
+Editor checks do not establish A07 frame-time or touch-readability acceptance.
+
+Latest curated signs: 31 scene instances across nine of the 12 catalog variants,
+14,584 prepared mesh triangles including source lettering hidden by scene caption
+overrides. Twelve road closures and twelve boundary warnings account for 11,340
+triangles. Custom destination TextMesh captions are additional. Native scene and
+snow checks are not A07 frame-time or live touch-readability measurements.

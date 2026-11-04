@@ -1,5 +1,23 @@
 # Verification record
 
+## Edited sign caption depth correction - 4 November 2026
+
+The apparent open backs on the four edited signs were captions rendering through
+solid boards. Eight TextMesh captions now use the authored `WorldSignText.mat`
+and `Snowglow/World Sign Text` shader with depth testing (`ZTest LEqual`) and
+backface culling. `WorldSignLabel` keeps the authored font-atlas binding current
+on enable and font rebuild; it creates no runtime assets or geometry. Sign intake
+applies this binding after fitting captions. Preserve the edited wording/layout.
+
+Unity 6000.3.8f1 / Android compiled, saved and reopened Pinefall. Paired renders
+with captions enabled/disabled proved front visibility and zero rear caption
+pixels on the stacked directory, lodge, fuel/repair and workshop boards. All eight
+front/rear renders were visually inspected. Scene validation and 19 snow checks
+passed; board geometry, placement and snow seed remained unchanged. This fixes
+text rendering separately from the earlier source-normal repairs. No Android
+package, device driving or phone performance was tested. Evidence:
+`Logs/AlpineSignBoards/LabelDepth/Validation.txt` and `Inspection.png`.
+
 ## Editor asset recovery and supplied light icons - 4 November 2026
 
 The Editor reported an unreadable GoldenTractor-Starter.prefab and a placeholder
@@ -1055,3 +1073,124 @@ Android performance and continuous driving remain untested.
 The wider layout passed a repeat native run with zero further relocations and
 zero snow-mask changes. A fog-free native overhead render was visually inspected
 against the supplied reference; temporary preview fog changes were restored.
+
+## Alpine sign-board intake - 4 November 2026
+
+User supplied `Alpine_Mobile_Sign_Boards_12_Variants.blend` and authorized pipeline
+preparation, replacement of primitive signs, more placements and every variant
+used at least once. Source is preserved byte-identically under
+SourceAssets/AlpineSignBoards (SHA256 A533FFDEB2781572932C7FAC07F0FC6312B600D50133BD23607DAF399DD22A12).
+Embedded READ ME is source data only; Blender ran with autoexecution disabled.
+
+SignBoardsIntake uses CatalogPreparation to create 12 Needs Review scenery entries
+`alpine-sign-01` through `12` with stable prefab/entry GUIDs. Evaluated supplied
+FONT lettering remains static mesh art; decorative SnowCap is separate. One
+opaque palette material and existing toon snow are shared. No new lights or
+runtime spawning. Menu: Snowglow > Asset intake > Import twelve alpine sign boards.
+
+Pinefall has 16 connected Editor-authored sign instances: all four primitive signs
+replaced, plus 12 additions using every variant. Replacement destination labels
+are retained on blank boards with saved TextMesh children. Variant 06 mounts on
+the workshop facade; freestanding signs clear roads and seat to Terrain. Scene
+geometry is 6,117 triangles plus five destination labels; each variant is 200-1,037
+triangles including supplied mesh lettering and snow. Conservative envelope
+colliders remain subject to driving/handling review. Entries are not Ready.
+
+Unity 6000.3.8f1 / Android compiled and saved/reopened Pinefall; scene and 19 snow
+ledger checks passed. Non-sign catalog poses, fleet and protected Terrain/snow
+hashes matched. A separate SignBoardsSnowSeed copy changes 171 local obstacle
+flags and preserves all depth/credit/volume. No district rebake or player-save
+writes. Native reports/backups/previews: Logs/AlpineSignBoards. Continuous driving,
+touch readability, Android package and Galaxy A07 costs remain untested.
+
+Sign intake handoff: repeat native intake retained all 16 placements, existing
+catalog IDs/poses and seed (zero additional mask changes). All 12 front-face
+prefab renders and four in-scene renders were inspected. These revealed retained
+TextMesh destination labels wider than the smaller imported boards. FitLabels
+now measures and fits those five labels to the board face and validates their
+bounds. This final source change is queued via Logs/ImportSignBoards.request,
+but has not yet compiled/run: Unity needs focus and Ctrl+R. Both computer-control
+connections failed (timeout / native pipe unavailable), so no successful final
+label-fit render or compile is claimed. The import/layout itself is saved and
+passed the preceding native checks. Run the pending pass and inspect updated
+Logs/AlpineSignBoards/scene-*.png before calling label sizing verified.
+
+## Curated road-facing sign layout - 4 November 2026
+
+Latest explicit user list supersedes the request to place all twelve variants and
+the earlier 16/14-sign layouts. Only these **31** boards are authored in Pinefall:
+one Snow Depot at the depot driveway; one Fuel + Repair on the workshop facade;
+one Workshop Parts + Service beside the workshop; one Alpine Lodge beside an
+existing home; one Town Center near the central junction; one Alpine Market by
+the northern house block; one stacked directory at the central junction; twelve
+Road Closed boards at the outer ends of the six through-roads; twelve Alpine
+Danger boards around the built-town edge, facing inward. Service-yard/parking
+accesses remain open. Danger spacing is approximately 30 degrees at 165 m radius,
+with bounded small adjustments for terrain/clearance. Other board placements are
+removed; all twelve source/catalog variants and their GUIDs remain available.
+
+SignWayfindingAuthoring configures the saved layout through SignBoardsIntake.
+Faces aim toward actual road/junction reading positions; arrow checks use real
+fleet-depot, town-center and existing house-entrance targets (home-40 in this
+scene). Lodge distance uses that entrance rather than the supplied fictitious
+450 m. Scene-only captions identify real local services; original source mesh
+lettering is retained in catalog prefabs. Alpine Market artwork is restored.
+Destination labels now fit their board faces. Repeated import validates the
+curated layout without resurrecting removed boards or adding duplicates.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened the curated 31-sign layout,
+validated road clearance, ground/wall seating, facing, arrows, sightlines,
+boundary count/radius/spacing, scene bindings and 19 snow-ledger checks. Native
+road-reader views were rendered and inspected. Terrain/original snow asset
+hashes, non-sign catalog poses and fleet references matched. Moved/deleted sign
+obstacles are reconciled in a separate seed revision, retaining all depth,
+credit and volume. No district rebake or player-save writes. Sources, catalog
+entries and earlier seed revisions remain preserved. Phone performance, actual
+driving and touch readability are untested. Reports/renders/backups:
+Logs/AlpineSignBoards; Wayfinding.txt records each reading position and target.
+
+Final curated-layout evidence: the canopy-safe version saved/reopened and passed
+a repeat native run with 31 signs and zero further obstacle-mask changes. All
+31 road/town-reader renders were produced; representative destination, workshop,
+road-end and boundary views were inspected. Depot/workshop reading views are
+separate, Town Center is beside the central junction, and tree canopy bounds
+clear the warnings and their reading sightlines. Prepared geometry totals 14,584
+triangles (hidden source lettering included; eight authored caption objects are
+additional). Native angle/spacing checks passed. Actual driving/device tests
+remain unperformed. The earlier pending label-fit handoff is resolved.
+
+## Sign-board winding and normals repair - 4 November 2026
+
+User reported culling faults and requested all board normals checked. The original
+blend audit found five inward closed solids / 31 reversed polygon faces across
+four variants: Snow Depot arrow (03, seven faces), Alpine Danger (04, ten faces
+across two solids), Town Center arrow (08, seven faces), and twin arrows (09,
+seven faces). The other eight variants passed. The preserved source blend is
+unchanged (original SHA256 still matches); embedded text remains unexecuted.
+
+The exporter now orients every connected closed solid outward before splitting
+Body/Lettering/SnowCap, preserving open lettering and palette UVs. Only the four
+affected FBXs were re-exported in this repair, with their existing .meta/GUIDs.
+All 198 closed source solids then passed, with zero inward solids. Triangle
+counts, dimensions, mounting origins, snow groups and shared materials remain.
+Backface culling stays enabled; no double-sided material workaround was applied.
+Future full or selected exports run the same normal repair automatically.
+
+Unity 6000.3.8f1 / Android compiled and synchronously reimported those four FBXs.
+SignNormalsChecks audited all twelve catalog variants / 198 native closed shells:
+no inward shells and no vertex normals opposing triangle winding. Existing
+zero-area glyph triangles are skipped only for orientation math and retained
+in geometry totals (4,981 across the catalog). All prefab/scene mesh references
+remained valid. Forty-eight native front/back/side previews were rendered and
+visually inspected through three contact sheets; solid boards are visible from
+each exterior side and source lettering remains intentionally front-only.
+
+The curated 31-sign layout, placement matrices, Pinefall file bytes and protected
+Terrain/snow hashes were unchanged. Scene validation and 19 snow-ledger checks
+passed. No scene save/rebake, player-save writes or runtime authoring. This is
+Editor mesh/render evidence, not an Android package or A07 acceptance test.
+Menu: Snowglow > Asset intake > Validate all sign normals and four-sided renders.
+Report/renders: Logs/AlpineSignBoards/Normals/Validation.txt; source audit:
+SourceAssets/AlpineSignBoards/NormalsAudit-before.json; corrected audit:
+Assets/Snowglow/Catalog/Sources/AlpineSignBoards/NormalsAudit.json. Previous FBX
+bytes remain under ignored Logs/AlpineSignBoards/Normals-before.

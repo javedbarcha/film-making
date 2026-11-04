@@ -1,0 +1,195 @@
+{
+  "collections": {
+    "01 Trail directory four routes": {
+      "included": [
+        "01 Trail directory four routes | Geometry",
+        "TEXT | +",
+        "TEXT | +.001",
+        "TEXT | +.002",
+        "TEXT | <",
+        "TEXT | <.001",
+        "TEXT | >",
+        "TEXT | >.001",
+        "TEXT | FROST VALLEY",
+        "TEXT | NORTH BASIN",
+        "TEXT | PINE RIDGE",
+        "TEXT | SUMMIT PASS",
+        "TEXT | \u25c6"
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "text": [
+        "PINE RIDGE",
+        "<",
+        "+",
+        "FROST VALLEY",
+        ">",
+        "+",
+        "SUMMIT PASS",
+        ">",
+        "+",
+        "NORTH BASIN",
+        "<",
+        "\u25c6"
+      ]
+    },
+    "02 Single green trail board": {
+      "included": [
+        "02 Single green trail board | Geometry",
+        "TEXT | <  450 m",
+        "TEXT | ALPINE LODGE"
+      ],
+      "origin": [
+        5.199999809265137,
+        0.0,
+        0.0
+      ],
+      "text": [
+        "ALPINE LODGE",
+        "<  450 m"
+      ]
+    },
+    "03 Blue direction arrow": {
+      "included": [
+        "03 Blue direction arrow | Geometry",
+        "TEXT | SNOW DEPOT"
+      ],
+      "origin": [
+        10.399999618530273,
+        0.0,
+        0.0
+      ],
+      "text": [
+        "SNOW DEPOT"
+      ]
+    },
+    "04 Alpine hazard warning": {
+      "included": [
+        "04 Alpine hazard warning | Geometry",
+        "TEXT | !",
+        "TEXT | ALPINE DANGER",
+        "TEXT | DO NOT ENTER",
+        "TEXT | UNCONTROLLED AREA"
+      ],
+      "origin": [
+        15.600000381469727,
+        0.0,
+        0.0
+      ],
+      "text": [
+        "!",
+        "ALPINE DANGER",
+        "UNCONTROLLED AREA",
+        "DO NOT ENTER"
+      ]
+    },
+    "05 Road closed warning": {
+      "included": [
+        "05 Road closed warning | Geometry",
+        "TEXT | ROAD CLOSED",
+        "TEXT | SNOW CLEARING"
+      ],
+      "origin": [
+        0.0,
+        5.5,
+        0.0
+      ],
+      "text": [
+        "ROAD CLOSED",
+        "SNOW CLEARING"
+      ]
+    },
+    "06 Blank wall timber board": {
+      "included": [
+        "06 Blank wall timber board | Geometry"
+      ],
+      "origin": [
+        5.199999809265137,
+        5.5,
+        0.0
+      ],
+      "text": []
+    },
+    "07 Large twin post noticeboard": {
+      "included": [
+        "07 Large twin post noticeboard | Geometry"
+      ],
+      "origin": [
+        10.399999618530273,
+        5.5,
+        0.0
+      ],
+      "text": []
+    },
+    "08 Wooden arrow right": {
+      "included": [
+        "08 Wooden arrow right | Geometry",
+        "TEXT | TOWN CENTER"
+      ],
+      "origin": [
+        15.600000381469727,
+        5.5,
+        0.0
+      ],
+      "text": [
+        "TOWN CENTER"
+      ]
+    },
+    "09 Twin wooden arrows": {
+      "included": [
+        "09 Twin wooden arrows | Geometry"
+      ],
+      "origin": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "text": []
+    },
+    "10 Blank hanging board": {
+      "included": [
+        "10 Blank hanging board | Geometry"
+      ],
+      "origin": [
+        5.199999809265137,
+        11.0,
+        0.0
+      ],
+      "text": []
+    },
+    "11 Festive hanging board": {
+      "included": [
+        "11 Festive hanging board | Geometry",
+        "TEXT | ALPINE MARKET",
+        "TEXT | WINTER SUPPLIES"
+      ],
+      "origin": [
+        10.399999618530273,
+        11.0,
+        0.0
+      ],
+      "text": [
+        "ALPINE MARKET",
+        "WINTER SUPPLIES"
+      ]
+    },
+    "12 Small blank timber post": {
+      "included": [
+        "12 Small blank timber post | Geometry"
+      ],
+      "origin": [
+        15.600000381469727,
+        11.0,
+        0.0
+      ],
+      "text": []
+    }
+  },
+  "excluded": [
+    "00 Studio | exclude for export",
+    "READ ME | Alpine Sign Kit (not executed)"
+  ]
+}

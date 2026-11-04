@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Twin wooden arrows
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: alpine-sign-09
+  displayName: Twin wooden arrows
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 4460965855625853341, guid: 6374d825e5ee57444892699af366a752, type: 3}
+  tags:
+  - alpine-sign
+  - removable-snow
+  - ground-mounted
+  - sign09
+  sourceType: 0
+  sourceGuid: d393641d31f791a40aab191e022fed3e
+  sourcePath: Assets/Snowglow/Catalog/Sources/AlpineSignBoards/Sign09.fbx
+  creationSourcePath: SourceAssets/AlpineSignBoards/Alpine_Mobile_Sign_Boards_12_Variants.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Alpine_Mobile_Sign_Boards_12_Variants.blend; SHA256 A533FFDEB2781572932C7FAC07F0FC6312B600D50133BD23607DAF399DD22A12.
+    Collection 09. Embedded READ ME treated as source data and not executed.
+  assumptions: Metres, Y-up. Original mounting origins retained. Body, evaluated
+    mesh lettering (where supplied) and removable SnowCap are separate. Source FONT
+    objects are preserved in the blend and exported as static mesh artwork. One shared
+    opaque palette material plus existing toon snow. No lights, animation or runtime
+    factories. Conservative sign-envelope collision requires handling review; wall
+    variant requires a facade.
+  reviewNotes: Authorized scene placement; not published Ready. Review readability,
+    collision clearance and Galaxy A07 cost.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 1.65995, z: -0.02934219}
+    m_Extent: {x: 1.4, y: 1.65995, z: 0.19065781}
+  triangles: 224
+  renderers: 2
+  materialSlots: 2
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 0.75
+  maximumScale: 1.5
+  blocksSnow: 1
