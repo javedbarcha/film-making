@@ -1,5 +1,34 @@
 # Verification record
 
+## Imported snow machinery fuel station - 5 November 2026
+
+Imported the supplied Low_Poly_Snow_Machinery_Fuel_Station.blend through
+CatalogPreparation, replacing only the primitive red Fuel tank. Reusable
+BuildingAssembly `snow-machinery-fuel-station` remains Needs Review. Source has
+3,088 triangles excluding studio ground; prepared output has 3,040 after removing
+48 zero-area faces (no visible geometry removed), three renderers and two shared
+materials. Separate Body, opaque Luminous lenses and removable decorative
+SnowCap groups; no new real-time lights or hose/nozzle interaction. Original
+blend/hash/provenance preserved in SourceAssets/SnowMachineryFuelStation.
+
+Saved placement `pinefall-fuel-station` at (-110, 5.13, -85) is 2 m inward from
+the old tank centre, fitting the larger canopy beside the standing Fuel + Repair
+sign. Sign and garage remain unchanged, with nonintersecting bounds. Station
+stays within the existing 25 m depot service zone; servicing mechanics unchanged.
+Static shape collision leaves drive-under space open. Repeat intake retains
+manual placement; explicit future district baking reuses the prepared station.
+Garage intake also recognizes the new fuel facility instead of requiring a tank.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed scene
+validation plus 19 snow checks. Front/rear/depot-context renders inspected. A
+separate seed revision updated 62 obstacle flags; depth, credit, initial/disposed
+volumes, original snow meshes and other catalog transforms were preserved. No
+player-save writes or district rebake. Physical driving/refuelling, Android
+packaging and Galaxy A07 performance remain untested. Evidence:
+Logs/FuelStation/Validation.txt. Menu: Snowglow > Asset intake > Import snow
+machinery fuel station.
+
+
 ## Imported snow disposal yard - 5 November 2026
 
 Replaced Pinefall's primitive disposal walls/markers and old asphalt pad with

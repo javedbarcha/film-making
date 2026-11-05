@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Snow machinery fuel station
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: snow-machinery-fuel-station
+  displayName: Snow machinery fuel station
+  kind: 4
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 2981858529076683189, guid: 15aa3cc5449b32c459b553d1f028ecb9, type: 3}
+  tags:
+  - fuel-station
+  - canopy
+  - separate-lenses
+  - removable-snow
+  sourceType: 0
+  sourceGuid: 7a8f21c6014aaa843946f170b699b923
+  sourcePath: Assets/Snowglow/Catalog/Sources/SnowMachineryFuelStation/FuelStation.fbx
+  creationSourcePath: SourceAssets/SnowMachineryFuelStation/Low_Poly_Snow_Machinery_Fuel_Station.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Low_Poly_Snow_Machinery_Fuel_Station.blend; SHA256 F75FD6D630441E46D9DFC7A7C00380787F8716FDBFE328A7BF40E398D3DE5CB9.
+    Preserved source; studio Plane/cameras/lights excluded, embedded text not executed.
+  assumptions: Source metres; pump front corrected to +Z. Body static mesh collision
+    keeps canopy drive-under space open. Separate Luminous lenses are opaque palette
+    surfaces, no added real-time lights. Decorative canopy snow is not ledger volume.
+    No hose/nozzle interaction added; originals retain all separate parts. Depot
+    servicing remains existing menu behavior.
+  reviewNotes: Review driving clearance and A07 costs before Ready approval.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0, y: 2.9724908, z: 0}
+    m_Extent: {x: 4.78, y: 2.9724908, z: 3.28}
+  triangles: 3040
+  renderers: 3
+  materialSlots: 3
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1
+  blocksSnow: 1

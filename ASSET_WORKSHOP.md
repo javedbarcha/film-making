@@ -129,3 +129,8 @@ tank. Use **Snowglow > Asset intake > Import four bay snow garage**.
 The [imported snow disposal yard](SourceAssets/SnowDisposalYard/README.md) replaces
 Pinefall?s primitive yard and pad. Its reusable catalog assembly remains Needs
 Review; use **Snowglow > Asset intake > Import snow disposal yard**.
+
+The [snow machinery fuel station](SourceAssets/SnowMachineryFuelStation/README.md)
+replaces the primitive red tank. Its catalog assembly remains Needs Review; use
+**Snowglow > Asset intake > Import snow machinery fuel station**. Existing depot
+service behavior and standing Fuel + Repair sign are preserved.

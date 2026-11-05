@@ -218,3 +218,8 @@ Snow disposal yard (5 November): 972 triangles / three renderers / two shared
 materials, excluding studio ground. Static shape colliders; no new realtime
 lights. Replaces primitive pad/walls/markers, with removable decorative snow.
 Native render/structural checks passed; A07 frame-time cost remains unmeasured.
+
+Fuel station (5 November): 3,040 prepared triangles / three renderers / two
+shared materials; source 3,088 minus 48 zero-area faces. Body, lenses and
+decorative canopy snow separate. Static mesh collision, no added realtime lights.
+Native preview/structural checks passed; physical A07 performance unmeasured.
