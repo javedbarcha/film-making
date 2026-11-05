@@ -1,0 +1,219 @@
+{
+  "snowmen": [
+    {
+      "index": "01",
+      "name": "01 Classic Snowman",
+      "parts": [
+        {
+          "name": "ClothingAndDetails",
+          "triangles": 466
+        },
+        {
+          "name": "SnowBody",
+          "triangles": 534
+        }
+      ],
+      "triangles": 1000,
+      "removed_zero_area": 0,
+      "origin": [
+        -3.5999999046325684,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": "02",
+      "name": "02 Cozy Knit-Cap Snowman",
+      "parts": [
+        {
+          "name": "ClothingAndDetails",
+          "triangles": 474
+        },
+        {
+          "name": "SnowBody",
+          "triangles": 526
+        }
+      ],
+      "triangles": 1000,
+      "removed_zero_area": 0,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": "03",
+      "name": "03 Playful Earmuff Snowman",
+      "parts": [
+        {
+          "name": "ClothingAndDetails",
+          "triangles": 474
+        },
+        {
+          "name": "SnowBody",
+          "triangles": 526
+        }
+      ],
+      "triangles": 1000,
+      "removed_zero_area": 0,
+      "origin": [
+        3.5999999046325684,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "name": "Carrot orange",
+      "color": [
+        0.949999988079071,
+        0.28999999165534973,
+        0.03500000014901161,
+        1.0
+      ]
+    },
+    {
+      "name": "Coal dark navy",
+      "color": [
+        0.02500000037252903,
+        0.04500000178813934,
+        0.054999999701976776,
+        1.0
+      ]
+    },
+    {
+      "name": "Earmuff headband",
+      "color": [
+        0.20000000298023224,
+        0.10499999672174454,
+        0.25,
+        1.0
+      ]
+    },
+    {
+      "name": "Earmuffs mustard",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.07999999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "Hat ribbon cranberry",
+      "color": [
+        0.5199999809265137,
+        0.054999999701976776,
+        0.06499999761581421,
+        1.0
+      ]
+    },
+    {
+      "name": "Knit cap cranberry",
+      "color": [
+        0.5899999737739563,
+        0.06499999761581421,
+        0.10999999940395355,
+        1.0
+      ]
+    },
+    {
+      "name": "Knit cap turned cuff",
+      "color": [
+        0.7599999904632568,
+        0.14000000059604645,
+        0.1899999976158142,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf accent",
+      "color": [
+        0.9599999785423279,
+        0.6499999761581421,
+        0.1599999964237213,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf accent.001",
+      "color": [
+        0.949999988079071,
+        0.6299999952316284,
+        0.5899999737739563,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf alpine turquoise",
+      "color": [
+        0.03500000014901161,
+        0.4300000071525574,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf cream stripe",
+      "color": [
+        0.9399999976158142,
+        0.8500000238418579,
+        0.6000000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf evergreen",
+      "color": [
+        0.07500000298023224,
+        0.3100000023841858,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Scarf plum",
+      "color": [
+        0.38999998569488525,
+        0.11999999731779099,
+        0.3700000047683716,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow ivory white",
+      "color": [
+        0.9100000262260437,
+        0.9599999785423279,
+        0.9800000190734863,
+        1.0
+      ]
+    },
+    {
+      "name": "Top hat midnight teal",
+      "color": [
+        0.03500000014901161,
+        0.08500000089406967,
+        0.10499999672174454,
+        1.0
+      ]
+    },
+    {
+      "name": "Twig warm brown",
+      "color": [
+        0.2199999988079071,
+        0.10499999672174454,
+        0.04500000178813934,
+        1.0
+      ]
+    }
+  ],
+  "excluded": [
+    "Plane",
+    "cameras",
+    "lights",
+    "embedded text (never executed)"
+  ]
+}

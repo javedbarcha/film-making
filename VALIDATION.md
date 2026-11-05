@@ -1,5 +1,30 @@
 # Verification record
 
+## Three imported snowmen - 5 November 2026
+
+Imported the supplied Three_Low_Poly_Snowmen_1000_Triangles.blend through
+CatalogPreparation as three reusable Needs Review Landscape entries snowman-01,
+02 and 03. Original source/hash/provenance in SourceAssets/ThreeSnowmen. Classic
+top hat, knit cap and earmuffs each retain exactly 1,000 triangles: 3,000 total,
+six renderers, two shared materials (opaque clothing palette/existing toon snow).
+Source staging offsets, studio ground, cameras and lights excluded; embedded
+scripts never executed. Snow bodies are decorative, with no snow-volume effect.
+
+One of each is saved in Pinefall, facing southwest: pinefall-snowman-01 at
+(-53.25, 5.01, 48), 02 at (14.54, 5.01, 84.44), 03 at (83, 5.01, -18).
+Terrain-grounded placements avoid roads by 2 m, entrance anchors by 4 m, existing
+colliders and seeded interactive snow. Narrow body capsule collision avoids
+broad invisible twig-arm boxes. Repeat intake preserves placements/no duplicates.
+Menu: Snowglow > Asset intake > Import three snowmen.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed scene
+validation plus 19 snow checks. Three native previews visually inspected. A
+separate seed revision reconciled 169 obstacle flags; snow quantities and
+existing catalog poses preserved. No district rebake or player-save writes.
+Live driving, Android packaging and Galaxy A07 costs remain untested. Evidence:
+Logs/ThreeSnowmen/Validation.txt and Snowman-1/2/3.png.
+
+
 ## Rear service sign captions - 5 November 2026
 
 Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall; scene

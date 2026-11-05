@@ -229,3 +229,7 @@ Fuel station (5 November): 3,040 prepared triangles / three renderers / two
 shared materials; source 3,088 minus 48 zero-area faces. Body, lenses and
 decorative canopy snow separate. Static mesh collision, no added realtime lights.
 Native preview/structural checks passed; physical A07 performance unmeasured.
+
+Three snowmen (5 November): 1,000 triangles/two renderers each; 3,000 triangles
+and six renderers total. Two shared materials, static body capsules, no lights
+or runtime effects. Native scene checks/previews passed; A07 cost unmeasured.

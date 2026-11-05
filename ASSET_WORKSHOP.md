@@ -134,3 +134,7 @@ The [snow machinery fuel station](SourceAssets/SnowMachineryFuelStation/README.m
 replaces the primitive red tank. Its catalog assembly remains Needs Review; use
 **Snowglow > Asset intake > Import snow machinery fuel station**. Existing depot
 service behavior and standing Fuel + Repair sign are preserved.
+
+All [three imported snowmen](SourceAssets/ThreeSnowmen/README.md) are placed
+around Pinefall residential blocks. Their reusable catalog entries remain Needs
+Review; use **Snowglow > Asset intake > Import three snowmen**.

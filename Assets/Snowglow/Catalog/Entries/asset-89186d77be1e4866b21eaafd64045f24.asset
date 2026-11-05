@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Knit-cap snowman
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: snowman-02
+  displayName: Knit-cap snowman
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 2623397952041290209, guid: f41f7260b1d32954cabf79b6717dda93, type: 3}
+  tags:
+  - snowman
+  - winter-decoration
+  - static
+  sourceType: 0
+  sourceGuid: 94aca25bb14b5cb4187c4fa9c7f24a8f
+  sourcePath: Assets/Snowglow/Catalog/Sources/ThreeSnowmen/Snowman02.fbx
+  creationSourcePath: SourceAssets/ThreeSnowmen/Three_Low_Poly_Snowmen_1000_Triangles.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Three_Low_Poly_Snowmen_1000_Triangles.blend, SHA256 3DD2D1DDCC66F1704554B5EB9998F664C782242FD9245E600D1B2D44E5B4EC6A.
+    Original preserved; studio ground/cameras/lights excluded, embedded scripts never
+    executed.
+  assumptions: Metres, grounded root, +Z face. Snow body and clothing separate; shared
+    opaque palette and existing toon snow. Source snowman geometry is decorative
+    and never changes snow accounting. Narrow body capsule, no runtime behavior/lights.
+  reviewNotes: Review phone readability/handling and A07 cost before Ready publication.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: -0.000028252602, y: 1.3365406, z: 0.021768093}
+    m_Extent: {x: 1.4889822, y: 1.3365406, z: 0.75316805}
+  triangles: 1000
+  renderers: 2
+  materialSlots: 2
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1
+  blocksSnow: 1

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Classic snowman
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: snowman-01
+  displayName: Classic snowman
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 5596982470295736634, guid: 399f56af57af6ca47841445298187dd2, type: 3}
+  tags:
+  - snowman
+  - winter-decoration
+  - static
+  sourceType: 0
+  sourceGuid: 8373f021cfc237541a01e894f766e616
+  sourcePath: Assets/Snowglow/Catalog/Sources/ThreeSnowmen/Snowman01.fbx
+  creationSourcePath: SourceAssets/ThreeSnowmen/Three_Low_Poly_Snowmen_1000_Triangles.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Three_Low_Poly_Snowmen_1000_Triangles.blend, SHA256 3DD2D1DDCC66F1704554B5EB9998F664C782242FD9245E600D1B2D44E5B4EC6A.
+    Original preserved; studio ground/cameras/lights excluded, embedded scripts never
+    executed.
+  assumptions: Metres, grounded root, +Z face. Snow body and clothing separate; shared
+    opaque palette and existing toon snow. Source snowman geometry is decorative
+    and never changes snow accounting. Narrow body capsule, no runtime behavior/lights.
+  reviewNotes: Review phone readability/handling and A07 cost before Ready publication.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: -0.00005698204, y: 1.5225452, z: 0.020535946}
+    m_Extent: {x: 1.3915415, y: 1.5225452, z: 0.71053594}
+  triangles: 1000
+  renderers: 2
+  materialSlots: 2
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1
+  blocksSnow: 1
