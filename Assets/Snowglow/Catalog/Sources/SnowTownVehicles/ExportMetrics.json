@@ -1,0 +1,314 @@
+{
+  "vehicles": [
+    {
+      "index": "01",
+      "name": "Snow Hatchback",
+      "source_triangles": 2650,
+      "triangles": 2602,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2506
+        },
+        {
+          "name": "Snow",
+          "triangles": 88
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "02",
+      "name": "Family Sedan",
+      "source_triangles": 2650,
+      "triangles": 2602,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2506
+        },
+        {
+          "name": "Snow",
+          "triangles": 88
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "03",
+      "name": "Utility Pickup",
+      "source_triangles": 2900,
+      "triangles": 2852,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2788
+        },
+        {
+          "name": "Snow",
+          "triangles": 56
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "04",
+      "name": "Mountain Rescue Pickup",
+      "source_triangles": 2900,
+      "triangles": 2852,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2788
+        },
+        {
+          "name": "Snow",
+          "triangles": 56
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "05",
+      "name": "Alpine SUV",
+      "source_triangles": 2690,
+      "triangles": 2642,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2546
+        },
+        {
+          "name": "Snow",
+          "triangles": 88
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "06",
+      "name": "Town Patrol SUV",
+      "source_triangles": 2846,
+      "triangles": 2798,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2702
+        },
+        {
+          "name": "Snow",
+          "triangles": 88
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "index": "07",
+      "name": "Snow Town Ambulance",
+      "source_triangles": 2900,
+      "triangles": 2788,
+      "removed_zero_area": 112,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2640
+        },
+        {
+          "name": "Snow",
+          "triangles": 84
+        },
+        {
+          "name": "Glazing",
+          "triangles": 64
+        }
+      ]
+    },
+    {
+      "index": "08",
+      "name": "Town Taxi",
+      "source_triangles": 2694,
+      "triangles": 2646,
+      "removed_zero_area": 48,
+      "frontSign": -1,
+      "parts": [
+        {
+          "name": "Body",
+          "triangles": 2550
+        },
+        {
+          "name": "Snow",
+          "triangles": 88
+        },
+        {
+          "name": "Glazing",
+          "triangles": 8
+        }
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "name": "Alpine blue",
+      "color": [
+        0.03500000014901161,
+        0.3499999940395355,
+        0.6000000238418579,
+        1.0
+      ]
+    },
+    {
+      "name": "Amber marker",
+      "color": [
+        0.9800000190734863,
+        0.4699999988079071,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "name": "Charcoal trim",
+      "color": [
+        0.03500000014901161,
+        0.06499999761581421,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Cherry red",
+      "color": [
+        0.7300000190734863,
+        0.04500000178813934,
+        0.07500000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Fresh snow",
+      "color": [
+        0.9399999976158142,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Frost ivory",
+      "color": [
+        0.8500000238418579,
+        0.9100000262260437,
+        0.9200000166893005,
+        1.0
+      ]
+    },
+    {
+      "name": "Opaque blue glazing",
+      "color": [
+        0.05999999865889549,
+        0.3700000047683716,
+        0.5299999713897705,
+        1.0
+      ]
+    },
+    {
+      "name": "Red rear lens",
+      "color": [
+        0.7099999785423279,
+        0.03500000014901161,
+        0.02500000037252903,
+        1.0
+      ]
+    },
+    {
+      "name": "Rubber",
+      "color": [
+        0.03500000014901161,
+        0.04500000178813934,
+        0.05000000074505806,
+        1.0
+      ]
+    },
+    {
+      "name": "Silver grey",
+      "color": [
+        0.4300000071525574,
+        0.5299999713897705,
+        0.5600000023841858,
+        1.0
+      ]
+    },
+    {
+      "name": "Taxi orange",
+      "color": [
+        0.9800000190734863,
+        0.38999998569488525,
+        0.054999999701976776,
+        1.0
+      ]
+    },
+    {
+      "name": "Trail green",
+      "color": [
+        0.30000001192092896,
+        0.5699999928474426,
+        0.07000000029802322,
+        1.0
+      ]
+    },
+    {
+      "name": "Utility grey",
+      "color": [
+        0.36000001430511475,
+        0.46000000834465027,
+        0.46000000834465027,
+        1.0
+      ]
+    },
+    {
+      "name": "Warm headlamp",
+      "color": [
+        0.9800000190734863,
+        0.8600000143051147,
+        0.5199999809265137,
+        1.0
+      ]
+    }
+  ],
+  "excluded": [
+    "studio Plane",
+    "cameras",
+    "lights",
+    "embedded scripts (not executed)"
+  ]
+}

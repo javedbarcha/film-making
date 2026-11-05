@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Town Patrol SUV | parked
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: parked-town-vehicle-06
+  displayName: Town Patrol SUV | parked
+  kind: 6
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 5460012005053488691, guid: 3f3a6c59c5b21d64c972363361971280, type: 3}
+  tags:
+  - parked-vehicle
+  - static-scenery
+  - removable-snow
+  - opaque-toon-windows
+  sourceType: 0
+  sourceGuid: 15d64fb58b944ad408e5227d9064de7d
+  sourcePath: Assets/Snowglow/Catalog/Sources/SnowTownVehicles/Vehicle06.fbx
+  creationSourcePath: SourceAssets/SnowTownVehicles/Snow_Town_Eight_Low_Poly_Vehicles.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Snow_Town_Eight_Low_Poly_Vehicles.blend; SHA256 DB3F55EEF9EF1AC5A73BE398DB2C4EA26C6780EFA75678B6BC208FEB07404A62.
+    Original preserved, studio ground/cameras/lights excluded, embedded scripts never
+    executed. Static parked scenery only.
+  assumptions: 'Metres, grounded root, +Z front inferred from source headlamp surfaces.
+    Static scenery: no Rigidbody, WheelCollider, vehicle controller or shop ownership.
+    Prepared wheels combined into static Body; original blend preserves individual
+    wheels. Snow and glazing separate. Three shared materials. Zero-area source faces
+    removed, closed solids normalised outward. No lights, effects or runtime factories.'
+  reviewNotes: Review parking collision and A07 costs before Ready publication.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: -0.00000023841858, y: 1.14925, z: 0}
+    m_Extent: {x: 1.095, y: 1.14925, z: 1.95}
+  triangles: 2798
+  renderers: 3
+  materialSlots: 3
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 1
+  blocksSnow: 1

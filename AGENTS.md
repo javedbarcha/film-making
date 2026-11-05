@@ -1,5 +1,28 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Parked town vehicle intake prepared, Editor refresh pending - 5 November 2026
+
+Supplied Snow_Town_Eight_Low_Poly_Vehicles.blend preserved under
+SourceAssets/SnowTownVehicles with SHA256/provenance. Eight prepared FBX variants
+exported by Tools/AssetIntake/export_parking_vehicles.py: 21,782 catalog triangles
+after zero-area cleanup; Body/Snow/Glazing groups. Original individual wheels
+remain in the blend; prepared assets are static parked scenery, not player fleet.
+ParkingVehiclesIntake will create Needs Review Landscape entries and replace
+only the five parked primitive cars with 01/02/03/05/08 (hatchback/sedan/pickup/
+SUV/taxi), retaining X/Z/headings and seating tyres on asphalt. Planned scene
+cost: 13,344 triangles, 15 renderers, three shared materials including existing
+toon snow/opaque cyan windows. Other variants remain in the catalog.
+
+At handoff Unity had not refreshed the changed scripts/assets. No native import,
+scene replacement, compilation, render or save/reopen acceptance is claimed yet.
+Logs/ImportParkingVehicles.request is queued; with Play stopped, Ctrl+R triggers
+the authoring/checks. Inspect Logs/SnowTownVehicles/Validation.txt and the eight
+variant/parking-row renders after it runs. The importer backs up the current
+scene, preserves manual layout/player fleet/snow quantities, and creates a separate
+obstacle seed if needed. No district rebake or player-save writes requested.
+Next step is native completion and visual verification, then update this status.
+
+
 ## Three imported snowmen - 5 November 2026
 
 Imported the supplied Three_Low_Poly_Snowmen_1000_Triangles.blend through
