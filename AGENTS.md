@@ -2213,11 +2213,13 @@ Details: SourceAssets/AlpineStreetLights/README.md. Report/backup: Logs/Roadside
 User requested a repeating reverse indication. SynthAudio now owns an Editor-
 authored reverseAlarm source using original synthesized reverse-alarm.wav: mono
 22,050Hz PCM, 0.36s industrial beep / 0.49s gap, 0.85s loop, gain 0.35. Both active
-machines use it while reverse gear is selected during running gameplay, including
-stationary reverse. Forward stops it; menus/pause stop immediately; component
-disable stops playback and existing sound mute covers the alarm. No runtime
-source/clip creation or machinery physics change. PrototypeAuthoring binds the
-same source for future bakes; existing Pinefall was patched without a rebake.
+machines use it only while reverse gear is selected and the machine is moving
+backwards faster than 0.3 m/s during running gameplay. Stationary reverse,
+forward motion, menus/pause stop it; component disable stops playback and existing
+sound mute covers the alarm. No runtime source/clip creation or machinery physics
+change. PrototypeAuthoring binds the same source for future bakes; existing Pinefall
+was patched without a rebake. Reverse direction is measured from signed Rigidbody
+velocity along the machine's forward axis, so gear engagement alone does not beep.
 Unity compiled, imported the clip, saved/reopened, verified clip/source bindings,
 mute/unmute and scene validation. WAV integrity passed. Existing scenery poses
 and snow seed hash retained; no player-save writes. Audible Play-mode/phone speaker

@@ -6,6 +6,7 @@ namespace Snowglow {
  }
  public sealed class SynthAudio : MonoBehaviour {
   public AudioSource effects,motor,ambience,reverseAlarm,motorLoad,transmission,brakeAir;
+  public const float ReverseAlarmSpeedThreshold=.3f;
   public MachineryAudioProfile tractorAudio=new MachineryAudioProfile(),loaderAudio=new MachineryAudioProfile();
   public AudioClip brakingClip;public bool BrakeCueTriggered {get;private set;}
   float brakeCooldown,previousBrake;
@@ -15,6 +16,7 @@ namespace Snowglow {
   float next,roadSpeed,driveDemand,wheelSpeed;MachineController lastMachine;
   public void SetMuted(bool muted){if(effects)effects.mute=muted;if(motor)motor.mute=muted;if(ambience)ambience.mute=muted;if(reverseAlarm)reverseAlarm.mute=muted;if(motorLoad)motorLoad.mute=muted;if(transmission)transmission.mute=muted;if(brakeAir)brakeAir.mute=muted;}
   public void Reverse(bool active){if(!reverseAlarm)return;if(active){if(!reverseAlarm.isPlaying)reverseAlarm.Play();}else if(reverseAlarm.isPlaying)reverseAlarm.Stop();}
+  public static bool ShouldPlayReverseAlarm(bool reverseEngaged,float forwardSpeed)=>reverseEngaged&&forwardSpeed< -ReverseAlarmSpeedThreshold;
   static void Stop(AudioSource source){if(!source)return;source.volume=0;if(source.isPlaying)source.Stop();}
   public void StopMachinery(){Stop(motor);Stop(motorLoad);Stop(transmission);Stop(brakeAir);BrakeCueTriggered=false;brakeCooldown=previousBrake=0;MachineryOperating=false;EngineRev=Workload=roadSpeed=driveDemand=wheelSpeed=0;lastMachine=null;}
   void OnDisable(){StopMachinery();Reverse(false);}

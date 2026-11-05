@@ -53,7 +53,8 @@ namespace Snowglow {
     if(!Profile.freeWork&&Snow.Progress>=.9f)Finish();}
    if(Time.unscaledTime>nextSave){nextSave=Time.unscaledTime+30;Save();}
    Audio.UpdateMachinery(Active,Input.Throttle,Input.Brake,IsRunning,Time.unscaledDeltaTime);
-   Audio.Reverse(Audio.MachineryOperating&&Input.Reverse);
+   float forwardSpeed=Active.Body?Vector3.Dot(Active.Body.linearVelocity,Active.transform.forward):0;
+   Audio.Reverse(Audio.MachineryOperating&&SynthAudio.ShouldPlayReverseAlarm(Input.Reverse,forwardSpeed));
   }
   public void Finish(){
    if(!Profile.inJob)return;if(!Profile.freeWork&&Snow.Progress<.9f){Notice="Clear at least 90% of the marked contract area.";return;}
