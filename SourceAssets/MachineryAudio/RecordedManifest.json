@@ -1,0 +1,128 @@
+{
+  "clips": [
+    {
+      "name": "tractor-idle",
+      "reference": "freesound_community-tractor-engine-27641.mp3",
+      "start": 11.75,
+      "source_seconds": 5.25,
+      "loop_seconds": 5.0,
+      "band_hz": [
+        45,
+        2200
+      ],
+      "peak": 0.65,
+      "rms": 0.23748035704116713,
+      "loop": true,
+      "wrap_step": 0.025760872413398528
+    },
+    {
+      "name": "tractor-work",
+      "reference": "freesound_community-diesel-tractor-2-55064.mp3",
+      "start": 33.25,
+      "source_seconds": 4.25,
+      "loop_seconds": 4.0,
+      "band_hz": [
+        50,
+        2600
+      ],
+      "peak": 0.65,
+      "rms": 0.27055966496938044,
+      "loop": true,
+      "wrap_step": 0.0020576648508231765
+    },
+    {
+      "name": "tractor-drive",
+      "reference": "spinopel-tractor-290811.mp3",
+      "start": 13.5,
+      "source_seconds": 3.25,
+      "loop_seconds": 3.0,
+      "band_hz": [
+        220,
+        2800
+      ],
+      "peak": 0.65,
+      "rms": 0.23414129980679174,
+      "loop": true,
+      "wrap_step": 0.05566504067884803
+    },
+    {
+      "name": "loader-idle",
+      "reference": "freesound_community-excavator-19118.mp3",
+      "start": 41.75,
+      "source_seconds": 5.25,
+      "loop_seconds": 5.0,
+      "band_hz": [
+        45,
+        1800
+      ],
+      "peak": 0.65,
+      "rms": 0.2278023748300318,
+      "loop": true,
+      "wrap_step": 0.0007246517477929593
+    },
+    {
+      "name": "loader-work",
+      "reference": "freesound_community-excavator-19118.mp3",
+      "start": 286.25,
+      "source_seconds": 4.25,
+      "loop_seconds": 4.0,
+      "band_hz": [
+        45,
+        2600
+      ],
+      "peak": 0.65,
+      "rms": 0.245054128328761,
+      "loop": true,
+      "wrap_step": 0.0038903591893322265
+    },
+    {
+      "name": "loader-drive",
+      "reference": "freesound_community-excavator-19118.mp3",
+      "start": 220.25,
+      "source_seconds": 3.25,
+      "loop_seconds": 3.0,
+      "band_hz": [
+        220,
+        2800
+      ],
+      "peak": 0.65,
+      "rms": 0.2229612757556851,
+      "loop": true,
+      "wrap_step": 0.10912233679753679
+    },
+    {
+      "name": "brake-air",
+      "reference": "freesound_community-excavator-19118.mp3",
+      "start": 67.5,
+      "source_seconds": 0.65,
+      "loop_seconds": 0.65,
+      "band_hz": [
+        1800,
+        6500
+      ],
+      "peak": 0.65,
+      "rms": 0.20496044330928265,
+      "loop": false,
+      "wrap_step": 2.79934529213917e-22
+    }
+  ],
+  "references": [
+    {
+      "file": "freesound_community-excavator-19118.mp3",
+      "sha256": "4aad0e1f4708bfda081244c2e0609b4dca1bc414375012b310a7dbaa4e961199"
+    },
+    {
+      "file": "freesound_community-tractor-engine-27641.mp3",
+      "sha256": "c43fa95d001ccaa6455d66a3d1d96d64ab5b9c07a816537f81b2280d261b848c"
+    },
+    {
+      "file": "freesound_community-diesel-tractor-2-55064.mp3",
+      "sha256": "85460576623e592e9fd4825fe451da78ded4a13c741e37b79fa6f118cf9ef6b4"
+    },
+    {
+      "file": "spinopel-tractor-290811.mp3",
+      "sha256": "efbcedc64f185683b3245c9c0441d026a91d04273cd4e757e1a631ac1242f2f1"
+    }
+  ],
+  "note": "Reference-derived processing; event labels describe game use, not verified original event identity. No embedded instructions executed."
+}

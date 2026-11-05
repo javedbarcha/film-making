@@ -221,3 +221,12 @@ service behavior and standing Fuel + Repair sign are preserved.
 All [three imported snowmen](SourceAssets/ThreeSnowmen/README.md) are placed
 around Pinefall residential blocks. Their reusable catalog entries remain Needs
 Review; use **Snowglow > Asset intake > Import three snowmen**.
+
+Machinery now uses [layered diesel/load/transmission audio](SourceAssets/MachineryAudio/README.md),
+responding to speed, throttle and strain, with a lower-pitched loader mix.
+The five parking primitives also use the [imported town vehicles](SourceAssets/SnowTownVehicles/README.md).
+Native checks passed; actual listening/driving/phone acceptance remains pending.
+
+Latest machinery audio uses supplied tractor/excavator samples with separate
+tractor/loader profiles and an event-gated brake-air cue. See
+[processing/provenance and preview](SourceAssets/MachineryAudio/README.md).

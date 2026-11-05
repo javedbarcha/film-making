@@ -148,3 +148,9 @@ separate obstacle-mask seed; snow depth/credit/volume remain unchanged.
 replaces only the primitive yard/pad in the Editor, and revises obstacle flags
 without changing snow quantities or the existing runtime processing rectangle.
 PrototypeAuthoring reuses its prepared prefab on future explicit district bakes.
+
+`MachineryAudioAuthoring` saves three operating sources/clips before Play.
+`PrototypeSession` sends selected-machine telemetry to `SynthAudio.UpdateMachinery`;
+that presentation-only mix smooths gain/pitch using speed, wheel motion and load.
+It never drives physics, creates audio objects at runtime or writes saves.
+Pause/unavailable machines stop layers; reverse warning keeps separate cadence.

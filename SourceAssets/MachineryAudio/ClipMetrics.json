@@ -1,0 +1,26 @@
+[
+  {
+    "name": "diesel-base",
+    "seconds": 4,
+    "sample_rate": 24000,
+    "peak": 0.65,
+    "rms": 0.3476354946819887,
+    "wrap_step": 0.02131083692281238
+  },
+  {
+    "name": "diesel-load",
+    "seconds": 4,
+    "sample_rate": 24000,
+    "peak": 0.65,
+    "rms": 0.319850415534818,
+    "wrap_step": 0.024371361052502455
+  },
+  {
+    "name": "transmission",
+    "seconds": 2,
+    "sample_rate": 24000,
+    "peak": 0.65,
+    "rms": 0.36107250540682895,
+    "wrap_step": 0.08527652359326975
+  }
+]

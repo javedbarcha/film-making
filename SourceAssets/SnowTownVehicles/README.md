@@ -47,6 +47,7 @@ manual layout and player saves preserved. No district rebake.
 Native evidence: Logs/SnowTownVehicles/Validation.txt, Vehicle-01..08.png and
 Parking-row.png. Actual driving/Android build/A07 performance remain untested.
 
-Current status: Blender export complete; Unity refresh pending. The scene
-replacement and native validation have not run yet. Stop Play and refresh Unity
-to consume Logs/ImportParkingVehicles.request, then inspect the report/renders.
+Native completion: Unity 6000.3.8f1 / Android saved/reopened Pinefall, passed
+scene/19 snow checks, reconciled 80 obstacle flags, preserved quantities/poses
+and fleet. All eight variant previews and row render inspected. Physical
+driving/phone acceptance remains untested.

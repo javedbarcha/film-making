@@ -30,7 +30,7 @@ namespace Snowglow {
    foreach(var m in Fleet)m.SetActiveMachine(m==Active);
    Audio.SetMuted(Profile.muted);ready=true;ApplyQuality();HUD.RefreshMenu();
   }
-  public void Open(string panel){Panel=panel;if(panel!="")Audio.Reverse(false);Input.Clear();Time.timeScale=panel==""?1:0;HUD.RefreshMenu();if(panel!="")Save();}
+  public void Open(string panel){Panel=panel;if(panel!=""){Audio.Reverse(false);Audio.StopMachinery();}Input.Clear();Time.timeScale=panel==""?1:0;HUD.RefreshMenu();if(panel!="")Save();}
   public void TogglePause(){if(Panel=="")Open("pause");else if(Panel=="pause")Open("");}
   public void StartJob(int kind,bool free=false){
    if(Profile.inJob){Notice="Finish or abandon the active job before starting another.";Open("dashboard");return;}
@@ -52,8 +52,8 @@ namespace Snowglow {
    if(IsRunning&&Profile.inJob){if(!Profile.freeWork)Profile.remaining-=Time.deltaTime;Profile.chainTime-=Time.deltaTime;if(Profile.chainTime<=0)Profile.chain=0;
     if(!Profile.freeWork&&Snow.Progress>=.9f)Finish();}
    if(Time.unscaledTime>nextSave){nextSave=Time.unscaledTime+30;Save();}
-   Audio.Engine(IsRunning?Active.Speed/12:0);
-   Audio.Reverse(IsRunning&&Active.ActiveMachine&&Input.Reverse);
+   Audio.UpdateMachinery(Active,Input.Throttle,Input.Brake,IsRunning,Time.unscaledDeltaTime);
+   Audio.Reverse(Audio.MachineryOperating&&Input.Reverse);
   }
   public void Finish(){
    if(!Profile.inJob)return;if(!Profile.freeWork&&Snow.Progress<.9f){Notice="Clear at least 90% of the marked contract area.";return;}

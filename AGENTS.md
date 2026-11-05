@@ -1,27 +1,84 @@
 # Snowglow: project instructions, design history and development handoff
 
-## Parked town vehicle intake prepared, Editor refresh pending - 5 November 2026
+## Reference-based tractor and loader audio - 5 November 2026
 
-Supplied Snow_Town_Eight_Low_Poly_Vehicles.blend preserved under
-SourceAssets/SnowTownVehicles with SHA256/provenance. Eight prepared FBX variants
-exported by Tools/AssetIntake/export_parking_vehicles.py: 21,782 catalog triangles
-after zero-area cleanup; Body/Snow/Glazing groups. Original individual wheels
-remain in the blend; prepared assets are static parked scenery, not player fleet.
-ParkingVehiclesIntake will create Needs Review Landscape entries and replace
-only the five parked primitive cars with 01/02/03/05/08 (hatchback/sedan/pickup/
-SUV/taxi), retaining X/Z/headings and seating tyres on asphalt. Planned scene
-cost: 13,344 triangles, 15 renderers, three shared materials including existing
-toon snow/opaque cyan windows. Other variants remain in the catalog.
+User supplied four machinery MP3 references, emphasizing the excavator recording.
+Preserved originals/hashes under SourceAssets/MachineryAudio/References. Current
+profiles replace earlier procedural operating loops with six short sample-derived
+engine/work/drivetrain loops: tractor uses the three tractor recordings; loader
+uses excavator sections. Band shaping, 250 ms loop crossfades, gentle compression
+and 0.65 peak headroom; mono 24 kHz PCM. Exact source ranges/process recorded in
+RecordedManifest.json and source README. Original samples/procedural assets remain.
 
-At handoff Unity had not refreshed the changed scripts/assets. No native import,
-scene replacement, compilation, render or save/reopen acceptance is claimed yet.
-Logs/ImportParkingVehicles.request is queued; with Play stopped, Ctrl+R triggers
-the authoring/checks. Inspect Logs/SnowTownVehicles/Validation.txt and the eight
-variant/parking-row renders after it runs. The importer backs up the current
-scene, preserves manual layout/player fleet/snow quantities, and creates a separate
-obstacle seed if needed. No district rebake or player-save writes requested.
-Next step is native completion and visual verification, then update this status.
+Saved MachineryAudioProfile bindings switch tractor/loader clips at runtime,
+without creating sources/clips. Engine pitch range is restrained for recordings;
+speed/load/wheel/slip/bucket/throttle response remains. Added a 0.65 s reference-
+textured pneumatic brake cue, once on a moving brake press with 1 s cooldown;
+its game use does not assert the original recorded event identity. Existing
+reverse alarm is kept separately controlled, not embedded as a whole recording
+sequence. Pause/unavailable/parked/fuel/condition/disable stop sound; mute includes
+the new brake source. No physics, UI, save schema or district changes.
 
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed 878
+assertions including recorded profile swaps, PCM/loop/headroom, runtime mix,
+brake edge/held/cooldown and mute/state gates. Scene validation and 19 snow checks
+passed; seed hash and fleet/catalog transforms preserved. Offline 41 s tractor/
+loader listening preview has peak 0.295 (not a live playthrough). Native checks
+do not establish audible balance, phone speakers, Android build or A07 costs.
+Report: Logs/MachineryAudio/Validation.txt. Preview:
+Logs/MachineryAudio/ReferenceAnalysis/Machinery-recorded-preview.wav.
+
+
+## Load-responsive machinery audio - 5 November 2026
+
+Replaced speed-only motor gain with three Editor-authored operating layers:
+original procedural diesel base, loaded diesel/growl and transmission whine.
+Mono 24 kHz PCM16 loops (4/4/2 seconds), generated offline by
+Tools/AssetIntake/generate_machinery_audio.py; no external recordings or runtime
+clip/source factories. Original motor.wav retained. Source/provenance/metrics:
+SourceAssets/MachineryAudio. MachineryAudioAuthoring binds saved sources and
+PrototypeAuthoring reuses it on explicit future bakes.
+
+SynthAudio reads actual road speed, wheel RPM, throttle/brake, snow resistance,
+slip, bucket load and low-speed driving demand. Resting active machinery has an
+idle; speed raises engine tone and gearbox whine; struggle raises growl/volume
+with mild tone droop. Loader pitch is lower/heavier than tractor. These are
+presentation curves, not a new engine/gearing simulation or physics input.
+Attack/release smoothing is 0.18/0.5 s. Menus/pause, parked machines, empty fuel,
+zero condition and disable stop loops. Existing mute controls all sources; the
+reverse warning retains its clip/volume and follows operating/reverse state.
+No new UI, purchases or save schema changes.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed 846
+assertions: PCM headroom/loop boundaries, curve ranges, both machines' runtime
+idle/driving/stationary struggle, load droop, loader tuning, mute/unmute and
+pause/fuel/condition/parked/disable behavior. Scene validation and 19 snow checks
+passed; snow hash and fleet/catalog poses unchanged. No player-save writes or
+district rebake. No audible listening/live driving, Android packaging or A07
+speaker/performance acceptance claimed. Audition in Play and on phone for final
+mix balance. Evidence: Logs/MachineryAudio/Validation.txt. Editor menu:
+Snowglow > Audio > Install load responsive machinery audio.
+
+
+## Imported parked town vehicles - 5 November 2026
+
+The previously queued parking import completed in Unity 6000.3.8f1 / Android.
+All eight supplied variants are reusable Needs Review Landscape entries; the
+five primitive cars are replaced by hatchback/sedan/pickup/SUV/taxi, preserving
+X/Z/headings and fitting tyre height to the parking surface. Static scenery only:
+no player driving, shop ownership or active fleet changes. Original blend/hash
+and separate wheel objects retained in SourceAssets/SnowTownVehicles. Prepared
+copies have Body/Snow/Glazing groups, outward closed-solid normals and zero-area
+cleanup: 21,782 catalog triangles; 13,344 placed triangles, 15 renderers and three
+shared materials including existing snow and opaque cyan toon windows.
+
+Scene saved/reopened, scene validation and 19 snow checks passed. All eight
+variant renders and the parking-row render inspected. Separate obstacle seed
+reconciles 80 flags; snow quantities and prior catalog poses retained. No rebake
+or player-save writes. Live handling, Android packaging and A07 costs untested.
+Evidence: Logs/SnowTownVehicles/Validation.txt and Inspection.png. Repeat menu:
+Snowglow > Asset intake > Import eight parked town vehicles. Explicit future
+bakes reuse prepared replacements. Original poses logged for reference only.
 
 ## Three imported snowmen - 5 November 2026
 

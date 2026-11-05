@@ -52,7 +52,7 @@ namespace Snowglow.Editor {
     session.Audio=session.gameObject.AddComponent<SynthAudio>();session.Audio.effects=session.gameObject.AddComponent<AudioSource>();session.Audio.effects.playOnAwake=false;
     session.Audio.motor=session.gameObject.AddComponent<AudioSource>();session.Audio.motor.clip=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Snowglow/Audio/motor.wav");session.Audio.motor.loop=true;session.Audio.motor.volume=0;session.Audio.motor.playOnAwake=true;
     session.Audio.ambience=session.gameObject.AddComponent<AudioSource>();session.Audio.ambience.playOnAwake=false;
-    ReverseAlarmAuthoring.Bind(session.Audio);
+    ReverseAlarmAuthoring.Bind(session.Audio);MachineryAudioAuthoring.Bind(session.Audio);
     session.Audio.notes=new AudioClip[8];for(int i=0;i<8;i++)session.Audio.notes[i]=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Snowglow/Audio/note"+i+".wav");session.Audio.chime=AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Snowglow/Audio/chime.wav");
     session.HUD=HUDFactory.Build();
     TyreTracksAuthoring.Place(session);

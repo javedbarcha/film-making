@@ -1,5 +1,65 @@
 # Verification record
 
+## Reference-based tractor and loader audio - 5 November 2026
+
+User supplied four machinery MP3 references, emphasizing the excavator recording.
+Preserved originals/hashes under SourceAssets/MachineryAudio/References. Current
+profiles replace earlier procedural operating loops with six short sample-derived
+engine/work/drivetrain loops: tractor uses the three tractor recordings; loader
+uses excavator sections. Band shaping, 250 ms loop crossfades, gentle compression
+and 0.65 peak headroom; mono 24 kHz PCM. Exact source ranges/process recorded in
+RecordedManifest.json and source README. Original samples/procedural assets remain.
+
+Saved MachineryAudioProfile bindings switch tractor/loader clips at runtime,
+without creating sources/clips. Engine pitch range is restrained for recordings;
+speed/load/wheel/slip/bucket/throttle response remains. Added a 0.65 s reference-
+textured pneumatic brake cue, once on a moving brake press with 1 s cooldown;
+its game use does not assert the original recorded event identity. Existing
+reverse alarm is kept separately controlled, not embedded as a whole recording
+sequence. Pause/unavailable/parked/fuel/condition/disable stop sound; mute includes
+the new brake source. No physics, UI, save schema or district changes.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed 878
+assertions including recorded profile swaps, PCM/loop/headroom, runtime mix,
+brake edge/held/cooldown and mute/state gates. Scene validation and 19 snow checks
+passed; seed hash and fleet/catalog transforms preserved. Offline 41 s tractor/
+loader listening preview has peak 0.295 (not a live playthrough). Native checks
+do not establish audible balance, phone speakers, Android build or A07 costs.
+Report: Logs/MachineryAudio/Validation.txt. Preview:
+Logs/MachineryAudio/ReferenceAnalysis/Machinery-recorded-preview.wav.
+
+
+## Load-responsive machinery audio - 5 November 2026
+
+Replaced speed-only motor gain with three Editor-authored operating layers:
+original procedural diesel base, loaded diesel/growl and transmission whine.
+Mono 24 kHz PCM16 loops (4/4/2 seconds), generated offline by
+Tools/AssetIntake/generate_machinery_audio.py; no external recordings or runtime
+clip/source factories. Original motor.wav retained. Source/provenance/metrics:
+SourceAssets/MachineryAudio. MachineryAudioAuthoring binds saved sources and
+PrototypeAuthoring reuses it on explicit future bakes.
+
+SynthAudio reads actual road speed, wheel RPM, throttle/brake, snow resistance,
+slip, bucket load and low-speed driving demand. Resting active machinery has an
+idle; speed raises engine tone and gearbox whine; struggle raises growl/volume
+with mild tone droop. Loader pitch is lower/heavier than tractor. These are
+presentation curves, not a new engine/gearing simulation or physics input.
+Attack/release smoothing is 0.18/0.5 s. Menus/pause, parked machines, empty fuel,
+zero condition and disable stop loops. Existing mute controls all sources; the
+reverse warning retains its clip/volume and follows operating/reverse state.
+No new UI, purchases or save schema changes.
+
+Unity 6000.3.8f1 / Android compiled, saved/reopened Pinefall and passed 846
+assertions: PCM headroom/loop boundaries, curve ranges, both machines' runtime
+idle/driving/stationary struggle, load droop, loader tuning, mute/unmute and
+pause/fuel/condition/parked/disable behavior. Scene validation and 19 snow checks
+passed; snow hash and fleet/catalog poses unchanged. No player-save writes or
+district rebake. No audible listening/live driving, Android packaging or A07
+speaker/performance acceptance claimed. Audition in Play and on phone for final
+mix balance. Evidence: Logs/MachineryAudio/Validation.txt. Editor menu:
+Snowglow > Audio > Install load responsive machinery audio.
+
+
 ## Three imported snowmen - 5 November 2026
 
 Imported the supplied Three_Low_Poly_Snowmen_1000_Triangles.blend through
@@ -1435,3 +1495,9 @@ Report/renders: Logs/AlpineSignBoards/Normals/Validation.txt; source audit:
 SourceAssets/AlpineSignBoards/NormalsAudit-before.json; corrected audit:
 Assets/Snowglow/Catalog/Sources/AlpineSignBoards/NormalsAudit.json. Previous FBX
 bytes remain under ignored Logs/AlpineSignBoards/Normals-before.
+
+Parked vehicle completion (5 November): Unity / Android saved/reopened five
+static replacements and passed scene/19 snow checks; all eight source variant
+previews and parking row inspected. 13,344 placed triangles; 80 obstacle flags
+updated, quantities/poses/fleet retained. Logs/SnowTownVehicles/Validation.txt.
+Driving, Android packaging and A07 costs untested.
