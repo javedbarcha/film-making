@@ -85,6 +85,7 @@ namespace Snowglow.Editor {
     var rb=assembled.GetComponent<Rigidbody>();rb.mass=physics.mass+bucket.attachment.mass;rb.centerOfMass=(physics.dryCenterOfMass*physics.mass+assembled.transform.InverseTransformPoint(tool.mount.position)*bucket.attachment.mass)/rb.mass;
     assembled.GetComponent<CatalogPlacement>().assetId=recipe.id;
     VehicleLightsAuthoring.Configure(assembled,"Loader");
+    ExhaustSmokeAuthoring.Configure(assembled,true);
     recipe.bakedPrefab=PrefabUtility.SaveAsPrefabAsset(assembled,PrefabPath);EditorUtility.SetDirty(recipe);AssetDatabase.SaveAssets();return recipe.bakedPrefab;
    }finally{UnityEngine.Object.DestroyImmediate(assembled);}
   }

@@ -51,6 +51,7 @@ namespace Snowglow.Editor {
     // This is an equipped output, not the unequipped catalog body.
     root.GetComponent<CatalogPlacement>().assetId="golden-tractor-starter";
     VehicleLightsAuthoring.Configure(root,"Tractor");
+    ExhaustSmokeAuthoring.Configure(root,false);
     var prefab=PrefabUtility.SaveAsPrefabAsset(root,PrefabPath);AssetDatabase.SaveAssets();return prefab;
    }finally{UnityEngine.Object.DestroyImmediate(root);}
   }

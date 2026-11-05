@@ -1,5 +1,69 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Denser exhaust and initial vertical rise - 6 November 2026
+
+User requested another 2x quantity increase and about 0.5 m of upward travel
+before drifting. Idle/throttle/load coefficients are now 1/5.4/3.2 particles/s,
+capped at 9.6/s: exactly twice the previous mix and four times the original.
+Saved motion curves hold 0.65 m/s upward velocity with zero sideways drift for
+the first 42% of the existing 1.7-2.3 s lifetime (0.46-0.63 m), then ease upward
+speed down and introduce gentle random lateral drift. Initial cone launch speed
+is zero, avoiding the former immediate forward kick. Particle size, fade,
+mesh/material, pipe-tip placement and 24-particle capacity remain unchanged.
+Runtime still only controls authored emission/playback; existing pause, parked,
+selection, fuel and condition gates remain. Focused Editor menu:
+Snowglow > Effects > Apply doubled smoke and vertical rise. Evidence/backups:
+Logs/ExhaustSmoke/Rise. Live driving and Galaxy A07 acceptance remain separate.
+
+Unity 6000.3.8f1 / Android saved/reloaded both prefabs and saved/reopened Pinefall.
+1,185 assertions passed, including native particle trajectories across three
+lifetimes/eight seeds, 121 rate combinations, outlet checks and state gates.
+Scene validation and all 19 snow checks passed; snow hash and fleet/catalog
+poses preserved. Live moving appearance, Android packaging and A07 cost untested.
+
+
+## Exhaust pipe tips and doubled quantity - 6 November 2026
+
+Corrected both emitters' flipped lateral coordinate: source +X-forward/Z-up
+maps to Unity (-sourceY, sourceZ, sourceX). Source cap/stack tips are tractor
+(-0.42, 2.795, 0.46) and loader (-0.38, 2.75, -1.30) in imported body space.
+Emitter centres sit 5 mm above these surfaces, resolved through actual fitted
+body transforms. Source models were inspected read-only; measurements/provenance
+in SourceAssets/ExhaustSmoke. Future ExhaustSmokeAuthoring uses the same mapping.
+
+Only current emitter positions and emission-rate coefficients changed. Idle
+0.25 -> 0.5/s; throttle 1.35 -> 2.7/s; load 0.8 -> 1.6/s; maximum 2.4 -> 4.8/s.
+Every throttle/load mix is exactly 2x. Existing particle speed, simulation speed,
+velocity/drift, lifetime, size, cone, mesh/material and 24-particle cap preserved.
+Correction avoids rerunning full appearance authoring. Existing pause/selection/
+fuel/condition gates remain. No runtime factories, physics/source-model changes
+or player-save writes.
+
+Unity 6000.3.8f1 / Android saved/reloaded both prefabs, saved/reopened Pinefall
+and passed scene validation plus 19 snow checks. Native checks found imported
+pipe-top vertices, verified emitter and first-puff positions and checked 121
+rate combinations; 472 assertions in the initial correction pass. Native pipe
+views inspected. Seed hash and fleet/catalog poses unchanged. Live moving smoke
+and Galaxy A07 costs remain untested. Report/backups/views:
+Logs/ExhaustSmoke/TipCorrection/TipValidation.txt. Menu: Snowglow > Effects >
+Correct exhaust tips and double smoke quantity. Repeated correction is idempotent.
+
+
+## Low-poly exhaust smoke - 6 November 2026
+
+Both saved gameplay machinery prefabs now have an Editor-authored grey,
+semi-transparent low-poly mesh-particle plume located at their source exhaust
+stacks. One shared 80-triangle puff mesh and URP particle material are saved under
+`Assets/Snowglow/Generated/ExhaustSmoke`. Emission is light at idle and increases
+with throttle and snow-work load; the effect clears when the machine is parked,
+unselected, unavailable, or gameplay is paused. Runtime only adjusts the authored
+particle rate and never creates meshes, materials, systems or objects.
+
+Unity 6000.3.8f1 / Android saved and reloaded both machinery prefabs. Scene
+validation and all 19 snow-ledger checks passed. No source model, snow data,
+machine physics, player saves or Pinefall layout changed. Rendered appearance,
+moving Play-mode behavior, Android packaging and Galaxy A07 cost remain untested.
+
 ## Reference-based tractor and loader audio - 5 November 2026
 
 User supplied four machinery MP3 references, emphasizing the excavator recording.
@@ -543,7 +607,7 @@ manual menu interaction, Android packaging and Galaxy A07 profiling remain
 untested. Report: Logs/SelectedMountainRefit/Validation.txt. See the source
 mountain README and VALIDATION.md for controls and limitations.
 
-Last updated: **31 October 2026**, Asia/Karachi.
+Last updated: **6 November 2026**, Asia/Karachi.
 
 This document records the conversation from the original pasted ChatGPT planning
 through the Unity prototype, snow revisions, Asset Workshop, imported machinery,

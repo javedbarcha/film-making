@@ -52903,6 +52903,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldenTractor-Starter
       objectReference: {fileID: 0}
+    - target: {fileID: 6785370195306750434, guid: 5251515c0e5f2af4d942ee70da6b5e3a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.41999817
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785370195306750434, guid: 5251515c0e5f2af4d942ee70da6b5e3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8179998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785370195306750434, guid: 5251515c0e5f2af4d942ee70da6b5e3a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.45999908
+      objectReference: {fileID: 0}
     - target: {fileID: 7625829200839805835, guid: 5251515c0e5f2af4d942ee70da6b5e3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -99
@@ -247892,6 +247904,14 @@ PrefabInstance:
     - target: {fileID: 1886260343562273734, guid: 6ce6b06ec8d8ce84892158a7c7ed4e39, type: 3}
       propertyPath: m_Name
       value: ImportedSnowLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362291024635113066, guid: 6ce6b06ec8d8ce84892158a7c7ed4e39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.37999725
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362291024635113066, guid: 6ce6b06ec8d8ce84892158a7c7ed4e39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.300003
       objectReference: {fileID: 0}
     - target: {fileID: 7136146570248357240, guid: 6ce6b06ec8d8ce84892158a7c7ed4e39, type: 3}
       propertyPath: m_LocalPosition.x
