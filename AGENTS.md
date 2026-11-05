@@ -1,5 +1,27 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Isometric roof clipping and tracking correction - 5 November 2026
+
+Isometric no longer shares perspective obstacle pull-in. That sweep shortened
+the camera offset near canopy/roof collision, placing its wide orthographic
+near plane through geometry and overriding smoothing. The camera now smooths
+its focus once, holds 41-degree pitch/45-degree yaw, and sits at least 60 m back
+along the view axis (farther for large orthographic framing). Terrain safety
+retreats along the same axis, preserving composition. Orthographic size remains
+12 m at rest / 19.2 m at full speed, 1.1 s response. Follow/Orbit collision paths
+remain in place. No roof hiding, new user controls, scene rebuild or save migration.
+
+Unity 6000.3.8f1 / Android compiled and passed 1,728 assertions: stationary canopy
+cannot pull the camera inward, 600-frame 2 m/s crossing with maximum per-frame
+step 0.03334 m, fixed orientation/centred subject, near/far and paused speed zoom,
+four aspect-ratio terrain/near-plane checks, and garage/station bounds beyond
+the near plane. Three native depot renders inspected; scene validation and
+19 snow checks passed. Saved Pinefall bytes unchanged; unsaved scene preserved
+separately when present. No player-save writes. These sampled checks are not
+a full live driving test or Android/A07 acceptance. Evidence:
+Logs/IsometricRoof/Validation.txt and Fuel-canopy/Garage-roof/Tractor-isometric.png.
+
+
 ## Imported snow machinery fuel station - 5 November 2026
 
 Imported the supplied Low_Poly_Snow_Machinery_Fuel_Station.blend through

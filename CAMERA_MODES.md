@@ -41,10 +41,21 @@ yaw. HUD-origin touches are excluded from camera gestures. Switching machinery
 recentres the camera. Pause freezes speed zoom and direction changes. Camera
 preferences remain session-only, with no player-save schema change.
 
-The single authored CameraRig retains world/pile obstruction sweeps, vehicle
-exclusion and Terrain/near-plane safety after smoothing. Obstructions can reduce
-the requested distance. Menu: **Snowglow > Install gameplay cameras and validate**.
+The single authored CameraRig retains world/pile obstruction sweeps and vehicle
+exclusion in Follow and Orbit. Obstructions can reduce their requested distance.
+Isometric instead smooths its focus once at the fixed 41-degree pitch / 45-degree
+yaw and does not use perspective collision pull-in. Its camera sits at least 60 m
+back along the view axis (farther for large orthographic framing), protecting
+near-plane clearance over town roofs without changing orthographic zoom. Terrain
+safety retreats along that same axis, preserving screen composition. Near/far
+speed zoom remains 12/19.2 m with the 1.1 s response. Roofs can naturally occlude
+machinery beneath them; no roof-hiding system is added. Menu: **Snowglow > Install gameplay cameras and validate**.
 Actual verification and remaining limitations belong in VALIDATION.md and
 Logs/CameraModes/Validation.txt.
 
 Orbit has only a left-anchored VIEW RESET button (at the 5% safe-area inset). On-screen zoom buttons are removed; pinch, wheel and keyboard +/- zoom remain.
+
+The isometric roof correction passed native sampled tracking, canopy-obstruction,
+zoom, aspect-ratio and depot near-plane checks with inspected renders. Evidence:
+`Logs/IsometricRoof/Validation.txt`. Live driving and phone profiling remain
+separate acceptance tasks.

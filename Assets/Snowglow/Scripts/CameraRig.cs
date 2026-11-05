@@ -16,6 +16,7 @@ namespace Snowglow {
   public float isometricNearSize=12f,isometricFarSize=19.2f,isometricFullZoomSpeed=8,isometricZoomResponse=1.1f;
   public float followDistance=13,followPoseResponse=2.5f,followFullTiltSpeed=4;
   float isometricSize,followPose,followPoseVelocity;
+  Vector3 isometricFocus,isometricFocusVelocity;
   public float Yaw {get;private set;}public float Pitch {get;private set;}public float Distance {get;private set;}
   public bool Interactive=>mode==CameraMode.Orbit;
   public string ModeName=>mode.ToString().ToUpperInvariant();
@@ -98,7 +99,7 @@ namespace Snowglow {
    if(mode==CameraMode.Scenic)SetMode(CameraMode.Isometric);
    var body=target.GetComponent<Rigidbody>();
    float signedSpeed=signedSpeedOverride??(body?Vector3.Dot(body.linearVelocity,target.forward):0);
-   dt=Mathf.Clamp(dt,.0001f,.1f);bool switched=lastTarget!=target;lastTarget=target;
+   dt=Mathf.Clamp(dt,.0001f,.1f);bool recenter=resetRequested;bool switched=lastTarget!=target;lastTarget=target;
    if(resetRequested||switched){Yaw=Mathf.Repeat(target.eulerAngles.y,360);Pitch=Mathf.Clamp(orbitPitch,5,75);Distance=Mathf.Clamp(orbitDistance,7,42);manualHold=0;resetRequested=false;ClearGesture();if(isometricSize<=0)isometricSize=isometricNearSize;followPose=0;followPoseVelocity=0;}
    if(Interactive&&controls){ReadInput(dt);manualHold=Mathf.Max(0,manualHold-dt);}else ClearGesture();
    if(controls){
@@ -114,6 +115,18 @@ namespace Snowglow {
    view.orthographicSize=isometricSize*Mathf.Max(1,(16f/9)/Mathf.Max(.6f,view.aspect));
    view.fieldOfView=mode==CameraMode.Orbit?52:60;
    Vector3 focus=target.position+Vector3.up*1.6f;
+   if(mode==CameraMode.Isometric){
+    // Orthographic size controls framing independently of camera distance. A
+    // perspective collision pull-in moves its wide near plane through roofs.
+    // Smooth the subject once; keep a fixed orientation and retreat along the
+    // viewing axis for terrain safety without shifting the screen composition.
+    isometricFocus=(!initialized||switched||recenter||(isometricFocus-focus).sqrMagnitude>160*160)?focus:Vector3.SmoothDamp(isometricFocus,focus,ref isometricFocusVelocity,.18f,1000,dt);
+    if(!initialized||switched||recenter)isometricFocusVelocity=Vector3.zero;
+    var isoRotation=Quaternion.Euler(41,45,0);var backwards=-(isoRotation*Vector3.forward);
+    var isoPosition=isometricFocus+backwards*Mathf.Max(60,view.orthographicSize*2.5f);
+    for(int pass=0;pass<3;pass++){float lift=AboveGround(isoPosition,isoRotation).y-isoPosition.y;if(lift<=.001f)break;isoPosition+=backwards*(lift/Mathf.Max(.1f,backwards.y));}
+    transform.SetPositionAndRotation(isoPosition,isoRotation);velocity=Vector3.zero;initialized=true;return;
+   }
    Vector3 wanted=mode==CameraMode.Isometric?target.position+new Vector3(-15,19,-15):mode==CameraMode.Follow?target.position+Quaternion.Euler(0,target.eulerAngles.y,0)*Vector3.back*followDistance+Vector3.up*(followDistance*Mathf.Tan(35*Mathf.Deg2Rad)+1.6f):focus+Quaternion.Euler(Pitch,Yaw,0)*Vector3.back*Distance;
    wanted=AvoidObstacles(target,focus,wanted);Quaternion looking=mode==CameraMode.Isometric?Quaternion.Euler(41,45,0):mode==CameraMode.Follow?Quaternion.Euler(35+(followPose>=0?10:20)*followPose,target.eulerAngles.y,0):Quaternion.LookRotation(focus-wanted);
    wanted=AboveGround(wanted,looking);
