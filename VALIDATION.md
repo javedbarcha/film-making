@@ -1,5 +1,83 @@
 # Verification record
 
+## Rear service sign captions - 5 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall; scene
+validation and 19 snow checks passed. FUEL + REPAIR and SNOW DEPOT have saved
+rear-facing captions using existing depth-tested text/atlas bindings. A 12-triangle
+blue depot rear panel clears the centre support, with existing palette and no
+collider/light. Paired native front/back renders inspected; pixel comparisons
+prove rear captions visible from behind and invisible from the front. Existing
+front captions and current catalog/fleet poses retained; snow seed hash unchanged.
+No player-save writes or district rebake. Backup/report/images: Logs/ServiceSignBacks.
+Live driving, touch readability, Android packaging and A07 costs untested.
+
+## Road paint, separator and legacy resumed snow - 5 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall; layout,
+scene and 19 snow checks passed. Authored yellow centre dashes use one combined
+renderer/shared material across six through-roads and parking access, with clear
+junction gaps. Depot Contract 0 boundary removed; two low concrete curb spans
+retain the 10 m north entry and clear 4.4 m sampled route. Facility/fleet/road
+poses and original snow/Terrain asset hashes retained. New seed adds layout
+version only; starting snow quantities unchanged. Native depot top/entry and
+yard-context renders inspected. Synthetic old JSON restored via SnowField.Initialize
+clears obsolete disposal/depot access snow exactly once, adjusts initial volume,
+preserves outside snow/credit/disposed/activity revision, and retains later snow
+after serialization and another restore. No actual profile writes during tests.
+This supersedes the earlier statement that old jobs retain redundant access snow.
+Reports/backups/renders: Logs/RoadPresentation. Full live profile/driving testing,
+Android packaging and Galaxy A07 performance remain untested.
+
+## Depot approach road/snow cleanup - 5 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened and passed layout,
+scene and 19 snow checks. Per-cell comparisons verify only marked starting snow
+changed: 4,040 cells / 257.937 m3 removed, initial volume reduced accordingly,
+disposed/revision retained. Original snow/Terrain assets and outside depth/credit
+unchanged. Removed east depot spur/collider only; north/east through-roads retained.
+Facility/fleet poses unchanged. Sixteen affected chunks rebuilt into a separate
+7.95 MB asset; no district rebake or player-save migration. Native depot top/entry
+views inspected. Evidence: Logs/DepotRoadCleanup/Validation.txt and After images.
+Existing saved gameplay snow remains unchanged. Depot-access contract target now
+starts clear; future core-loop tuning must revisit that objective. Driving,
+Android packaging and Galaxy A07 performance remain untested.
+
+## Manual facility access - 5 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and
+passed 1,010 facility/preservation assertions, existing isometric layout/scene
+validation and 19 snow checks. Garage/fuel/yard manual poses and fleet retained
+exactly. Depot uses the red-marked northern edge from the z=-65 road; yard keeps
+its north-facing Entrance anchor. Both sampled static routes clear at 4.4 m
+width. Snow Depot sign arrow/read position now indicates the north entry.
+Native depot/yard entry renders inspected. This supersedes the earlier southern
+approach checks. Logs/FacilityAccess contains before-scene backup, native views
+and Validation.txt. A separate seed changes 655 obstacle flags only; original
+seed/mesh/Terrain hashes and all snow quantities/revision retained. No player-save
+writes or district rebake. Physical driving/dumping/refuelling, Android build and
+Galaxy A07 performance remain untested.
+
+## Isometric-facing arrangement - 5 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and passed
+scene validation plus 19 snow checks. Initial arrangement: 5,062 assertions;
+final repeated pass after rear-panel correction: 4,802. Checks cover home/road
+footprints, front/side directions, garage/fleet penetration, disposal accounting
+footprint, sign reading sightlines/arrows, identities, unaffected poses and snow
+values/hashes. Final sampled approach sweeps are 4.4 m wide; no live driving claim.
+Repetition retained placements instead of turning lots again.
+
+Native isometric before/after, seven home variants, warning front/back close-ups
+and garage Follow/Orbit views inspected. Posts obscured first rear text copies;
+source-derived backing boards resolve it. Twelve additions total 3,654 triangles
+and twelve opaque renderers, shared existing palette, no extra lights/colliders.
+Thirty signs retained. Original Terrain/snow assets, quantities/revision and
+player saves preserved; separate seed changes 5,862 obstacle flags. No district
+rebake/camera change. Pre-save failures reverted; backups/reports/renders:
+Logs/IsometricLayout. See [ISOMETRIC_LAYOUT.md](ISOMETRIC_LAYOUT.md). Actual
+driving/dumping/service, touch readability, Android packaging and A07 costs untested.
+
 ## Isometric roof clipping and tracking correction - 5 November 2026
 
 Isometric no longer shares perspective obstacle pull-in. That sweep shortened

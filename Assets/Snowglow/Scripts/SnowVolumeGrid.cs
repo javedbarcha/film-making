@@ -7,6 +7,7 @@ namespace Snowglow {
   public float[] depth=new float[Size*Size],credit=new float[Size*Size];
   public bool[] blocked=new bool[Size*Size];
   public float initialVolume,disposed;public int revision;
+  public int authoredLayoutVersion;
   // Cohesive, mound-like snow rather than liquid: roughly 32 degree resting sides.
   public const float ReposeSlope=.625f,Cohesion=.03f,SlumpSpeed=1.2f;
   const int SpreadRadius=6;
@@ -24,7 +25,7 @@ namespace Snowglow {
    if(source==null||source.depth==null||source.credit==null||source.depth.Length!=source.credit.Length)return null;
    if(source.depth.Length==Size*Size)return source;
    if(source.depth.Length!=256*256)return null;
-   var result=new SnowVolumeGrid{initialVolume=source.initialVolume,disposed=source.disposed};
+   var result=new SnowVolumeGrid{initialVolume=source.initialVolume,disposed=source.disposed,authoredLayoutVersion=source.authoredLayoutVersion};
    for(int z=0;z<Size;z++)for(int x=0;x<Size;x++){
     int old=(z/2)*256+x/2,i=z*Size+x;result.depth[i]=source.depth[old];result.credit[i]=source.credit[old];
     result.blocked[i]=source.blocked!=null&&source.blocked.Length==256*256&&source.blocked[old];

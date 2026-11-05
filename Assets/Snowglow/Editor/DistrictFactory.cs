@@ -15,7 +15,7 @@ namespace Snowglow { public static class DistrictFactory {
   var t=terrain.GetComponent<Terrain>();t.materialTemplate=p.terrain;t.heightmapPixelError=12;t.basemapDistance=180;t.drawInstanced=true;
   var roads=PrimitiveKit.Group("01 Roads and working surfaces",root,Vector3.zero);
   foreach(float lane in new[]{-65f,0,65f}) { Road(roads,new Vector3(0,0,lane),new Vector3(226,.18f,10),p);Road(roads,new Vector3(lane,0,0),new Vector3(10,.18f,226),p); }
-  Road(roads,new Vector3(-95,0,-90),new Vector3(40,.18f,40),p);Road(roads,new Vector3(-76,0,-90),new Vector3(28,.18f,10),p);
+  Road(roads,new Vector3(-95,0,-90),new Vector3(40,.18f,40),p);
   Road(roads,new Vector3(92,0,27),new Vector3(36,.18f,40),p);Road(roads,new Vector3(78,0,27),new Vector3(30,.18f,10),p);
   Road(roads,new Vector3(94,0,-85),new Vector3(34,.18f,32),p);
   var ice=PrimitiveKit.Cube("ICE | braking test",roads,new Vector3(30,BaseHeight+.16f,0),new Vector3(22,.025f,9.7f),p.ice);ice.AddComponent<SurfaceZone>().grip=.28f;

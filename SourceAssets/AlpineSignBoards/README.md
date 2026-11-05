@@ -1,5 +1,15 @@
 # Alpine sign-board intake
 
+Latest Pinefall presentation arrangement (5 November): thirty saved boards remain;
+the absent Workshop board is not recreated. Western/southern warnings retain
+road-facing fronts and gain matching rear panels. Read-only preparation:
+`Tools/AssetIntake/export_sign_rear_panels.py`; shared RearPanel04/05 FBXs contain
+upper boards and lettering, excluding posts/snow/lights. Rear boards clear supports
+by 25 mm. Twelve saved instances add 3,654 triangles/twelve opaque renderers with
+the existing palette and no colliders. Original source/catalog prefabs remain.
+The saved layout marker and reading positions protect this arrangement on repeat
+intake. See [ISOMETRIC_LAYOUT.md](../../ISOMETRIC_LAYOUT.md) for evidence/limits.
+
 Supplied 4 November 2026: `Alpine_Mobile_Sign_Boards_12_Variants.blend`.
 Preserved source: 1,489,920 bytes; SHA256
 `A533FFDEB2781572932C7FAC07F0FC6312B600D50133BD23607DAF399DD22A12`.

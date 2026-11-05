@@ -1,0 +1,24 @@
+{
+  "source": "SourceAssets/AlpineSignBoards/Alpine_Mobile_Sign_Boards_12_Variants.blend",
+  "notes": "Read-only source preparation. Upper board solids plus lettering; no posts, snow, lights or collisions. Existing shared palette. Rear inner board is 25 mm beyond original support.",
+  "variants": [
+    {
+      "index": "04",
+      "triangles": 392,
+      "upperSolids": 3,
+      "sourcePostRear": 0.2199999988079071,
+      "sourcePanelRear": 0.06499999761581421,
+      "sourceRearShift": 0.30999999642372134,
+      "clearance": 0.025
+    },
+    {
+      "index": "05",
+      "triangles": 217,
+      "upperSolids": 1,
+      "sourcePostRear": 0.2199999988079071,
+      "sourcePanelRear": 0.07999999821186066,
+      "sourceRearShift": 0.3249999970197678,
+      "clearance": 0.025
+    }
+  ]
+}

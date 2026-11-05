@@ -48,6 +48,7 @@ namespace Snowglow.Editor {
    return !Physics.RaycastAll(eye,ray.normalized,ray.magnitude-.03f,~0,QueryTriggerInteraction.Ignore).Any(h=>!h.collider.GetComponentInParent<SnowField>()&&!h.collider.GetComponentInParent<MachineController>()&&(!Sign(h.collider.GetComponentInParent<CatalogPlacement>())||(!ignoreOtherSigns&&h.collider.GetComponentInParent<CatalogPlacement>()!=plan.sign)));
   }
   public static void Apply(Scene scene){
+   if(IsometricLayoutAuthoring.Applied(scene)){IsometricLayoutAuthoring.ValidateSigns(scene);return;}
    if(All<Transform>(scene).Any(t=>t.name==Marker)){Validate(scene);return;}
    Directory.CreateDirectory("Logs/AlpineSignBoards");if(!File.Exists("Logs/AlpineSignBoards/Pinefall-before-curated-signs.unity"))File.Copy(scene.path,"Logs/AlpineSignBoards/Pinefall-before-curated-signs.unity");
    CacheCanopies(scene);var plans=Layout(scene);var allowed=new HashSet<string>(plans.Select(p=>p.id));var existing=All<CatalogPlacement>(scene).Where(Sign).ToArray();var parent=existing.First().transform.parent;
@@ -64,8 +65,9 @@ namespace Snowglow.Editor {
    foreach(var plan in plans){Undo.RecordObject(plan.sign.transform,"Curate road-facing town signs");plan.sign.transform.SetPositionAndRotation(plan.position,plan.rotation);PrefabUtility.RecordPrefabInstancePropertyModifications(plan.sign.transform);Caption(plan);}
    foreach(var old in All<Transform>(scene).Where(t=>t.name.StartsWith("Wayfinding |",StringComparison.Ordinal)).ToArray())UnityEngine.Object.DestroyImmediate(old.gameObject);var marker=new GameObject(Marker);SceneManager.MoveGameObjectToScene(marker,scene);Physics.SyncTransforms();Validate(scene);
   }
-  public static Vector3 Reader(Scene scene,string id)=>Layout(scene).Single(p=>p.id==id).read;
+  public static Vector3 Reader(Scene scene,string id)=>IsometricLayoutAuthoring.TryReader(scene,id,out var reader)?reader:Layout(scene).Single(p=>p.id==id).read;
   public static void Validate(Scene scene){
+   if(IsometricLayoutAuthoring.Applied(scene)){IsometricLayoutAuthoring.ValidateSigns(scene);return;}
    CacheCanopies(scene);var plans=Layout(scene);var signs=All<CatalogPlacement>(scene).Where(Sign).ToArray();Require(signs.Length==31&&plans.All(p=>p.sign)&&signs.All(p=>plans.Any(x=>x.id==p.placementId)),"expected only 31 curated signs");var lines=new List<string>();
    foreach(var p in plans){var face=p.sign.GetComponentsInChildren<AssetAnchor>().Single(a=>a.id=="label-face").transform;var outward=Flat(-face.forward).normalized;float facing=Vector3.Dot(outward,Flat(p.read-p.sign.transform.position).normalized);Require(facing>.96f,"not facing road/junction/town: "+p.id);Require(p.rows.All(row=>p.sign.GetComponentsInChildren<TextMesh>().Any(t=>t.text==row.text)),"missing caption "+p.id);
     if(!p.boundary)Require(All<Renderer>(scene).Where(r=>r.name=="Road | asphalt").Any(r=>p.read.x>=r.bounds.min.x&&p.read.x<=r.bounds.max.x&&p.read.z>=r.bounds.min.z&&p.read.z<=r.bounds.max.z),"reading point not on road "+p.id);

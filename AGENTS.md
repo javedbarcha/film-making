@@ -1,5 +1,135 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Rear Fuel + Repair and Snow Depot captions - 5 November 2026
+
+User requested the two highlighted depot boards readable from behind too.
+ServiceSignBacks adds saved scene-only rear captions to pinefall-sign-10
+(FUEL + REPAIR) and pinefall-sign-07 (SNOW DEPOT), keeping current manually saved
+poses and fronts. Rear fuel typography/position matches its existing front.
+The depot's centre support hides a caption directly on its rear face, so a small
+blue 12-triangle cube panel sits just beyond that support. It uses the existing
+sign palette; captions use the existing depth-tested WorldSignText material and
+WorldSignLabel atlas binding. No new lights, colliders or runtime geometry.
+Repeated authoring reuses the saved groups. The old depth-check tool now expects
+intentional rear captions on these two signs instead of zero rear-caption pixels.
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and passed
+scene validation and 19 snow checks; native paired front/back captions rendered.
+Pixel checks require visible rear lettering and zero added rear-caption pixels
+from the front. Current catalog/fleet poses and snow seed preserved; no district
+rebake or player-save writes. Logs/ServiceSignBacks contains backup/report/renders.
+Live driving, touch readability, Android packaging and A07 profiling untested.
+
+Earlier Play-mode transform capture succeeded before exit: 3,265 transforms in
+Logs/PlayPlacements. A newer scene save already contains revised sign positions;
+do not overwrite it with the older capture. Retain the timestamped JSON evidence.
+
+## Road markings, depot edge and resumed snow cleanup - 5 November 2026
+
+Latest user screenshots request yellow dashed centre lines on all roads, removal
+of the yellow depot-road rectangle, separation of the north road/depot edge and
+removal of the obsolete disposal strip that reappeared in Play. RoadPresentationAuthoring
+authors paint as one combined primitive-cube mesh/shared opaque yellow material;
+six through-roads and parking connector are striped with gaps at junctions. Service
+pads remain unstriped; snow naturally covers paint until cleared. No paint collision,
+lights or runtime geometry. Two low concrete curbs separate the depot's north edge,
+leaving the saved 10 m gate x=-102.5 to -92.5 open. Removed Contract 0 boundary
+geometry; other objective markers remain. Facilities/roads/machinery stay put.
+PrototypeAuthoring includes this authoring for explicit future district bakes.
+
+The earlier no-save-migration limitation is superseded. SnowVolumeGrid now stores
+authoredLayoutVersion (separate from its mutable revision); old JSON defaults to
+zero. SnowField.Initialize clones restored snow, applies access cleanup once,
+and marks version 1. It clears the obsolete disposal spur (70<x<95, |z+85|<5)
+and previously cleared depot approaches, reduces initialVolume by removed volume,
+and preserves outside depth/credit, disposed volume, carried loads and rewards.
+Later pushed snow is retained because migration does not repeat. Normal autosave
+persists the version; checks do not write actual profiles. Seed versioning uses
+a new asset, retaining original seed/meshes. Resume now also retains grid revision.
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and passed
+layout/scene validation, 19 snow checks and synthetic legacy restore through the
+actual SnowField.Initialize path. JSON roundtrip, later-deposit retention and
+outside-cell preservation passed. Depot native top/entry renders inspected;
+remaining live profile/driving acceptance, Android packaging and A07 performance
+untested. Evidence/backups: Logs/RoadPresentation. Menu: Snowglow > Environment >
+Apply road markings and saved snow cleanup. No district rebake/player-save writes.
+
+## Depot road and approach snow cleanup - 5 November 2026
+
+User's red/yellow screenshots requested removing the redundant east depot link
+and its snow, while retaining both highlighted through-roads without starting
+snow. Removed only the 28 x 10 m asphalt/collider at (-76, 5.03, -90). Cleared
+the west arm of z=-65 (x -113 to -60), southwest x=-65 road (z -113 to -60),
+and old spur snow. DistrictFactory omits the link; SnowField initial authoring
+uses DepotAccessStartsClear. This is starting-layout authoring, not a permanent
+no-snow zone: gameplay may still push snow here. Existing player saves are not
+migrated. Depot-access contract targets currently overlap this now-clear road;
+review objectives during core-loop tuning rather than silently changing contracts.
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall; per-cell
+outside preservation/cleared-area checks, layout/scene checks and 19 snow checks
+passed. Removed 4,040 seeded cells / 257.937 m3, reduced initial volume accordingly;
+disposed and revision unchanged, no work reward. Only 16 affected chunks rebuilt
+in a new 7.95 MB DepotApproachSnowRevision asset. Original seeds/meshes/Terrain,
+other roads, catalog/fleet poses and player saves preserved. No district rebake.
+Native depot top/entry views inspected. Evidence/backups: Logs/DepotRoadCleanup.
+Driving, Android build and A07 profiling remain untested.
+
+## Manual facility layout and northern access - 5 November 2026
+
+User manually rearranged the depot and disposal yard after the isometric pass.
+These poses supersede that pass's southern facility fronts/approaches. Preserve
+garage (-81.76, 5.13, -93.74), facade west; fuel station (-106.34, 5.13, -82.29),
+front west; yard (94, 5.13, -85), scale 1.4, entrance north. The red-marked depot
+entry uses its existing north pad edge from the z=-65 road, centred x=-97.5.
+No new road or barrier is needed. Snow Depot sign moved to the opposite road
+verge and its physical arrow/read position now indicates that entry. No other
+catalog or fleet poses changed; disposal accounting and depot service unchanged.
+
+Editor menu: Snowglow > Environment > Reconcile manual facility access. Saved
+AssetAnchor marks the depot gate; yard access follows its original Entrance
+anchor. Repetition preserves placements. Isometric validation now follows this
+explicit manual-access layout instead of enforcing the earlier southern fronts.
+Separate ManualFacilitySnowObstacles seed reconciles 655 blocked flags only;
+depth/credit/volume/revision, original seeds/meshes and terrain remain unchanged.
+No district rebake, runtime assembly or player-save writes.
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall; 1,010
+facility/preservation assertions plus isometric layout/scene validation and 19
+snow checks passed. Both sampled static access sweeps are 4.4 m wide. Native
+depot/yard entry views inspected. Backups/reports/renders: Logs/FacilityAccess.
+Physical driving/dumping/refuelling, Android packaging and A07 profiling untested.
+
+## Isometric-facing scene arrangement - 5 November 2026
+
+User authorized rearranging audited assets to expose detailed faces and explicitly
+chose matching rear artwork while keeping warning fronts road-facing. All 40 home
+lots turn +90 degrees together: entrances west, decorated sides south; foundations
+and fences rotate too. Centres/scales/variants/IDs remain. Garage is now
+(-94, 5.13, -103), facade south; disposal yard retains centre/scale/accounting pad,
+entrance south. Directory/lodge face southwest; Snow Depot and Town Center move
+to verges with physical arrows checked. Lodge uses the current home-40 entrance.
+Fuel station and unrelated catalog/fleet poses remain. Current saved sign count
+is 30; absent Workshop board 14 is not recreated.
+
+Twelve western/southern warning boards gain source-derived rear panels: 3,654
+triangles/twelve renderers, existing opaque palette, no lights/colliders/runtime
+assembly. Initial lettering-only copies were obscured by posts; final boards sit
+beyond supports. Original blends/catalog prefabs remain. Exporter:
+Tools/AssetIntake/export_sign_rear_panels.py. Saved marker prevents repeated lot
+rotation; sign intake respects the revised set and saved reading positions.
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened and passed scene
+validation plus 19 snow checks. Initial pass: 5,062 assertions; final repeat: 4,802,
+including clear sampled 4.4 m-wide approach sweeps. Native isometric before/after,
+seven home variants, warning front/back and garage Follow/Orbit views inspected.
+Original snow/Terrain assets, depth/credit/volume/revision and player saves remain;
+a separate seed changes 5,862 obstacle flags. No district rebake/camera change.
+First guard failures reverted before saving. Evidence/backups: Logs/IsometricLayout;
+details: ISOMETRIC_LAYOUT.md. Downward fixture faces remain hidden from above.
+Live handling/routes, touch readability, Android builds and A07 profiling untested.
+
 ## Isometric roof clipping and tracking correction - 5 November 2026
 
 Isometric no longer shares perspective obstacle pull-in. That sweep shortened

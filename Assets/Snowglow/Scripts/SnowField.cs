@@ -17,7 +17,8 @@ namespace Snowglow {
    ContractKind=kind;
    var source=SnowVolumeGrid.Upgrade(restored??seed.grid);
    if(source==null||seed.grid.depth.Length!=SnowVolumeGrid.Size*SnowVolumeGrid.Size)throw new System.InvalidOperationException("Update the saved snow using Snowglow > Rebuild snow at 50 cm resolution before Play.");
-   Grid=new SnowVolumeGrid{depth=(float[])source.depth.Clone(),credit=(float[])source.credit.Clone(),blocked=(bool[])seed.grid.blocked.Clone(),initialVolume=source.initialVolume,disposed=source.disposed};
+   Grid=new SnowVolumeGrid{depth=(float[])source.depth.Clone(),credit=(float[])source.credit.Clone(),blocked=(bool[])seed.grid.blocked.Clone(),initialVolume=source.initialVolume,disposed=source.disposed,revision=source.revision,authoredLayoutVersion=source.authoredLayoutVersion};
+   if(restored!=null)MigrateAuthoredLayout(Grid);
    cube=GetComponent<MeshFilter>().sharedMesh;
    foreach(Transform child in transform) {
     var mf=child.GetComponent<MeshFilter>();if(mf==null)continue;
@@ -54,24 +55,40 @@ namespace Snowglow {
   }
 #endif
   public void SetContract(int kind){ContractKind=kind;Recount();}
-  public void ResetToSeed(){var src=seed.grid;Grid=new SnowVolumeGrid{depth=(float[])src.depth.Clone(),credit=(float[])src.credit.Clone(),blocked=(bool[])src.blocked.Clone(),initialVolume=src.initialVolume};Grid.WakePiles();foreach(int id in chunks.Keys)MarkChunk(id);Recount();}
+  public void ResetToSeed(){var src=seed.grid;Grid=new SnowVolumeGrid{depth=(float[])src.depth.Clone(),credit=(float[])src.credit.Clone(),blocked=(bool[])src.blocked.Clone(),initialVolume=src.initialVolume,authoredLayoutVersion=src.authoredLayoutVersion};Grid.WakePiles();foreach(int id in chunks.Keys)MarkChunk(id);Recount();}
   void Seed() {
-   Grid=new SnowVolumeGrid();
+   Grid=new SnowVolumeGrid{authoredLayoutVersion=CurrentLayoutVersion};
    for(int i=0;i<Grid.depth.Length;i++) {
     float x=Grid.X(i),z=Grid.Z(i);
     bool roads=(Mathf.Abs(x)<113&&NearLane(z))||(Mathf.Abs(z)<113&&NearLane(x));
     bool parking=x>74&&x<110&&z>7&&z<47;
     bool connection=x>60&&x<95&&Mathf.Abs(z-27)<5;
     bool depot=x>-115&&x<-75&&z>-110&&z<-70;
-    bool lane=x>-95&&x<-60&&Mathf.Abs(z+90)<5;
-    if(roads||parking||connection||lane)Grid.depth[i]=.22f+.08f*Mathf.PerlinNoise(x*.1f+20,z*.1f+20);
-    if(depot)Grid.depth[i]=0;
+    if(roads||parking||connection)Grid.depth[i]=.22f+.08f*Mathf.PerlinNoise(x*.1f+20,z*.1f+20);
+    if(depot||DepotAccessStartsClear(x,z))Grid.depth[i]=0;
     // Keep curb/fence lots snow-free in the data field. Terrain is decorative blanket snow.
     if(IsTarget(x,z))Grid.credit[i]=Grid.depth[i];
    }
    // Starter loader pile, built from volume data rather than a decorative mesh.
    for(int i=0;i<Grid.depth.Length;i++){float dx=Grid.X(i)-94,dz=Grid.Z(i)-18;float r=Mathf.Sqrt(dx*dx+dz*dz);if(r<3.5f)Grid.depth[i]+=(1-r/3.5f)*1.7f;}
    Grid.initialVolume=Grid.Total();
+  }
+  // Authored access layout: retain the two main roads but start them snow-free.
+  // This only affects initial authoring; snow can still be pushed here in Play.
+  public static bool DepotAccessStartsClear(float x,float z)=>
+   (x> -113&&x< -60&&Mathf.Abs(z+65)<5)||
+   (z> -113&&z< -60&&Mathf.Abs(x+65)<5)||
+   (x> -95&&x< -60&&Mathf.Abs(z+90)<5);
+  public const int CurrentLayoutVersion=1;
+  public static bool RemovedAccessSnow(float x,float z)=>DepotAccessStartsClear(x,z)||(x>70&&x<95&&Mathf.Abs(z+85)<5);
+  // Apply the authored access cleanup once to old resumed jobs. This is a layout
+  // adjustment, not disposal or rewarded work; later player-deposited snow stays.
+  public static float MigrateAuthoredLayout(SnowVolumeGrid grid){
+   if(grid.authoredLayoutVersion>=CurrentLayoutVersion)return 0;
+   double removed=0;
+   for(int i=0;i<grid.depth.Length;i++)if(RemovedAccessSnow(grid.X(i),grid.Z(i))){removed+=grid.depth[i]*SnowVolumeGrid.Area;grid.depth[i]=0;grid.credit[i]=0;}
+   grid.initialVolume-=(float)removed;grid.authoredLayoutVersion=CurrentLayoutVersion;
+   return (float)removed;
   }
   static bool NearLane(float v){return Mathf.Abs(v)<5||Mathf.Abs(v-65)<5||Mathf.Abs(v+65)<5;}
   public bool IsTarget(float x,float z) {

@@ -2,6 +2,12 @@
 
 Unity 6.3 LTS / URP / Android / offline. Reference device: Samsung Galaxy A07. Target: 30 FPS; device performance is not yet measured.
 
+Latest [isometric-facing scene arrangement](ISOMETRIC_LAYOUT.md): home entrances
+and decorated sides face west/south; the later manual garage faces west and disposal entrance north,
+destination boards favour isometric, and twelve warning boards have matching rear
+panels. Camera behaviour is unchanged. Current saved layout retains 30 signs;
+this supersedes the older 31-sign arrangement described below.
+
 The active fleet now uses the imported Golden tractor (free starter) and Golden snow loader (1,400 coins). Both are saved Editor-authored prefabs. See [mobile asset budgets](MOBILE_ASSET_BUDGET.md) for measured geometry and future intake thresholds.
 
 Snow now uses pure-white tops with pale cyan toon shading, following the supplied reference. See [snow material authoring](SNOW_MATERIAL.md) for the palette, Editor command and validation limits.

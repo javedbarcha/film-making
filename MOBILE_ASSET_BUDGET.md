@@ -1,5 +1,11 @@
 # Snowglow mobile art budget
 
+Isometric presentation revision (5 November): twelve rear warning faces reuse
+two source-derived meshes and the existing opaque palette. Added cost is 3,654
+triangles/twelve renderers, no new textures/materials/lights/colliders. Rear
+additions do not cast shadows. Native scene/render checks passed on the Windows
+Editor target; Galaxy A07 costs remain unmeasured.
+
 Permanent colored lamp housings add four boxes / 48 triangles to tractor and
 six boxes / 72 triangles to loader. Orange front and white rear materials are
 shared across the fleet. Housings stay visible when lamps are off; no colliders

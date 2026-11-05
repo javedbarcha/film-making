@@ -1,0 +1,43 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+using System.Reflection;
+using UnityEngine;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
+namespace Snowglow.Editor {
+ public static class DepotRoadCleanup {
+  const string Logs="Logs/DepotRoadCleanup",Request="Logs/DepotRoadCleanup.request";
+  static int checks;
+  static void Check(bool ok,string message){checks++;if(!ok)throw new InvalidOperationException("Depot cleanup: "+message);}
+  static T[] All<T>(Scene s)where T:Component=>s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<T>(true)).ToArray();
+  static string Pose(Transform t)=>t.localToWorldMatrix.ToString("R");
+  [InitializeOnLoadMethod]static void Register(){EditorApplication.update+=Pending;}
+  static void Pending(){if(!File.Exists(Request)){EditorApplication.update-=Pending;return;}if(EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.isPlayingOrWillChangePlaymode)return;EditorApplication.update-=Pending;File.Delete(Request);try{Run();}catch(Exception e){Directory.CreateDirectory(Logs);File.WriteAllText(Logs+"/Validation.txt","FAIL: "+e);Debug.LogException(e);}}
+  [MenuItem("Snowglow/Environment/Remove redundant depot road and clear approach snow")]
+  public static void Run(){
+   checks=0;Check(!EditorApplication.isPlayingOrWillChangePlaymode,"stop Play");var scene=SceneManager.GetActiveScene();Check(scene.path==SceneValidation.ScenePath,"open Pinefall");SceneValidation.Validate(scene);Directory.CreateDirectory(Logs);Check(EditorSceneManager.SaveScene(scene,Logs+"/Pinefall-before-"+DateTime.Now.ToString("yyyyMMdd_HHmmss")+".unity",true),"backup");
+   var snow=All<SnowField>(scene).Single();var original=snow.seed;var poses=All<CatalogPlacement>(scene).Where(p=>!string.IsNullOrEmpty(p.placementId)).ToDictionary(p=>p.placementId,p=>Pose(p.transform));var fleet=All<MachineController>(scene).ToDictionary(p=>p.name,p=>Pose(p.transform));var roads=All<Renderer>(scene).Where(r=>r.name=="Road | asphalt").ToArray();var spur=roads.SingleOrDefault(r=>Vector3.Distance(r.transform.position,new Vector3(-76,5.03f,-90))<.05f&&Mathf.Abs(r.bounds.size.x-28)<.05f);
+   var retainedRoads=roads.Where(r=>r!=spur).ToDictionary(r=>r.GetInstanceID(),r=>Pose(r.transform));var hashes=snow.GetComponentsInChildren<MeshFilter>(true).Select(m=>AssetDatabase.GetAssetPath(m.sharedMesh)).Concat(new[]{AssetDatabase.GetAssetPath(original)}).Concat(All<Terrain>(scene).Select(t=>AssetDatabase.GetAssetPath(t.terrainData))).Where(p=>!string.IsNullOrEmpty(p)).Distinct().ToDictionary(p=>p,p=>AssetDatabase.GetAssetDependencyHash(p));
+   FacilityAccessAuthoring.Views(scene,"Before",Logs);Undo.IncrementCurrentGroup();int undo=Undo.GetCurrentGroup();Undo.SetCurrentGroupName("Remove redundant depot spur and approach snow");bool saved=false;
+   try{
+    if(spur)Undo.DestroyObjectImmediate(spur.gameObject);Physics.SyncTransforms();var revised=UnityEngine.Object.Instantiate(original);revised.name="Pinefall | clear depot approaches";var grid=revised.grid;var ids=new HashSet<int>();double removed=0;int count=0,mask=0;
+    for(int i=0;i<grid.depth.Length;i++){
+     if(SnowField.DepotAccessStartsClear(grid.X(i),grid.Z(i))){if(grid.depth[i]>0||grid.credit[i]>0){removed+=grid.depth[i]*SnowVolumeGrid.Area;grid.depth[i]=0;grid.credit[i]=0;ids.Add((i/SnowVolumeGrid.Size/SnowField.Chunk)*SnowField.Across+(i%SnowVolumeGrid.Size/SnowField.Chunk));count++;}}
+     bool blocked=Physics.CheckBox(new Vector3(grid.X(i),SnowField.Ground+.85f,grid.Z(i)),new Vector3(SnowVolumeGrid.Cell*.45f,.65f,SnowVolumeGrid.Cell*.45f),Quaternion.identity,1<<0,QueryTriggerInteraction.Ignore);if(grid.blocked[i]!=blocked){grid.blocked[i]=blocked;mask++;}
+    }
+    grid.initialVolume=original.grid.initialVolume-(float)removed;
+    if(count>0||mask>0){AssetDatabase.CreateAsset(revised,AssetDatabase.GenerateUniqueAssetPath("Assets/Snowglow/Catalog/SceneData/DepotApproachSnowRevision.asset"));var flags=BindingFlags.NonPublic|BindingFlags.Instance;typeof(SnowField).GetField("cube",flags).SetValue(snow,snow.GetComponent<MeshFilter>().sharedMesh);var chunks=(Dictionary<int,MeshFilter>)typeof(SnowField).GetField("chunks",flags).GetValue(snow);chunks.Clear();snow.Grid=grid;
+     foreach(Transform child in snow.transform){int id=int.Parse(child.name.Split('|')[0]);if(!ids.Contains(id))continue;var mf=child.GetComponent<MeshFilter>();var mc=child.GetComponent<MeshCollider>();Undo.RecordObjects(new UnityEngine.Object[]{mf,mc},"Revise approach snow meshes");mf.sharedMesh=UnityEngine.Object.Instantiate(mf.sharedMesh);mc.sharedMesh=null;chunks[id]=mf;typeof(SnowField).GetMethod("Rebuild",flags).Invoke(snow,new object[]{id});AssetDatabase.AddObjectToAsset(mf.sharedMesh,revised);if(mc.sharedMesh)AssetDatabase.AddObjectToAsset(mc.sharedMesh,revised);EditorUtility.SetDirty(mf);EditorUtility.SetDirty(mc);}
+     Undo.RecordObject(snow,"Bind cleared depot snow");snow.seed=revised;EditorUtility.SetDirty(revised);EditorUtility.SetDirty(snow);
+    }else UnityEngine.Object.DestroyImmediate(revised);
+    foreach(var p in All<CatalogPlacement>(scene).Where(p=>!string.IsNullOrEmpty(p.placementId)))Check(poses[p.placementId]==Pose(p.transform),"catalog moved "+p.placementId);foreach(var p in All<MachineController>(scene))Check(fleet[p.name]==Pose(p.transform),"fleet moved");foreach(var r in All<Renderer>(scene).Where(r=>r.name=="Road | asphalt"))Check(retainedRoads[r.GetInstanceID()]==Pose(r.transform),"other road moved");
+    Validate(scene,original,hashes,removed);SceneValidation.Validate(scene);IsometricLayoutAuthoring.ValidateLayout(scene);MechanicsChecks.Run();FacilityAccessAuthoring.Views(scene,"After",Logs);AssetDatabase.SaveAssets();EditorSceneManager.MarkSceneDirty(scene);Check(EditorSceneManager.SaveScene(scene),"save");saved=true;Undo.CollapseUndoOperations(undo);scene=EditorSceneManager.OpenScene(SceneValidation.ScenePath);Validate(scene,original,hashes,removed);SceneValidation.Validate(scene);IsometricLayoutAuthoring.ValidateLayout(scene);MechanicsChecks.Run();foreach(var p in All<CatalogPlacement>(scene).Where(p=>!string.IsNullOrEmpty(p.placementId)))Check(poses[p.placementId]==Pose(p.transform),"reopened placement changed");foreach(var p in All<MachineController>(scene))Check(fleet[p.name]==Pose(p.transform),"reopened fleet changed");
+    File.WriteAllText(Logs+"/Validation.txt","PASS: Unity "+Application.unityVersion+" / "+EditorUserBuildSettings.activeBuildTarget+"; "+checks+" assertions. Redundant east depot spur removed with collider. Yellow north-road western arm and southwest north/south road retained; interactive starting snow cleared from both and old spur. Removed "+count+" seeded cells / "+removed.ToString("F3")+" m3; initial volume reduced accordingly, disposed unchanged (authored layout change, no work reward). Rebuilt only "+ids.Count+" affected chunks in a separate seed asset; "+mask+" obstacle flags updated. Original snow/terrain assets, outside depth/credit, facilities, fleet and other roads preserved. Saved/reopened Pinefall; layout/scene validation and 19 snow checks passed. Before/after native views written. Future district/snow authoring retains this layout. No player-save writes or whole district rebake. Existing saved gameplay snow is not migrated. Actual driving, Android build and Galaxy A07 performance untested.");Debug.Log(File.ReadAllText(Logs+"/Validation.txt"));
+   }catch{if(!saved)Undo.RevertAllDownToGroup(undo);throw;}
+  }
+  static void Validate(Scene scene,SnowSeed original,Dictionary<string,Hash128> hashes,double removed){var grid=All<SnowField>(scene).Single().seed.grid;for(int i=0;i<grid.depth.Length;i++){if(SnowField.DepotAccessStartsClear(grid.X(i),grid.Z(i)))Check(grid.depth[i]==0&&grid.credit[i]==0,"snow remains in marked area");else Check(grid.depth[i]==original.grid.depth[i]&&grid.credit[i]==original.grid.credit[i],"outside snow changed");}Check(Mathf.Abs(grid.initialVolume-(original.grid.initialVolume-(float)removed))<.01f,"initial volume mismatch");Check(grid.disposed==original.grid.disposed&&grid.revision==original.grid.revision,"disposal/revision changed");foreach(var h in hashes)Check(AssetDatabase.GetAssetDependencyHash(h.Key)==h.Value,"source asset changed "+h.Key);var roads=All<Renderer>(scene).Where(r=>r.name=="Road | asphalt").ToArray();Check(!roads.Any(r=>Vector3.Distance(r.transform.position,new Vector3(-76,5.03f,-90))<.05f),"spur remains");Check(roads.Any(r=>r.bounds.size.x>200&&Mathf.Abs(r.transform.position.z+65)<.05f),"north road removed");Check(roads.Any(r=>r.bounds.size.z>200&&Mathf.Abs(r.transform.position.x+65)<.05f),"east road removed");}
+ }
+}
