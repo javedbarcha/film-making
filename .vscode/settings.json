@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "snow_district.slnx",
+    "dotnet.defaultSolution": "Snowglow.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
