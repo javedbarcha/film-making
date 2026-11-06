@@ -1,5 +1,69 @@
 # Snowglow: project instructions, design history and development handoff
 
+## Ramp 65% length and 85% width - 6 November 2026
+
+Latest user sizing supersedes earlier dimensions: 65% original length and 85%
+original width, with height and pose unchanged. Saved scale is
+(1.48003817, 1.74122119, 1.13179386). Unity saved/reopened and passed collision,
+scene and 19 snow checks; source/catalog and original snow assets retained.
+Evidence: Logs/TractionTestRamp/Resize-0.65-0.85.txt. Driving/A07 remain untested.
+
+## Ramp half-length and three-quarter width - 6 November 2026
+
+Latest user dimensions supersede the 75%-length revision: Pinefall ramp is now
+50% of original length and 75% of original width, about 14 m by 8.5 m overall.
+Saved local scale is (1.305916, 1.74122119, 0.870610654); height and pose retained.
+Source/catalog remains full-size; repeat intake retains the override. Unity
+6000.3.8f1 / StandaloneWindows64 saved/reopened, passed collision/scene and 19 snow
+checks. New seed reconciles 354 obstacle flags, with quantities and original
+assets preserved. Side render inspected. No district rebake/player-save writes.
+Evidence: Logs/TractionTestRamp/HalfLengthWidth.txt. Driving/Android/A07 untested.
+
+## Traction ramp shortened to 75 percent - 6 November 2026
+
+User requested 75% of current length. Saved Pinefall ramp Z scale changed from
+1.74122119 to 1.30591583 (about 28 m to 21 m); X/Y scale, position and rotation
+remain unchanged. Source/catalog prefab remains full-size; repeat intake preserves
+the scene override. Incline is consequently steeper. Validation now derives normals
+from the saved transform, supporting nonuniform scale, and checks crest-stop
+position using longitudinal scale. Unity 6000.3.8f1 / StandaloneWindows64 compiled,
+saved/reopened, passed deck collision/layout preservation, scene validation and
+19 snow checks. Separate seed reconciles 704 obstacle flags with quantities and
+original assets unchanged. Full side preview inspected; no district rebake or
+player-save writes. Evidence: Logs/TractionTestRamp/Shortening.txt and Validation.txt.
+Live driving/traction, Android packaging and A07 costs remain untested.
+
+## Imported vehicle traction-test ramp - 6 November 2026
+
+Replaced only the primitive SLOPE traction fixture with the supplied
+Low_Poly_Vehicle_Traction_Test_Ramp.blend through CatalogPreparation. Original
+source/hash preserved in SourceAssets/TractionTestRamp; studio ground/camera/lights
+excluded and embedded text never executed. Reusable Needs Review RoadAssembly
+vehicle-traction-test-ramp has 2,668 visible triangles, two renderers/two shared
+materials: opaque palette plus separately removable existing toon snow. Supplied
+12-triangle smooth wedge and 12-triangle rear-stop meshes provide static collision,
+without a broad aggregate box. Snow on footings is decorative, not ledger volume.
+
+Saved pinefall-traction-ramp is at (94, 5.0090847, -34), +Z uphill, uniform scale
+1.7412212. Former horizontal centre/heading/28 m length retained; source supplies
+its own 12.875-degree incline and 2 m flat crest (source dimensions), with toe
+terrain-seated. Do not add the former primitive's -8-degree pitch. Rear stop keeps
+vehicles from driving off the crest. Existing grip/vehicle physics unchanged.
+Repeat intake preserves manual poses; explicit future district bakes reuse it.
+Menu: Snowglow > Asset intake > Import traction test ramp.
+
+Source export exposes hidden collision objects only in the unsaved Blender
+process to evaluate their correct transforms. Initial validation assumed a slope
+over the full 16 m; source inspection showed 14 m incline plus 2 m crest. That
+guard failed before scene saving; corrected profile checks passed. Unity
+6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and passed 528
+assertions, centre/tyre-track deck heights/normals, toe/crest-stop, repeat placement,
+scene validation and 19 snow checks. Separate seed reconciles 476 obstacle flags;
+all snow quantities, original seed/meshes/Terrain and catalog/fleet poses retained.
+No district rebake or player-save writes. Evidence/backups/views:
+Logs/TractionTestRamp. Actual WheelCollider driving/traction, Android packaging
+and Galaxy A07 costs remain untested.
+
 ## Denser exhaust and initial vertical rise - 6 November 2026
 
 User requested another 2x quantity increase and about 0.5 m of upward travel

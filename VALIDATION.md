@@ -1,5 +1,42 @@
 # Verification record
 
+Latest ramp size: 65% original length / 85% original width (6 November).
+Height/pose retained; saved/reopened and passed collision, scene and 19 snow checks.
+Report: Logs/TractionTestRamp/Resize-0.65-0.85.txt. Driving/A07 remain untested.
+
+Latest ramp resize (6 November): 50% original length / 75% original width;
+height and pose retained. Unity StandaloneWindows64 saved/reopened; collision,
+scene and 19 snow checks passed. 354 obstacle flags updated in separate seed,
+quantities/original assets retained; side render inspected. Evidence:
+Logs/TractionTestRamp/HalfLengthWidth.txt. Driving/Android/A07 remain untested.
+
+## Traction ramp 75% length - 6 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 saved/reopened the shortened ramp: Z scale
+1.74122119 -> 1.30591583, X/Y scale and pose preserved. Deck/crest collider samples,
+transform-aware normals, repeat intake, scene validation and 19 snow checks passed.
+704 obstacle flags updated in a new seed revision; quantities/original snow/Terrain
+assets and other placements unchanged. Full side preview inspected. Report:
+Logs/TractionTestRamp/Shortening.txt. No player-save writes or district rebake.
+Driving/traction, Android build and Galaxy A07 performance remain untested.
+
+## Imported traction-test ramp - 6 November 2026
+
+Unity 6000.3.8f1 / StandaloneWindows64 compiled, saved/reopened Pinefall and passed
+528 assertions, scene validation and 19 snow checks. Primitive slope replaced
+through CatalogPreparation with a Needs Review RoadAssembly: 2,668 visible
+triangles, two renderers/two shared materials, removable decorative snow. Supplied
+smooth wedge and rear stop each use 12 static collision triangles. Raycasts along
+centre and tyre tracks verify the 14 m incline/2 m flat crest profile, normals,
+terrain-seated toe and rear-stop location; repeat placement preserves the pose.
+An initial over-simple full-length incline check reverted before saving and was
+corrected against source vertices. Existing catalog/fleet poses and original
+snow/Terrain hashes preserved; 476 obstacle flags updated in a separate seed
+revision, depth/credit/initial/disposed volumes unchanged. No district rebake or
+player-save writes. Backups/report/native views: Logs/TractionTestRamp. These
+geometric checks do not establish live WheelCollider driving, Android packaging
+or sustained Galaxy A07 performance.
+
 ## Denser exhaust and initial vertical rise - 6 November 2026
 
 User requested another 2x quantity increase and about 0.5 m of upward travel

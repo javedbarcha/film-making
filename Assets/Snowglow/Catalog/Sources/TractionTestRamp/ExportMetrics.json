@@ -1,0 +1,158 @@
+{
+  "source": "SourceAssets\\TractionTestRamp\\Low_Poly_Vehicle_Traction_Test_Ramp.blend",
+  "sha256": "283b97a7611621392919f6eb0d274d56199f4e95ab70235e6f8d53613f0db66e",
+  "notes": "Metres; source +Y uphill, +Z up. Geometry recentred at source Y=8. Preserved supplied smooth wedge/rear stop collision. Snow separately removable; no ledger volume. Source unchanged; studio excluded, embedded text not executed.",
+  "groups": [
+    {
+      "group": "Body",
+      "triangles": 2588,
+      "zeroAreaRemoved": 0,
+      "flippedComponents": 0,
+      "bounds": [
+        [
+          -3.059999942779541,
+          -8.0006685256958,
+          -0.18983983993530273
+        ],
+        [
+          3.059999942779541,
+          8.079999923706055,
+          3.43999981880188
+        ]
+      ]
+    },
+    {
+      "group": "SnowCap",
+      "triangles": 80,
+      "zeroAreaRemoved": 0,
+      "flippedComponents": 0,
+      "bounds": [
+        [
+          -3.2483274936676025,
+          0.22779560089111328,
+          0.04999999701976776
+        ],
+        [
+          3.2483274936676025,
+          7.92220401763916,
+          0.23000000417232513
+        ]
+      ]
+    },
+    {
+      "group": "CollisionWedge",
+      "triangles": 12,
+      "zeroAreaRemoved": 0,
+      "flippedComponents": 0,
+      "bounds": [
+        [
+          -3.0,
+          -8.0,
+          0.0
+        ],
+        [
+          3.0,
+          8.0,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "group": "CollisionStop",
+      "triangles": 12,
+      "zeroAreaRemoved": 0,
+      "flippedComponents": 0,
+      "bounds": [
+        [
+          -2.9000000953674316,
+          7.789999961853027,
+          3.200000047683716
+        ],
+        [
+          2.9000000953674316,
+          7.970000267028809,
+          3.43999981880188
+        ]
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "name": "Deck slate",
+      "color": [
+        0.23999999463558197,
+        0.3499999940395355,
+        0.38999998569488525,
+        1.0
+      ]
+    },
+    {
+      "name": "Side beams charcoal",
+      "color": [
+        0.04500000178813934,
+        0.07500000298023224,
+        0.08500000089406967,
+        1.0
+      ]
+    },
+    {
+      "name": "Steel dark petrol",
+      "color": [
+        0.07999999821186066,
+        0.17000000178813934,
+        0.20000000298023224,
+        1.0
+      ]
+    },
+    {
+      "name": "Galvanized silver",
+      "color": [
+        0.4699999988079071,
+        0.5899999737739563,
+        0.6200000047683716,
+        1.0
+      ]
+    },
+    {
+      "name": "Safety yellow",
+      "color": [
+        0.9800000190734863,
+        0.7200000286102295,
+        0.07999999821186066,
+        1.0
+      ]
+    },
+    {
+      "name": "Deck traction markings",
+      "color": [
+        0.15000000596046448,
+        0.23999999463558197,
+        0.27000001072883606,
+        1.0
+      ]
+    },
+    {
+      "name": "Reflector ivory",
+      "color": [
+        0.9300000071525574,
+        0.949999988079071,
+        0.8600000143051147,
+        1.0
+      ]
+    },
+    {
+      "name": "Snow on outer footings",
+      "color": [
+        0.9399999976158142,
+        0.9800000190734863,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "collisionProfile": {
+    "inclineRun": 14,
+    "crestLength": 2,
+    "rise": 3.2
+  }
+}

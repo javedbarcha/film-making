@@ -1,5 +1,11 @@
 # Snowglow mobile art budget
 
+Traction-test ramp replacement (6 November): 2,668 visible triangles, two renderers
+and two shared materials (one small opaque palette plus existing toon snow).
+Two supplied static collision meshes total 24 triangles. No lights, transparency
+or runtime assembly added. This is a modest one-off fixture, but actual
+WheelCollider driving and Galaxy A07 frame time remain unmeasured.
+
 Isometric presentation revision (5 November): twelve rear warning faces reuse
 two source-derived meshes and the existing opaque palette. Added cost is 3,654
 triangles/twelve renderers, no new textures/materials/lights/colliders. Rear

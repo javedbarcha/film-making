@@ -38,7 +38,7 @@ namespace Snowglow.Editor {
     var layer=new TerrainLayer{diffuseTexture=texture,tileSize=new Vector2(20,20)};SnowMaterialAuthoring.Configure(layer);Asset(layer,"SnowTerrainLayer");data.terrainLayers=new[]{layer};Asset(data,"Terrain_1000m");
     EditorUtility.DisplayProgressBar("Snowglow","Placing coloured primitives on the terrain",.25f);
     var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);DistrictFactory.Build(data,p);SnowDisposalYardIntake.PlacePrepared(scene);FuelStationIntake.PlacePrepared(scene);ParkingVehiclesIntake.PlacePrepared(scene);WinterHomesIntake.PlacePreparedHomes(scene);TownBlockAuthoring.PlacePreparedBlocks(scene);AlpineMountainsIntake.PlacePreparedMountains(scene);StreetLightsIntake.PlacePreparedLights(scene);AlpineTreesIntake.PlacePreparedTrees(scene);
-    RoadPresentationAuthoring.Author(scene);
+    RoadPresentationAuthoring.Author(scene);TractionRampIntake.PlacePrepared(scene);
     var first=StarterPlowAuthoring.Create(new Vector3(-99,SnowField.Ground+.25f,-87),Quaternion.identity,p.snow);var second=LoaderModelIntake.Create(new Vector3(-90,SnowField.Ground+.25f,-87),Quaternion.identity,p.snow);
     var snow=new GameObject("05 Snow | baked primitive columns and editable seed").AddComponent<SnowField>();var seed=ScriptableObject.CreateInstance<SnowSeed>();Asset(seed,"SnowSeed");snow.Bake(p,seed);
     EditorUtility.DisplayProgressBar("Snowglow","Saving snow geometry and collision assets",.55f);

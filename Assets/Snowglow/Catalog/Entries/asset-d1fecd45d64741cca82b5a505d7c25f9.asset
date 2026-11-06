@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcca395da9c16194d8575fece1ac0cf8, type: 3}
+  m_Name: Vehicle traction test ramp
+  m_EditorClassIdentifier: Assembly-CSharp::Snowglow.CatalogAsset
+  id: vehicle-traction-test-ramp
+  displayName: Vehicle traction test ramp
+  kind: 5
+  status: 1
+  uiSprites: []
+  prefab: {fileID: 6872981720022200744, guid: 820f7328b097a9449bb30f3511accb9b, type: 3}
+  tags:
+  - traction-test
+  - ramp
+  - static-collision
+  - removable-snow
+  sourceType: 0
+  sourceGuid: e3b35e56f95b6b042907453812239410
+  sourcePath: Assets/Snowglow/Catalog/Sources/TractionTestRamp/TractionRamp.fbx
+  creationSourcePath: SourceAssets/TractionTestRamp/Low_Poly_Vehicle_Traction_Test_Ramp.blend
+  reviewedPrefabHash: 
+  provenance: User supplied Low_Poly_Vehicle_Traction_Test_Ramp.blend; SHA256 283B97A7611621392919F6EB0D274D56199F4E95AB70235E6F8D53613F0DB66E.
+    Studio excluded; source preserved and embedded text not executed.
+  assumptions: Source +Y uphill converted to Unity +Z, +Y up. 12.875-degree source
+    incline with 2 m flat crest, supplied smooth wedge plus rear-stop collision;
+    no aggregate blocking box. Snow on footings is decorative only. Uniform scene
+    fit retains former ramp length/XZ/heading; no additional old primitive pitch.
+    Rear stop prevents driving off crest. Normal road grip unchanged.
+  reviewNotes: Review actual driving/traction at toe and crest and Galaxy A07 costs
+    before Ready.
+  visualReviewed: 0
+  localBounds:
+    m_Center: {x: 0.00000023841858, y: 1.62508, z: 0.039665222}
+    m_Extent: {x: 3.2483277, y: 1.8149198, z: 8.040335}
+  triangles: 2668
+  renderers: 2
+  materialSlots: 2
+  price: 0
+  vehicle: {fileID: 0}
+  attachment: {fileID: 0}
+  interfaceId: 
+  addedMass: 0
+  torqueMultiplier: 1
+  gripMultiplier: 1
+  wheelRadius: 0.5
+  wheelWidth: 0.3
+  wheelMass: 45
+  mirrorRightWheels: 1
+  minimumScale: 1
+  maximumScale: 2
+  blocksSnow: 1

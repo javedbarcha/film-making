@@ -10,6 +10,11 @@ this supersedes the older 31-sign arrangement described below.
 
 The active fleet now uses the imported Golden tractor (free starter) and Golden snow loader (1,400 coins). Both are saved Editor-authored prefabs. See [mobile asset budgets](MOBILE_ASSET_BUDGET.md) for measured geometry and future intake thresholds.
 
+The [imported traction-test ramp](SourceAssets/TractionTestRamp/README.md) replaces
+the primitive slope at its existing location, with supplied smooth collision,
+flat crest and rear stop. Repeat intake: **Snowglow > Asset intake > Import
+traction test ramp**. Actual driving and phone performance still need testing.
+
 Snow now uses pure-white tops with pale cyan toon shading, following the supplied reference. See [snow material authoring](SNOW_MATERIAL.md) for the palette, Editor command and validation limits.
 
 ## Asset preparation and reusable catalogs
